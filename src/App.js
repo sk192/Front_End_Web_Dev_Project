@@ -3,7 +3,7 @@ import './App.css';
 import HeaderNav from './components/navbar'
 import HomePage from './components/HomePage';
 import VaccineInfo from './components/VaccineInfo';
-import CovidInfo from './components/CovidInfo';
+import CovidInfo from './components/cases/covidInfo';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -15,7 +15,7 @@ function App() {
           <Switch>
               <Route exact path ="/" component= {HomePage} />
               <Route exact path ="/vaccination" component= {VaccineInfo} />
-              <Route exact path ="/world_map" component= {CovidInfo} />
+              <Route exact path ="/covidInfo" component= {CovidInfo} />
           </Switch>
       </Router>
     

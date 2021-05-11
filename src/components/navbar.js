@@ -27,7 +27,7 @@ function HeaderNav(){
                                 <span>Vaccination_Info</span>
                             </li>
                         </Link>
-                        <Link to="/world_map" style={linkStyle}>
+                        <Link to="/covidInfo" style={linkStyle}>
                             <li>
                                 <span>Covid_Info</span>
                             </li>
