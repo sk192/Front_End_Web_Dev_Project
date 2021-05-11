@@ -198,6 +198,8 @@ export default class GlobalView extends Component {
                   completeState.continent.asia.totalRecovered = total_Recovered;
                   // console.log("asia", completeState.continent.asia);
                   break;
+                default:
+                  break;
               }
               this.setState(completeState);
               // console.log(this.state);
