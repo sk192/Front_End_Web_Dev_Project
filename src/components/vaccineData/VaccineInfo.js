@@ -1,68 +1,54 @@
-import React, { Component } from 'react';
-// import vaccine from './public/dataset/vaccinations.json';
 import axios from 'axios';
-
+import React, { Component } from 'react';
+import Map from './worldmap'; 
 class VaccineInfo extends Component{
     constructor(props){
         super(props);
         this.state = {
             arr : [],
-            
+        
         }
-
     }
 
-    componentDidMount(){
+    componentDidMount = async () => {
         try{
-            async function getVaccine(){
-            const url = './dataset/vaccinations.json';
-            let response = await axios(url);
-         
+            const url = './dataset/vaccine_data_global.json';
+            let responseData = await axios.get(url);
+            console.log(responseData);
             let a = [];
-            response.data.forEach(element => {
-                let new_arr = {}
-                new_arr['country']= element.country;
         
-                if(element.data[element.data.length - 1].hasOwnProperty('total_vaccinations')){
-                    new_arr['total_vaccinations']= element.data[element.data.length - 1].total_vaccinations
+            responseData.data.forEach(element => {
+                let new_arr = {}
+                if(element.Province_State === ""){
+                    new_arr['country']= element.Country_Region;
+                    new_arr['People_fully_vaccinated']= element.People_fully_vaccinated;
+                    new_arr['People_partially_vaccinated']= element.People_partially_vaccinated;  
+                    new_arr['Doses_admin'] = element.Doses_admin; 
+                    new_arr['value'] = element.UID;
+                    a.push(new_arr);
                 }
-                
-                if(element.data[element.data.length - 1].hasOwnProperty('people_vaccinated')){
-                     new_arr['people_vaccinated']= element.data[element.data.length - 1].people_vaccinated;
-                }
-                 if(element.data[element.data.length - 1].hasOwnProperty('people_fully_vaccinated')){
-                     new_arr['people_fully_vaccinated']= element.data[element.data.length - 1].people_fully_vaccinated;
-                }
-            
-                a.push(new_arr);
-                
-                
                 
             });
-         
+            
             this.setState({
                 arr : a,
             })
             console.log(this.state.arr);
 
         }
-        getVaccine();
-       
-        }
         catch(err){
             console.log(err);
         }
-       
-
+    
     }
     render(){
         return(
             <div>
-                <h2>Will display map soon</h2>
+                
+                <Map  />
             </div>
         )
-        
-        
+     
     }
 }
 
