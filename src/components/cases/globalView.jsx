@@ -106,9 +106,9 @@ export default class GlobalView extends Component {
           compState.global.deaths.deathsPerMil = element.Deaths_1M_pop;
 
           this.setState(compState);
-          // console.log(this.state);
+
         });
-        // console.log(this.state);
+       
       })
       .catch((error) => {
         console.log(error);
@@ -127,7 +127,7 @@ export default class GlobalView extends Component {
       ];
 
       for(let i=0; i<continent_URLs.length; i++){
-        // console.log(continent_URLs[i]);
+       
         let getContinentData = () =>
           axios({
             method: "GET",
@@ -147,7 +147,7 @@ export default class GlobalView extends Component {
               let total_Deaths = 0; 
               let total_Recovered = 0;
               let c_data = resp.data;
-              // console.log(c_data);
+             
               c_data.forEach((element) => {
                 total_Cases += element.TotalCases;
                 total_Deaths += element.TotalDeaths;
