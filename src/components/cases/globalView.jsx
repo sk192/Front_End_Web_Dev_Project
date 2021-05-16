@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import MainGrid from "./mainGrid";
 
 export default class GlobalView extends Component {
   constructor(props) {
@@ -215,8 +216,8 @@ export default class GlobalView extends Component {
 
   render() {
     return (
-      <div>
-        <h1>Global View</h1>
+      <div className="globalView-body">
+        <MainGrid />
       </div>
     );
   }
