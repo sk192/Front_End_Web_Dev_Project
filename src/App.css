@@ -3,10 +3,16 @@
   font-family: sans-serif;
 }
 
+html, body, svg{
+  min-height:100%;
+  overflow: auto !important;
+}
 body{
   background-color: rgba(230, 230, 230, 0.719) !important;
+  height:100vh;
 }
 
+/*main grid css*/
 .globalView-body{
   margin-top: 5px;
   margin-right: 5px;
@@ -15,8 +21,9 @@ body{
 .grid-container{
   display: grid;
   gap: 10px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 3fr 3fr 3fr;
+  grid-template-columns: auto 1fr 1fr 1fr 1fr;
+  grid-template-rows: 80px auto auto auto;
+  height:100vh;
 }
 
 div.grid-item{
@@ -28,6 +35,8 @@ div.grid-item{
 div.grid-item.item1{
   border: none;
   border-radius: none;
+  padding: 30px;
+  padding-right: 80px;
 }
 .item2.card-1, .item3.card-2, .item4.card-3, .item5.card-4{
   margin-top: 5px;
@@ -64,6 +73,39 @@ img.cases-img-logo{
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
+}
+
+
+/*About page*/
+
+section.about-sec{
+  position: relative;
+}
+
+.custom-shape-divider-top-1621200409 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1621200409 svg {
+    position: relative;
+    display: block;
+    width: calc(111% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-top-1621200409 .shape-fill {
+    fill: #9013FE;
+}
+
+.about-body{
+  background-image: linear-gradient(to bottom right, rgb(205, 187, 235), rgb(197, 190, 201)) !important;
+  height:100vh;
+  /* background-color: red !important; */
 }

@@ -7,7 +7,6 @@ export default class GlobalView extends Component {
     super(props);
 
     this.state = {
-
       global: {
         cases: {
           totalCases: 0,
@@ -61,7 +60,8 @@ export default class GlobalView extends Component {
           totalRecovered: 0,
         },
       },
-
+      // other values... world, as, af,  eu, na, sa, au
+      selectedView: "world",
     };
   }
 

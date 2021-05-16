@@ -32,6 +32,11 @@ function HeaderNav(){
                                 <span>Covid_Info</span>
                             </li>
                         </Link>
+                        <Link to="/about" style={linkStyle}>
+                            <li>
+                                <span>About</span>
+                            </li>
+                        </Link>
                     </ul>
                 </div>
             </nav>
