@@ -1,8 +1,14 @@
+import CasesIndex from "./casesIndex";
+
 export default function MainGrid() {
   return (
     <div className="main-grid">
       <section className="grid-container">
-        <div className="grid-item item1 side-nav">1</div>
+        <div className="grid-item item1 side-nav">
+          
+          <CasesIndex />
+        
+        </div>
         <div className="grid-item item2 card-1">2</div>
         <div className="grid-item item3 card-2">3</div>
         <div className="grid-item item4 card-3">4</div>
