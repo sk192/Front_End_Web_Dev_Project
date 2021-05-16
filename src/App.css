@@ -58,3 +58,12 @@ div.grid-item.item1{
 
 }
 
+img.cases-img-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 100px;
+  width: 100px;
+}
