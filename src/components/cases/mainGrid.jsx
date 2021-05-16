@@ -11,6 +11,7 @@ export default function MainGrid() {
         <div className="grid-item item7 region-table">7</div>
         <div className="grid-item item8 region-graph-1">8</div>
         <div className="grid-item item9 region-graph-2">9</div>
+        <div className="grid-item item10 cases-heading">10</div>
       </section>
     </div>
   );
