@@ -1,6 +1,9 @@
-.App {
+.page-container {
   text-align: center;
   font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 
