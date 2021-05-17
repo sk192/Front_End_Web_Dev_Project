@@ -1,13 +1,12 @@
 import CasesIndex from "./casesIndex";
+import CasesHeading from "./casesHeading";
 
-export default function MainGrid() {
+export default function MainGrid(props) {
   return (
     <div className="main-grid">
       <section className="grid-container">
         <div className="grid-item item1 side-nav">
-          
-          <CasesIndex />
-        
+          <CasesIndex onRegionButttonClick={props.onRegionButttonClick} />
         </div>
         <div className="grid-item item2 card-1">2</div>
         <div className="grid-item item3 card-2">3</div>
@@ -17,7 +16,9 @@ export default function MainGrid() {
         <div className="grid-item item7 region-table">7</div>
         <div className="grid-item item8 region-graph-1">8</div>
         <div className="grid-item item9 region-graph-2">9</div>
-        <div className="grid-item item10 cases-heading">10</div>
+        <div className="grid-item item10 cases-heading">
+          <CasesHeading regionSelected={props.regionSelected} />
+        </div>
       </section>
     </div>
   );
