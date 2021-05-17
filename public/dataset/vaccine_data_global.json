@@ -1,0 +1,2662 @@
+[
+ {
+   "Province_State": "",
+   "Country_Region": "Afghanistan",
+   "Date": "2021-05-13",
+   "Doses_admin": 504502,
+   "People_partially_vaccinated": 448878,
+   "People_fully_vaccinated": 55624,
+   "Report_Date_String": "2021/05/13",
+   "UID": 4
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Albania",
+   "Date": "2021-05-13",
+   "Doses_admin": 596766,
+   "People_partially_vaccinated": 6073,
+   "People_fully_vaccinated": 655,
+   "Report_Date_String": "2021/05/13",
+   "UID": 8
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Algeria",
+   "Date": "2021-05-13",
+   "Doses_admin": 75000,
+   "People_partially_vaccinated": 0,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 12
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Andorra",
+   "Date": "2021-05-13",
+   "Doses_admin": 28881,
+   "People_partially_vaccinated": 24182,
+   "People_fully_vaccinated": 4699,
+   "Report_Date_String": "2021/05/13",
+   "UID": 20
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Angola",
+   "Date": "2021-05-13",
+   "Doses_admin": 626572,
+   "People_partially_vaccinated": 586377,
+   "People_fully_vaccinated": 40195,
+   "Report_Date_String": "2021/05/13",
+   "UID": 24
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Antigua and Barbuda",
+   "Date": "2021-05-13",
+   "Doses_admin": 31085,
+   "People_partially_vaccinated": 31085,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 28
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Argentina",
+   "Date": "2021-05-13",
+   "Doses_admin": 9383945,
+   "People_partially_vaccinated": 7866933,
+   "People_fully_vaccinated": 1517012,
+   "Report_Date_String": "2021/05/13",
+   "UID": 32
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Armenia",
+   "Date": "2021-05-13",
+   "Doses_admin": 10727,
+   "People_partially_vaccinated": 10727,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 51
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Australia",
+   "Date": "2021-05-13",
+   "Doses_admin": 2812486,
+   "People_partially_vaccinated": 159294,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 36
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Austria",
+   "Date": "2021-05-13",
+   "Doses_admin": 3850698,
+   "People_partially_vaccinated": 2749793,
+   "People_fully_vaccinated": 1001839,
+   "Report_Date_String": "2021/05/13",
+   "UID": 40
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Azerbaijan",
+   "Date": "2021-05-13",
+   "Doses_admin": 1727510,
+   "People_partially_vaccinated": 1014495,
+   "People_fully_vaccinated": 713015,
+   "Report_Date_String": "2021/05/13",
+   "UID": 31
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Bahamas",
+   "Date": "2021-05-13",
+   "Doses_admin": 36000,
+   "People_partially_vaccinated": 36000,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 44
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Bahrain",
+   "Date": "2021-05-13",
+   "Doses_admin": 1434023,
+   "People_partially_vaccinated": 821210,
+   "People_fully_vaccinated": 612813,
+   "Report_Date_String": "2021/05/13",
+   "UID": 48
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Bangladesh",
+   "Date": "2021-05-13",
+   "Doses_admin": 9316086,
+   "People_partially_vaccinated": 5819900,
+   "People_fully_vaccinated": 3496186,
+   "Report_Date_String": "2021/05/13",
+   "UID": 50
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Barbados",
+   "Date": "2021-05-13",
+   "Doses_admin": 75537,
+   "People_partially_vaccinated": 75537,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 52
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Belarus",
+   "Date": "2021-05-13",
+   "Doses_admin": 328500,
+   "People_partially_vaccinated": 244000,
+   "People_fully_vaccinated": 84500,
+   "Report_Date_String": "2021/05/13",
+   "UID": 112
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Belgium",
+   "Date": "2021-05-13",
+   "Doses_admin": 4850334,
+   "People_partially_vaccinated": 3704273,
+   "People_fully_vaccinated": 1116292,
+   "Report_Date_String": "2021/05/13",
+   "UID": 56
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Belize",
+   "Date": "2021-05-13",
+   "Doses_admin": 47675,
+   "People_partially_vaccinated": 47675,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 84
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Bhutan",
+   "Date": "2021-05-13",
+   "Doses_admin": 481768,
+   "People_partially_vaccinated": 481768,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 64
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Bolivia",
+   "Date": "2021-05-13",
+   "Doses_admin": 1010981,
+   "People_partially_vaccinated": 741658,
+   "People_fully_vaccinated": 269323,
+   "Report_Date_String": "2021/05/13",
+   "UID": 68
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Bosnia and Herzegovina",
+   "Date": "2021-05-13",
+   "Doses_admin": 106464,
+   "People_partially_vaccinated": 83260,
+   "People_fully_vaccinated": 23204,
+   "Report_Date_String": "2021/05/13",
+   "UID": 70
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Botswana",
+   "Date": "2021-05-13",
+   "Doses_admin": 53375,
+   "People_partially_vaccinated": 53375,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 72
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Brazil",
+   "Date": "2021-05-13",
+   "Doses_admin": 56198422,
+   "People_partially_vaccinated": 33332789,
+   "People_fully_vaccinated": 15855819,
+   "Report_Date_String": "2021/05/13",
+   "UID": 76
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Brunei",
+   "Date": "2021-05-13",
+   "Doses_admin": 15905,
+   "People_partially_vaccinated": 15043,
+   "People_fully_vaccinated": 862,
+   "Report_Date_String": "2021/05/13",
+   "UID": 96
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Bulgaria",
+   "Date": "2021-05-13",
+   "Doses_admin": 1035763,
+   "People_partially_vaccinated": 673441,
+   "People_fully_vaccinated": 362322,
+   "Report_Date_String": "2021/05/13",
+   "UID": 100
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Burma",
+   "Date": "2021-05-13",
+   "Doses_admin": 2200000,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 104
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Cambodia",
+   "Date": "2021-05-13",
+   "Doses_admin": 3069337,
+   "People_partially_vaccinated": 1939773,
+   "People_fully_vaccinated": 1129564,
+   "Report_Date_String": "2021/05/13",
+   "UID": 116
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Cameroon",
+   "Date": "2021-05-13",
+   "Doses_admin": 11000,
+   "People_partially_vaccinated": 11000,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 120
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Canada",
+   "Date": "2021-05-13",
+   "Doses_admin": 17161558,
+   "People_partially_vaccinated": 15596419,
+   "People_fully_vaccinated": 1308290,
+   "Report_Date_String": "2021/05/13",
+   "UID": 124
+ },
+ {
+   "Province_State": "Alberta",
+   "Country_Region": "Canada",
+   "Date": "2021-05-13",
+   "Doses_admin": 1975341,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 12401
+ },
+ {
+   "Province_State": "British Columbia",
+   "Country_Region": "Canada",
+   "Date": "2021-05-13",
+   "Doses_admin": 2277318,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 12402
+ },
+ {
+   "Province_State": "Manitoba",
+   "Country_Region": "Canada",
+   "Date": "2021-05-13",
+   "Doses_admin": 605555,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 12403
+ },
+ {
+   "Province_State": "New Brunswick",
+   "Country_Region": "Canada",
+   "Date": "2021-05-13",
+   "Doses_admin": 327633,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 12404
+ },
+ {
+   "Province_State": "Newfoundland and Labrador",
+   "Country_Region": "Canada",
+   "Date": "2021-05-13",
+   "Doses_admin": 213678,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 12405
+ },
+ {
+   "Province_State": "Northwest Territories",
+   "Country_Region": "Canada",
+   "Date": "2021-05-13",
+   "Doses_admin": 63617,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 12406
+ },
+ {
+   "Province_State": "Nova Scotia",
+   "Country_Region": "Canada",
+   "Date": "2021-05-13",
+   "Doses_admin": 387683,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 12407
+ },
+ {
+   "Province_State": "Nunavut",
+   "Country_Region": "Canada",
+   "Date": "2021-05-13",
+   "Doses_admin": 29402,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 12416
+ },
+ {
+   "Province_State": "Ontario",
+   "Country_Region": "Canada",
+   "Date": "2021-05-13",
+   "Doses_admin": 6629363,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 12408
+ },
+ {
+   "Province_State": "Prince Edward Island",
+   "Country_Region": "Canada",
+   "Date": "2021-05-13",
+   "Doses_admin": 49811,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 12409
+ },
+ {
+   "Province_State": "Quebec",
+   "Country_Region": "Canada",
+   "Date": "2021-05-13",
+   "Doses_admin": 4014843,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 12410
+ },
+ {
+   "Province_State": "Saskatchewan",
+   "Country_Region": "Canada",
+   "Date": "2021-05-13",
+   "Doses_admin": 537044,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 12411
+ },
+ {
+   "Province_State": "Yukon",
+   "Country_Region": "Canada",
+   "Date": "2021-05-13",
+   "Doses_admin": 50270,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 12412
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Chile",
+   "Date": "2021-05-13",
+   "Doses_admin": 16246599,
+   "People_partially_vaccinated": 8767853,
+   "People_fully_vaccinated": 7296374,
+   "Report_Date_String": "2021/05/13",
+   "UID": 152
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "China",
+   "Date": "2021-05-13",
+   "Doses_admin": 354272000,
+   "People_partially_vaccinated": 0,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 156
+ },
+ {
+   "Province_State": "Hong Kong",
+   "Country_Region": "China",
+   "Date": "2021-05-13",
+   "Doses_admin": 1830825,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 344
+ },
+ {
+   "Province_State": "Macau",
+   "Country_Region": "China",
+   "Date": "2021-05-13",
+   "Doses_admin": 124366,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 446
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Colombia",
+   "Date": "2021-05-13",
+   "Doses_admin": 6673552,
+   "People_partially_vaccinated": 4140197,
+   "People_fully_vaccinated": 2533355,
+   "Report_Date_String": "2021/05/13",
+   "UID": 170
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Costa Rica",
+   "Date": "2021-05-13",
+   "Doses_admin": 1093931,
+   "People_partially_vaccinated": 657301,
+   "People_fully_vaccinated": 436630,
+   "Report_Date_String": "2021/05/13",
+   "UID": 188
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Cote d'Ivoire",
+   "Date": "2021-05-13",
+   "Doses_admin": 280799,
+   "People_partially_vaccinated": 280799,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 384
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Croatia",
+   "Date": "2021-05-13",
+   "Doses_admin": 1186581,
+   "People_partially_vaccinated": 919139,
+   "People_fully_vaccinated": 267442,
+   "Report_Date_String": "2021/05/13",
+   "UID": 191
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Cyprus",
+   "Date": "2021-05-13",
+   "Doses_admin": 400004,
+   "People_partially_vaccinated": 305274,
+   "People_fully_vaccinated": 94730,
+   "Report_Date_String": "2021/05/13",
+   "UID": 196
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Czechia",
+   "Date": "2021-05-13",
+   "Doses_admin": 3920844,
+   "People_partially_vaccinated": 2835307,
+   "People_fully_vaccinated": 1085537,
+   "Report_Date_String": "2021/05/13",
+   "UID": 203
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Denmark",
+   "Date": "2021-05-13",
+   "Doses_admin": 2490079,
+   "People_partially_vaccinated": 1560879,
+   "People_fully_vaccinated": 929200,
+   "Report_Date_String": "2021/05/13",
+   "UID": 208
+ },
+ {
+   "Province_State": "Faroe Islands",
+   "Country_Region": "Denmark",
+   "Date": "2021-05-13",
+   "Doses_admin": 25623,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 234
+ },
+ {
+   "Province_State": "Greenland",
+   "Country_Region": "Denmark",
+   "Date": "2021-05-13",
+   "Doses_admin": 15308,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 304
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Dominica",
+   "Date": "2021-05-13",
+   "Doses_admin": 32008,
+   "People_partially_vaccinated": 18864,
+   "People_fully_vaccinated": 13144,
+   "Report_Date_String": "2021/05/13",
+   "UID": 212
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Dominican Republic",
+   "Date": "2021-05-13",
+   "Doses_admin": 2640409,
+   "People_partially_vaccinated": 1825500,
+   "People_fully_vaccinated": 814909,
+   "Report_Date_String": "2021/05/13",
+   "UID": 214
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Ecuador",
+   "Date": "2021-05-13",
+   "Doses_admin": 1339196,
+   "People_partially_vaccinated": 1024121,
+   "People_fully_vaccinated": 265841,
+   "Report_Date_String": "2021/05/13",
+   "UID": 218
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Egypt",
+   "Date": "2021-05-13",
+   "Doses_admin": 1371976,
+   "People_partially_vaccinated": 1133956,
+   "People_fully_vaccinated": 238020,
+   "Report_Date_String": "2021/05/13",
+   "UID": 818
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "El Salvador",
+   "Date": "2021-05-13",
+   "Doses_admin": 1167672,
+   "People_partially_vaccinated": 969970,
+   "People_fully_vaccinated": 197702,
+   "Report_Date_String": "2021/05/13",
+   "UID": 222
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Equatorial Guinea",
+   "Date": "2021-05-13",
+   "Doses_admin": 75518,
+   "People_partially_vaccinated": 64646,
+   "People_fully_vaccinated": 10872,
+   "Report_Date_String": "2021/05/13",
+   "UID": 226
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Estonia",
+   "Date": "2021-05-13",
+   "Doses_admin": 543067,
+   "People_partially_vaccinated": 379288,
+   "People_fully_vaccinated": 163779,
+   "Report_Date_String": "2021/05/13",
+   "UID": 233
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Eswatini",
+   "Date": "2021-05-13",
+   "Doses_admin": 34897,
+   "People_partially_vaccinated": 34897,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 748
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Ethiopia",
+   "Date": "2021-05-13",
+   "Doses_admin": 1215934,
+   "People_partially_vaccinated": 0,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 231
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Fiji",
+   "Date": "2021-05-13",
+   "Doses_admin": 93000,
+   "People_partially_vaccinated": 93000,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 242
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Finland",
+   "Date": "2021-05-13",
+   "Doses_admin": 2253383,
+   "People_partially_vaccinated": 2014653,
+   "People_fully_vaccinated": 238730,
+   "Report_Date_String": "2021/05/13",
+   "UID": 246
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "France",
+   "Date": "2021-05-13",
+   "Doses_admin": 28036610,
+   "People_partially_vaccinated": 18550890,
+   "People_fully_vaccinated": 8389251,
+   "Report_Date_String": "2021/05/13",
+   "UID": 250
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Gabon",
+   "Date": "2021-05-13",
+   "Doses_admin": 10678,
+   "People_partially_vaccinated": 8035,
+   "People_fully_vaccinated": 2643,
+   "Report_Date_String": "2021/05/13",
+   "UID": 266
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Gambia",
+   "Date": "2021-05-13",
+   "Doses_admin": 24659,
+   "People_partially_vaccinated": 24659,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 270
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Georgia",
+   "Date": "2021-05-13",
+   "Doses_admin": 67136,
+   "People_partially_vaccinated": 67136,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 268
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Germany",
+   "Date": "2021-05-13",
+   "Doses_admin": 36893056,
+   "People_partially_vaccinated": 28572376,
+   "People_fully_vaccinated": 8320680,
+   "Report_Date_String": "2021/05/13",
+   "UID": 276
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Ghana",
+   "Date": "2021-05-13",
+   "Doses_admin": 852047,
+   "People_partially_vaccinated": 852047,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 288
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Greece",
+   "Date": "2021-05-13",
+   "Doses_admin": 3973336,
+   "People_partially_vaccinated": 2615123,
+   "People_fully_vaccinated": 1358213,
+   "Report_Date_String": "2021/05/13",
+   "UID": 300
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Grenada",
+   "Date": "2021-05-13",
+   "Doses_admin": 17000,
+   "People_partially_vaccinated": 13000,
+   "People_fully_vaccinated": 4000,
+   "Report_Date_String": "2021/05/13",
+   "UID": 308
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Guatemala",
+   "Date": "2021-05-13",
+   "Doses_admin": 232949,
+   "People_partially_vaccinated": 230431,
+   "People_fully_vaccinated": 2518,
+   "Report_Date_String": "2021/05/13",
+   "UID": 320
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Guinea",
+   "Date": "2021-05-13",
+   "Doses_admin": 173623,
+   "People_partially_vaccinated": 116436,
+   "People_fully_vaccinated": 57187,
+   "Report_Date_String": "2021/05/13",
+   "UID": 324
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Guyana",
+   "Date": "2021-05-13",
+   "Doses_admin": 153494,
+   "People_partially_vaccinated": 150694,
+   "People_fully_vaccinated": 2800,
+   "Report_Date_String": "2021/05/13",
+   "UID": 328
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Honduras",
+   "Date": "2021-05-13",
+   "Doses_admin": 57639,
+   "People_partially_vaccinated": 55000,
+   "People_fully_vaccinated": 2639,
+   "Report_Date_String": "2021/05/13",
+   "UID": 340
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Hungary",
+   "Date": "2021-05-13",
+   "Doses_admin": 7005646,
+   "People_partially_vaccinated": 4420767,
+   "People_fully_vaccinated": 2584879,
+   "Report_Date_String": "2021/05/13",
+   "UID": 348
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Iceland",
+   "Date": "2021-05-13",
+   "Doses_admin": 207051,
+   "People_partially_vaccinated": 144775,
+   "People_fully_vaccinated": 62276,
+   "Report_Date_String": "2021/05/13",
+   "UID": 352
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 177214256,
+   "People_partially_vaccinated": 137805245,
+   "People_fully_vaccinated": 38240332,
+   "Report_Date_String": "2021/05/13",
+   "UID": 356
+ },
+ {
+   "Province_State": "Andaman and Nicobar Islands",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 112809,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35601
+ },
+ {
+   "Province_State": "Andhra Pradesh",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 7373521,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35602
+ },
+ {
+   "Province_State": "Arunachal Pradesh",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 289133,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35603
+ },
+ {
+   "Province_State": "Assam",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 3213306,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35604
+ },
+ {
+   "Province_State": "Bihar",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 8266897,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35605
+ },
+ {
+   "Province_State": "Chandigarh",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 264937,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35606
+ },
+ {
+   "Province_State": "Chhattisgarh",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 5941724,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35607
+ },
+ {
+   "Province_State": "Dadra and Nagar Haveli and Daman and Diu",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 105904,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35608
+ },
+ {
+   "Province_State": "Delhi",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 4243858,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35609
+ },
+ {
+   "Province_State": "Goa",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 409697,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35610
+ },
+ {
+   "Province_State": "Gujarat",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 14575629,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35611
+ },
+ {
+   "Province_State": "Haryana",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 4609079,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35612
+ },
+ {
+   "Province_State": "Himachal Pradesh",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 2110484,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35613
+ },
+ {
+   "Province_State": "Jammu and Kashmir",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 2770540,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35614
+ },
+ {
+   "Province_State": "Jharkhand",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 3372051,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35615
+ },
+ {
+   "Province_State": "Karnataka",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 10905119,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35616
+ },
+ {
+   "Province_State": "Kerala",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 8155236,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35617
+ },
+ {
+   "Province_State": "Ladakh",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 121926,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35618
+ },
+ {
+   "Province_State": "Lakshadweep",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 26967,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35637
+ },
+ {
+   "Province_State": "Madhya Pradesh",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 8859010,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35619
+ },
+ {
+   "Province_State": "Maharashtra",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 18966476,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35620
+ },
+ {
+   "Province_State": "Manipur",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 357683,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35621
+ },
+ {
+   "Province_State": "Meghalaya",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 374530,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35622
+ },
+ {
+   "Province_State": "Mizoram",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 285547,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35623
+ },
+ {
+   "Province_State": "Nagaland",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 228084,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35624
+ },
+ {
+   "Province_State": "Odisha",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 6448624,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35625
+ },
+ {
+   "Province_State": "Puducherry",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 223561,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35626
+ },
+ {
+   "Province_State": "Punjab",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 4072687,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35627
+ },
+ {
+   "Province_State": "Rajasthan",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 14691987,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35628
+ },
+ {
+   "Province_State": "Sikkim",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 221956,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35629
+ },
+ {
+   "Province_State": "Tamil Nadu",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 6738923,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35630
+ },
+ {
+   "Province_State": "Telangana",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 5388357,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35631
+ },
+ {
+   "Province_State": "Tripura",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 1435306,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35632
+ },
+ {
+   "Province_State": "Uttar Pradesh",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 14141536,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35633
+ },
+ {
+   "Province_State": "Uttarakhand",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 2507892,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35634
+ },
+ {
+   "Province_State": "West Bengal",
+   "Country_Region": "India",
+   "Date": "2021-05-13",
+   "Doses_admin": 12313816,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 35635
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Indonesia",
+   "Date": "2021-05-13",
+   "Doses_admin": 22536306,
+   "People_partially_vaccinated": 13647777,
+   "People_fully_vaccinated": 8888529,
+   "Report_Date_String": "2021/05/13",
+   "UID": 360
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Iran",
+   "Date": "2021-05-13",
+   "Doses_admin": 1767570,
+   "People_partially_vaccinated": 1475436,
+   "People_fully_vaccinated": 292134,
+   "Report_Date_String": "2021/05/13",
+   "UID": 364
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Iraq",
+   "Date": "2021-05-13",
+   "Doses_admin": 453361,
+   "People_partially_vaccinated": 453361,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 368
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Ireland",
+   "Date": "2021-05-13",
+   "Doses_admin": 1922913,
+   "People_partially_vaccinated": 1376583,
+   "People_fully_vaccinated": 506052,
+   "Report_Date_String": "2021/05/13",
+   "UID": 372
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Israel",
+   "Date": "2021-05-13",
+   "Doses_admin": 10519787,
+   "People_partially_vaccinated": 5429023,
+   "People_fully_vaccinated": 5090764,
+   "Report_Date_String": "2021/05/13",
+   "UID": 376
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 25606730,
+   "People_partially_vaccinated": 17714182,
+   "People_fully_vaccinated": 7888023,
+   "Report_Date_String": "2021/05/13",
+   "UID": 380
+ },
+ {
+   "Province_State": "Abruzzo",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 575650,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38013
+ },
+ {
+   "Province_State": "Basilicata",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 240291,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38017
+ },
+ {
+   "Province_State": "Calabria",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 719706,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38018
+ },
+ {
+   "Province_State": "Campania",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 2292997,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38015
+ },
+ {
+   "Province_State": "Emilia-Romagna",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 2025946,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38008
+ },
+ {
+   "Province_State": "Friuli Venezia Giulia",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 523868,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38006
+ },
+ {
+   "Province_State": "Lazio",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 2464655,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38012
+ },
+ {
+   "Province_State": "Liguria",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 751464,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38007
+ },
+ {
+   "Province_State": "Lombardia",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 4445207,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38003
+ },
+ {
+   "Province_State": "Marche",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 682294,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38011
+ },
+ {
+   "Province_State": "Molise",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 145119,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38014
+ },
+ {
+   "Province_State": "P.A. Bolzano",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 235379,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38041
+ },
+ {
+   "Province_State": "P.A. Trento",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 229212,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38042
+ },
+ {
+   "Province_State": "Piemonte",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 1922657,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38001
+ },
+ {
+   "Province_State": "Puglia",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 1733607,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38016
+ },
+ {
+   "Province_State": "Sardegna",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 630213,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38020
+ },
+ {
+   "Province_State": "Sicilia",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 1796916,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38019
+ },
+ {
+   "Province_State": "Toscana",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 1579371,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38009
+ },
+ {
+   "Province_State": "Umbria",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 384912,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38010
+ },
+ {
+   "Province_State": "Valle d'Aosta",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 56426,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38002
+ },
+ {
+   "Province_State": "Veneto",
+   "Country_Region": "Italy",
+   "Date": "2021-05-13",
+   "Doses_admin": 2170840,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 38005
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Jamaica",
+   "Date": "2021-05-13",
+   "Doses_admin": 135473,
+   "People_partially_vaccinated": 135473,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 388
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Japan",
+   "Date": "2021-05-13",
+   "Doses_admin": 5274683,
+   "People_partially_vaccinated": 3844717,
+   "People_fully_vaccinated": 1429966,
+   "Report_Date_String": "2021/05/13",
+   "UID": 392
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Jordan",
+   "Date": "2021-05-13",
+   "Doses_admin": 1091048,
+   "People_partially_vaccinated": 805020,
+   "People_fully_vaccinated": 286028,
+   "Report_Date_String": "2021/05/13",
+   "UID": 400
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Kazakhstan",
+   "Date": "2021-05-13",
+   "Doses_admin": 2455655,
+   "People_partially_vaccinated": 1757407,
+   "People_fully_vaccinated": 698248,
+   "Report_Date_String": "2021/05/13",
+   "UID": 398
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Kenya",
+   "Date": "2021-05-13",
+   "Doses_admin": 853081,
+   "People_partially_vaccinated": 853081,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 404
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Kosovo",
+   "Date": "2021-05-13",
+   "Doses_admin": 22096,
+   "People_partially_vaccinated": 22096,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 383
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Kuwait",
+   "Date": "2021-05-13",
+   "Doses_admin": 1440000,
+   "People_partially_vaccinated": 822000,
+   "People_fully_vaccinated": 38000,
+   "Report_Date_String": "2021/05/13",
+   "UID": 414
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Kyrgyzstan",
+   "Date": "2021-05-13",
+   "Doses_admin": 27858,
+   "People_partially_vaccinated": 27000,
+   "People_fully_vaccinated": 858,
+   "Report_Date_String": "2021/05/13",
+   "UID": 417
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Laos",
+   "Date": "2021-05-13",
+   "Doses_admin": 488473,
+   "People_partially_vaccinated": 405200,
+   "People_fully_vaccinated": 83273,
+   "Report_Date_String": "2021/05/13",
+   "UID": 418
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Latvia",
+   "Date": "2021-05-13",
+   "Doses_admin": 444255,
+   "People_partially_vaccinated": 349073,
+   "People_fully_vaccinated": 95182,
+   "Report_Date_String": "2021/05/13",
+   "UID": 428
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Lebanon",
+   "Date": "2021-05-13",
+   "Doses_admin": 509705,
+   "People_partially_vaccinated": 325383,
+   "People_fully_vaccinated": 184322,
+   "Report_Date_String": "2021/05/13",
+   "UID": 422
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Liechtenstein",
+   "Date": "2021-05-13",
+   "Doses_admin": 14369,
+   "People_partially_vaccinated": 9932,
+   "People_fully_vaccinated": 4437,
+   "Report_Date_String": "2021/05/13",
+   "UID": 438
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Lithuania",
+   "Date": "2021-05-13",
+   "Doses_admin": 1235857,
+   "People_partially_vaccinated": 823512,
+   "People_fully_vaccinated": 412345,
+   "Report_Date_String": "2021/05/13",
+   "UID": 440
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Luxembourg",
+   "Date": "2021-05-13",
+   "Doses_admin": 255678,
+   "People_partially_vaccinated": 183288,
+   "People_fully_vaccinated": 72390,
+   "Report_Date_String": "2021/05/13",
+   "UID": 442
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Malawi",
+   "Date": "2021-05-13",
+   "Doses_admin": 319323,
+   "People_partially_vaccinated": 319323,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 454
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Malaysia",
+   "Date": "2021-05-13",
+   "Doses_admin": 1894630,
+   "People_partially_vaccinated": 1166737,
+   "People_fully_vaccinated": 727893,
+   "Report_Date_String": "2021/05/13",
+   "UID": 458
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Maldives",
+   "Date": "2021-05-13",
+   "Doses_admin": 437912,
+   "People_partially_vaccinated": 301707,
+   "People_fully_vaccinated": 136205,
+   "Report_Date_String": "2021/05/13",
+   "UID": 462
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Mali",
+   "Date": "2021-05-13",
+   "Doses_admin": 49903,
+   "People_partially_vaccinated": 49903,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 466
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Malta",
+   "Date": "2021-05-13",
+   "Doses_admin": 395373,
+   "People_partially_vaccinated": 268118,
+   "People_fully_vaccinated": 127255,
+   "Report_Date_String": "2021/05/13",
+   "UID": 470
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Marshall Islands",
+   "Date": "2021-05-13",
+   "Doses_admin": 28478,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 584
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Mauritania",
+   "Date": "2021-05-13",
+   "Doses_admin": 7038,
+   "People_partially_vaccinated": 7038,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 478
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Mauritius",
+   "Date": "2021-05-13",
+   "Doses_admin": 117323,
+   "People_partially_vaccinated": 117323,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 480
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Mexico",
+   "Date": "2021-05-13",
+   "Doses_admin": 23663201,
+   "People_partially_vaccinated": 14176406,
+   "People_fully_vaccinated": 9486795,
+   "Report_Date_String": "2021/05/13",
+   "UID": 484
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Micronesia",
+   "Date": "2021-05-13",
+   "Doses_admin": 38249,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 583
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Moldova",
+   "Date": "2021-05-13",
+   "Doses_admin": 202883,
+   "People_partially_vaccinated": 175754,
+   "People_fully_vaccinated": 27129,
+   "Report_Date_String": "2021/05/13",
+   "UID": 498
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Monaco",
+   "Date": "2021-05-13",
+   "Doses_admin": 25937,
+   "People_partially_vaccinated": 13934,
+   "People_fully_vaccinated": 12003,
+   "Report_Date_String": "2021/05/13",
+   "UID": 492
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Mongolia",
+   "Date": "2021-05-13",
+   "Doses_admin": 2347229,
+   "People_partially_vaccinated": 1712577,
+   "People_fully_vaccinated": 634652,
+   "Report_Date_String": "2021/05/13",
+   "UID": 496
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Montenegro",
+   "Date": "2021-05-13",
+   "Doses_admin": 125646,
+   "People_partially_vaccinated": 93341,
+   "People_fully_vaccinated": 32305,
+   "Report_Date_String": "2021/05/13",
+   "UID": 499
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Morocco",
+   "Date": "2021-05-13",
+   "Doses_admin": 10436046,
+   "People_partially_vaccinated": 5994379,
+   "People_fully_vaccinated": 4441667,
+   "Report_Date_String": "2021/05/13",
+   "UID": 504
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Mozambique",
+   "Date": "2021-05-13",
+   "Doses_admin": 57305,
+   "People_partially_vaccinated": 57305,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 508
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Namibia",
+   "Date": "2021-05-13",
+   "Doses_admin": 36417,
+   "People_partially_vaccinated": 34346,
+   "People_fully_vaccinated": 2071,
+   "Report_Date_String": "2021/05/13",
+   "UID": 516
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Nepal",
+   "Date": "2021-05-13",
+   "Doses_admin": 2453512,
+   "People_partially_vaccinated": 2091511,
+   "People_fully_vaccinated": 362001,
+   "Report_Date_String": "2021/05/13",
+   "UID": 524
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Netherlands",
+   "Date": "2021-05-13",
+   "Doses_admin": 6688371,
+   "People_partially_vaccinated": 5075865,
+   "People_fully_vaccinated": 1612506,
+   "Report_Date_String": "2021/05/13",
+   "UID": 528
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "New Zealand",
+   "Date": "2021-05-13",
+   "Doses_admin": 388877,
+   "People_partially_vaccinated": 268787,
+   "People_fully_vaccinated": 120090,
+   "Report_Date_String": "2021/05/13",
+   "UID": 554
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Nicaragua",
+   "Date": "2021-05-13",
+   "Doses_admin": 135130,
+   "People_partially_vaccinated": 135130,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 558
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Nigeria",
+   "Date": "2021-05-13",
+   "Doses_admin": 1713306,
+   "People_partially_vaccinated": 1713306,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 566
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "North Macedonia",
+   "Date": "2021-05-13",
+   "Doses_admin": 160425,
+   "People_partially_vaccinated": 135574,
+   "People_fully_vaccinated": 24851,
+   "Report_Date_String": "2021/05/13",
+   "UID": 807
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Norway",
+   "Date": "2021-05-13",
+   "Doses_admin": 2021310,
+   "People_partially_vaccinated": 1505957,
+   "People_fully_vaccinated": 515353,
+   "Report_Date_String": "2021/05/13",
+   "UID": 578
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Oman",
+   "Date": "2021-05-13",
+   "Doses_admin": 326269,
+   "People_partially_vaccinated": 253000,
+   "People_fully_vaccinated": 73269,
+   "Report_Date_String": "2021/05/13",
+   "UID": 512
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Pakistan",
+   "Date": "2021-05-13",
+   "Doses_admin": 3764244,
+   "People_partially_vaccinated": 2811726,
+   "People_fully_vaccinated": 952518,
+   "Report_Date_String": "2021/05/13",
+   "UID": 586
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Palau",
+   "Date": "2021-05-13",
+   "Doses_admin": 20806,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 585
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Panama",
+   "Date": "2021-05-13",
+   "Doses_admin": 779163,
+   "People_partially_vaccinated": 520260,
+   "People_fully_vaccinated": 258903,
+   "Report_Date_String": "2021/05/13",
+   "UID": 591
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Papua New Guinea",
+   "Date": "2021-05-13",
+   "Doses_admin": 3000,
+   "People_partially_vaccinated": 3000,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 598
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Paraguay",
+   "Date": "2021-05-13",
+   "Doses_admin": 175127,
+   "People_partially_vaccinated": 159422,
+   "People_fully_vaccinated": 15705,
+   "Report_Date_String": "2021/05/13",
+   "UID": 600
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Peru",
+   "Date": "2021-05-13",
+   "Doses_admin": 2199719,
+   "People_partially_vaccinated": 1476921,
+   "People_fully_vaccinated": 722798,
+   "Report_Date_String": "2021/05/13",
+   "UID": 604
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Philippines",
+   "Date": "2021-05-13",
+   "Doses_admin": 2542066,
+   "People_partially_vaccinated": 2024953,
+   "People_fully_vaccinated": 517113,
+   "Report_Date_String": "2021/05/13",
+   "UID": 608
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Poland",
+   "Date": "2021-05-13",
+   "Doses_admin": 14705512,
+   "People_partially_vaccinated": 10609955,
+   "People_fully_vaccinated": 3839390,
+   "Report_Date_String": "2021/05/13",
+   "UID": 616
+ },
+ {
+   "Province_State": "Dolnoslaskie",
+   "Country_Region": "Poland",
+   "Date": "2021-05-13",
+   "Doses_admin": 1205450,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 61601
+ },
+ {
+   "Province_State": "Kujawsko-pomorskie",
+   "Country_Region": "Poland",
+   "Date": "2021-05-13",
+   "Doses_admin": 748142,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 61602
+ },
+ {
+   "Province_State": "Lodzkie",
+   "Country_Region": "Poland",
+   "Date": "2021-05-13",
+   "Doses_admin": 979404,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 61605
+ },
+ {
+   "Province_State": "Lubelskie",
+   "Country_Region": "Poland",
+   "Date": "2021-05-13",
+   "Doses_admin": 769904,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 61603
+ },
+ {
+   "Province_State": "Lubuskie",
+   "Country_Region": "Poland",
+   "Date": "2021-05-13",
+   "Doses_admin": 391931,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 61604
+ },
+ {
+   "Province_State": "Malopolskie",
+   "Country_Region": "Poland",
+   "Date": "2021-05-13",
+   "Doses_admin": 1183383,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 61606
+ },
+ {
+   "Province_State": "Mazowieckie",
+   "Country_Region": "Poland",
+   "Date": "2021-05-13",
+   "Doses_admin": 2215272,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 61607
+ },
+ {
+   "Province_State": "Opolskie",
+   "Country_Region": "Poland",
+   "Date": "2021-05-13",
+   "Doses_admin": 377219,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 61608
+ },
+ {
+   "Province_State": "Podkarpackie",
+   "Country_Region": "Poland",
+   "Date": "2021-05-13",
+   "Doses_admin": 749060,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 61609
+ },
+ {
+   "Province_State": "Podlaskie",
+   "Country_Region": "Poland",
+   "Date": "2021-05-13",
+   "Doses_admin": 486356,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 61610
+ },
+ {
+   "Province_State": "Pomorskie",
+   "Country_Region": "Poland",
+   "Date": "2021-05-13",
+   "Doses_admin": 981522,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 61611
+ },
+ {
+   "Province_State": "Slaskie",
+   "Country_Region": "Poland",
+   "Date": "2021-05-13",
+   "Doses_admin": 1707163,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 61612
+ },
+ {
+   "Province_State": "Swietokrzyskie",
+   "Country_Region": "Poland",
+   "Date": "2021-05-13",
+   "Doses_admin": 417853,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 61613
+ },
+ {
+   "Province_State": "Warminsko-mazurskie",
+   "Country_Region": "Poland",
+   "Date": "2021-05-13",
+   "Doses_admin": 504781,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 61614
+ },
+ {
+   "Province_State": "Wielkopolskie",
+   "Country_Region": "Poland",
+   "Date": "2021-05-13",
+   "Doses_admin": 1272853,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 61615
+ },
+ {
+   "Province_State": "Zachodniopomorskie",
+   "Country_Region": "Poland",
+   "Date": "2021-05-13",
+   "Doses_admin": 682970,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 61616
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Portugal",
+   "Date": "2021-05-13",
+   "Doses_admin": 4216224,
+   "People_partially_vaccinated": 3059886,
+   "People_fully_vaccinated": 1156314,
+   "Report_Date_String": "2021/05/13",
+   "UID": 620
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Qatar",
+   "Date": "2021-05-13",
+   "Doses_admin": 1911663,
+   "People_partially_vaccinated": 1149854,
+   "People_fully_vaccinated": 761809,
+   "Report_Date_String": "2021/05/13",
+   "UID": 634
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Romania",
+   "Date": "2021-05-13",
+   "Doses_admin": 6209747,
+   "People_partially_vaccinated": 3711304,
+   "People_fully_vaccinated": 2498443,
+   "Report_Date_String": "2021/05/13",
+   "UID": 642
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Russia",
+   "Date": "2021-05-13",
+   "Doses_admin": 22575945,
+   "People_partially_vaccinated": 13566658,
+   "People_fully_vaccinated": 9009287,
+   "Report_Date_String": "2021/05/13",
+   "UID": 643
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Rwanda",
+   "Date": "2021-05-13",
+   "Doses_admin": 350400,
+   "People_partially_vaccinated": 350400,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 646
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Saint Kitts and Nevis",
+   "Date": "2021-05-13",
+   "Doses_admin": 13070,
+   "People_partially_vaccinated": 12943,
+   "People_fully_vaccinated": 127,
+   "Report_Date_String": "2021/05/13",
+   "UID": 659
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Saint Lucia",
+   "Date": "2021-05-13",
+   "Doses_admin": 25568,
+   "People_partially_vaccinated": 20247,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 662
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Saint Vincent and the Grenadines",
+   "Date": "2021-05-13",
+   "Doses_admin": 14526,
+   "People_partially_vaccinated": 0,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 670
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "San Marino",
+   "Date": "2021-05-13",
+   "Doses_admin": 35911,
+   "People_partially_vaccinated": 21607,
+   "People_fully_vaccinated": 14304,
+   "Report_Date_String": "2021/05/13",
+   "UID": 674
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Sao Tome and Principe",
+   "Date": "2021-05-13",
+   "Doses_admin": 9724,
+   "People_partially_vaccinated": 9724,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 678
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Saudi Arabia",
+   "Date": "2021-05-13",
+   "Doses_admin": 11091242,
+   "People_partially_vaccinated": 0,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 682
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Senegal",
+   "Date": "2021-05-13",
+   "Doses_admin": 428147,
+   "People_partially_vaccinated": 428147,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 686
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Serbia",
+   "Date": "2021-05-13",
+   "Doses_admin": 3826563,
+   "People_partially_vaccinated": 2169340,
+   "People_fully_vaccinated": 1657223,
+   "Report_Date_String": "2021/05/13",
+   "UID": 688
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Seychelles",
+   "Date": "2021-05-13",
+   "Doses_admin": 128919,
+   "People_partially_vaccinated": 68512,
+   "People_fully_vaccinated": 60407,
+   "Report_Date_String": "2021/05/13",
+   "UID": 690
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Sierra Leone",
+   "Date": "2021-05-13",
+   "Doses_admin": 64966,
+   "People_partially_vaccinated": 58250,
+   "People_fully_vaccinated": 6716,
+   "Report_Date_String": "2021/05/13",
+   "UID": 694
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Singapore",
+   "Date": "2021-05-13",
+   "Doses_admin": 3137330,
+   "People_partially_vaccinated": 1852684,
+   "People_fully_vaccinated": 1284646,
+   "Report_Date_String": "2021/05/13",
+   "UID": 702
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Slovakia",
+   "Date": "2021-05-13",
+   "Doses_admin": 1943530,
+   "People_partially_vaccinated": 1289359,
+   "People_fully_vaccinated": 607860,
+   "Report_Date_String": "2021/05/13",
+   "UID": 703
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Slovenia",
+   "Date": "2021-05-13",
+   "Doses_admin": 772002,
+   "People_partially_vaccinated": 512316,
+   "People_fully_vaccinated": 259686,
+   "Report_Date_String": "2021/05/13",
+   "UID": 705
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Solomon Islands",
+   "Date": "2021-05-13",
+   "Doses_admin": 12819,
+   "People_partially_vaccinated": 9340,
+   "People_fully_vaccinated": 3479,
+   "Report_Date_String": "2021/05/13",
+   "UID": 90
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "South Africa",
+   "Date": "2021-05-13",
+   "Doses_admin": 861460,
+   "People_partially_vaccinated": 430730,
+   "People_fully_vaccinated": 430730,
+   "Report_Date_String": "2021/05/13",
+   "UID": 710
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "South Sudan",
+   "Date": "2021-05-13",
+   "Doses_admin": 947,
+   "People_partially_vaccinated": 947,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 728
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Spain",
+   "Date": "2021-05-13",
+   "Doses_admin": 21071940,
+   "People_partially_vaccinated": 14318348,
+   "People_fully_vaccinated": 6502978,
+   "Report_Date_String": "2021/05/13",
+   "UID": 724
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Sri Lanka",
+   "Date": "2021-05-13",
+   "Doses_admin": 1220248,
+   "People_partially_vaccinated": 996445,
+   "People_fully_vaccinated": 223803,
+   "Report_Date_String": "2021/05/13",
+   "UID": 144
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Sudan",
+   "Date": "2021-05-13",
+   "Doses_admin": 140227,
+   "People_partially_vaccinated": 140227,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 729
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Suriname",
+   "Date": "2021-05-13",
+   "Doses_admin": 48185,
+   "People_partially_vaccinated": 47453,
+   "People_fully_vaccinated": 732,
+   "Report_Date_String": "2021/05/13",
+   "UID": 740
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Sweden",
+   "Date": "2021-05-13",
+   "Doses_admin": 3957465,
+   "People_partially_vaccinated": 3060144,
+   "People_fully_vaccinated": 897321,
+   "Report_Date_String": "2021/05/13",
+   "UID": 752
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Switzerland",
+   "Date": "2021-05-13",
+   "Doses_admin": 3228403,
+   "People_partially_vaccinated": 2155259,
+   "People_fully_vaccinated": 1073144,
+   "Report_Date_String": "2021/05/13",
+   "UID": 756
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Syria",
+   "Date": "2021-05-13",
+   "Doses_admin": 2500,
+   "People_partially_vaccinated": 2500,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 760
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Taiwan*",
+   "Date": "2021-05-13",
+   "Doses_admin": 129669,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 158
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Thailand",
+   "Date": "2021-05-13",
+   "Doses_admin": 2040363,
+   "People_partially_vaccinated": 1395130,
+   "People_fully_vaccinated": 645233,
+   "Report_Date_String": "2021/05/13",
+   "UID": 764
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Togo",
+   "Date": "2021-05-13",
+   "Doses_admin": 160000,
+   "People_partially_vaccinated": 160000,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 768
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Trinidad and Tobago",
+   "Date": "2021-05-13",
+   "Doses_admin": 61764,
+   "People_partially_vaccinated": 60585,
+   "People_fully_vaccinated": 1179,
+   "Report_Date_String": "2021/05/13",
+   "UID": 780
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Tunisia",
+   "Date": "2021-05-13",
+   "Doses_admin": 537380,
+   "People_partially_vaccinated": 372240,
+   "People_fully_vaccinated": 165140,
+   "Report_Date_String": "2021/05/13",
+   "UID": 788
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Turkey",
+   "Date": "2021-05-13",
+   "Doses_admin": 25348875,
+   "People_partially_vaccinated": 14711273,
+   "People_fully_vaccinated": 10637602,
+   "Report_Date_String": "2021/05/13",
+   "UID": 792
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "US",
+   "Date": "2021-05-13",
+   "Doses_admin": 264680844,
+   "People_partially_vaccinated": 153986312,
+   "People_fully_vaccinated": 117647439,
+   "Report_Date_String": "2021/05/13",
+   "UID": 840
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "US (Aggregate)",
+   "Date": "2021-05-13",
+   "Doses_admin": 264448991,
+   "People_partially_vaccinated": 153986312,
+   "People_fully_vaccinated": 117647439,
+   "Report_Date_String": "2021/05/13",
+   "UID": 840
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Uganda",
+   "Date": "2021-05-13",
+   "Doses_admin": 404972,
+   "People_partially_vaccinated": 404972,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 800
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Ukraine",
+   "Date": "2021-05-13",
+   "Doses_admin": 904933,
+   "People_partially_vaccinated": 901105,
+   "People_fully_vaccinated": 3828,
+   "Report_Date_String": "2021/05/13",
+   "UID": 804
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "United Arab Emirates",
+   "Date": "2021-05-13",
+   "Doses_admin": 11422565,
+   "People_partially_vaccinated": 5081853,
+   "People_fully_vaccinated": 3836521,
+   "Report_Date_String": "2021/05/13",
+   "UID": 784
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "United Kingdom",
+   "Date": "2021-05-13",
+   "Doses_admin": 55186525,
+   "People_partially_vaccinated": 35722461,
+   "People_fully_vaccinated": 18438532,
+   "Report_Date_String": "2021/05/13",
+   "UID": 826
+ },
+ {
+   "Province_State": "Anguilla",
+   "Country_Region": "United Kingdom",
+   "Date": "2021-05-13",
+   "Doses_admin": 6898,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 660
+ },
+ {
+   "Province_State": "Bermuda",
+   "Country_Region": "United Kingdom",
+   "Date": "2021-05-13",
+   "Doses_admin": 58193,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 60
+ },
+ {
+   "Province_State": "Cayman Islands",
+   "Country_Region": "United Kingdom",
+   "Date": "2021-05-13",
+   "Doses_admin": 73269,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 136
+ },
+ {
+   "Province_State": "England",
+   "Country_Region": "United Kingdom",
+   "Date": "2021-05-13",
+   "Doses_admin": 45908796,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 82601
+ },
+ {
+   "Province_State": "Falkland Islands (Malvinas)",
+   "Country_Region": "United Kingdom",
+   "Date": "2021-05-13",
+   "Doses_admin": 4407,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 238
+ },
+ {
+   "Province_State": "Gibraltar",
+   "Country_Region": "United Kingdom",
+   "Date": "2021-05-13",
+   "Doses_admin": 74256,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 292
+ },
+ {
+   "Province_State": "Isle of Man",
+   "Country_Region": "United Kingdom",
+   "Date": "2021-05-13",
+   "Doses_admin": 76977,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 833
+ },
+ {
+   "Province_State": "Montserrat",
+   "Country_Region": "United Kingdom",
+   "Date": "2021-05-13",
+   "Doses_admin": 1909,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 500
+ },
+ {
+   "Province_State": "Northern Ireland",
+   "Country_Region": "United Kingdom",
+   "Date": "2021-05-13",
+   "Doses_admin": 1515760,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 82602
+ },
+ {
+   "Province_State": "Saint Helena, Ascension and Tristan da Cunha",
+   "Country_Region": "United Kingdom",
+   "Date": "2021-05-13",
+   "Doses_admin": 4572,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 654
+ },
+ {
+   "Province_State": "Scotland",
+   "Country_Region": "United Kingdom",
+   "Date": "2021-05-13",
+   "Doses_admin": 4519508,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 82603
+ },
+ {
+   "Province_State": "Wales",
+   "Country_Region": "United Kingdom",
+   "Date": "2021-05-13",
+   "Doses_admin": 2853576,
+   "People_partially_vaccinated": null,
+   "People_fully_vaccinated": null,
+   "Report_Date_String": "2021/05/13",
+   "UID": 82604
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Uruguay",
+   "Date": "2021-05-13",
+   "Doses_admin": 2127581,
+   "People_partially_vaccinated": 1247977,
+   "People_fully_vaccinated": 879604,
+   "Report_Date_String": "2021/05/13",
+   "UID": 858
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Uzbekistan",
+   "Date": "2021-05-13",
+   "Doses_admin": 1173978,
+   "People_partially_vaccinated": 1057094,
+   "People_fully_vaccinated": 116884,
+   "Report_Date_String": "2021/05/13",
+   "UID": 860
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Venezuela",
+   "Date": "2021-05-13",
+   "Doses_admin": 250000,
+   "People_partially_vaccinated": 250000,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 862
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Vietnam",
+   "Date": "2021-05-13",
+   "Doses_admin": 924850,
+   "People_partially_vaccinated": 887705,
+   "People_fully_vaccinated": 37145,
+   "Report_Date_String": "2021/05/13",
+   "UID": 704
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "World",
+   "Date": "2021-05-13",
+   "Doses_admin": 1376886820,
+   "People_partially_vaccinated": 449823829,
+   "People_fully_vaccinated": 261132715,
+   "Report_Date_String": "2021/05/13",
+   "UID": null
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Zambia",
+   "Date": "2021-05-13",
+   "Doses_admin": 90916,
+   "People_partially_vaccinated": 90916,
+   "People_fully_vaccinated": 0,
+   "Report_Date_String": "2021/05/13",
+   "UID": 894
+ },
+ {
+   "Province_State": "",
+   "Country_Region": "Zimbabwe",
+   "Date": "2021-05-13",
+   "Doses_admin": 709772,
+   "People_partially_vaccinated": 539526,
+   "People_fully_vaccinated": 170246,
+   "Report_Date_String": "2021/05/13",
+   "UID": 716
+ }
+]
