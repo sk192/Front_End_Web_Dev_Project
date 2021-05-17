@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './css/cases.css';
 import HeaderNav from './components/navbar'
 import HomePage from './components/HomePage';
 import VaccineInfo from './components/vaccineData/VaccineInfo';
