@@ -9,6 +9,7 @@ import About from "./components/about";
 import Footer from "./components/footer.jsx";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.css";
 function App() {
   return (
     <div className="App">

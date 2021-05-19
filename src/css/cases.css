@@ -1,11 +1,10 @@
-
 /*main grid css*/
 
 .grid-container{
   display: grid;
   gap: 10px;
   grid-template-columns: auto 1fr 1fr 1fr 1fr;
-  grid-template-rows: 60px auto auto auto;
+  grid-template-rows: 60px 250px auto auto;
   height:100vh;
   margin-right: 10px;
 }
@@ -15,9 +14,7 @@ div.grid-item{
   /*remove these 2 later*/
   border: 3px solid white;
   border-radius: 10px;
-}
-
-                                                        /*main grid items*/
+}                                                      /*main grid items*/
 
 div.grid-item.item1.side-nav{
   border: none;
@@ -26,7 +23,10 @@ div.grid-item.item1.side-nav{
   margin-right: 20px;
   /* padding: 30px; */
   /* padding-right: 80px; */
-  background: rgb(71, 9, 126);
+  /* background: rgb(71, 9, 126); */
+  /* background-image: linear-gradient(to bottom right, rgb(144, 19, 254)  rgb(71, 9, 126)) !important; */
+  background-image: linear-gradient( rgb(167, 79, 243), rgb(144, 19, 254), rgb(71, 9, 126));
+
 }
 
 .item2.card-1, .item3.card-2, .item4.card-3, .item5.card-4{
@@ -62,12 +62,23 @@ img.cases-img-logo{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* margin-top: 20px; */
+  margin-top: 20px;
   /* margin-bottom: 20px; */
   height: 100px;
   width: 100px;
+  border: 3px solid;
+  border-radius: 50%;
+  background-color: lavender !important;
+  border-color: white;
 }
-figcaption.cases-pic-head{
+p.cases-pic-head{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center;
+}
+/* figcaption.cases-pic-head{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -75,7 +86,8 @@ figcaption.cases-pic-head{
   font-weight: bold;
   padding-top: 6px;
   text-align: center;
-}
+  
+} */
 .index-choose-head{
   color: white;
   font-weight: bold;
@@ -85,7 +97,7 @@ figcaption.cases-pic-head{
                                                      /*index-grid css*/
 .grid-index-container{
   display: grid;
-  gap: 10px;
+  gap: 20px;
   grid-template-columns: 200px;
   grid-template-rows: repeat(9, auto);
   /* align-content: center  ; */
@@ -106,9 +118,9 @@ figcaption.cases-pic-head{
   background-color: rgb(231, 203, 255);
   height: auto;
 } */
-.grid-index-item.index-item1.index-pic{
+/* .grid-index-item.index-item1.index-pic{
   background-color: rgb(71, 9, 126);
-}
+} */
 
 /* div.grid-index-item.index-item2.index-choose-head{
   padding-left: 0px !important;
@@ -120,13 +132,22 @@ figcaption.cases-pic-head{
   border-color: rgb(198, 177, 233) !important;
 } 
 
-.index-nav-btn:hover, .index-nav-btn:active, .index-nav-btn:visited, .index-nav-btn:link{
+.index-nav-btn:hover, .index-nav-btn:link{
   background-color: rgb(164, 129, 221) !important;
   font-weight: bold;
 }
 
+.index-nav-btn:focus{
+  border: 3px solid white !important;
+}
 
+.index-nav-btn:active{
+  border: 3px solid rgb(207, 177, 255) !important;
+}
 
+.index-nav-btn:visited{
+  border: 3px solid rgb(164, 129, 221) !important;
+}
 
 /*About page*/
 
@@ -158,4 +179,11 @@ section.about-sec{
   background-image: linear-gradient(to bottom right, rgb(198, 177, 233), rgb(235, 235, 235)) !important;
   height:100vh;
   /* background-color: red !important; */
+}
+
+
+/* status card */
+
+i.fas{
+  font-size: 36px;
 }

@@ -22,6 +22,7 @@ export default class GlobalView extends Component {
         recovered: {
           totalRecovered: 0,
           newlyRecovered: 0,
+          recoveredPercent: 0,
         },
         deaths: {
           totalDeaths: 0,
@@ -87,7 +88,7 @@ export default class GlobalView extends Component {
     getData()
       .then((resp) => {
         let data = resp.data;
-        // console.log(data);
+        console.log(data);
         data.forEach((element) => {
           const compState = { ...this.state };
 
@@ -102,6 +103,8 @@ export default class GlobalView extends Component {
             element.TotalRecovered
           );
           compState.global.recovered.newlyRecovered = element.NewRecovered;
+          compState.global.recovered.recoveredPercent =
+            element.Recovery_Proporation;
 
           compState.global.deaths.totalDeaths = element.TotalDeaths;
           compState.global.deaths.newDeaths = element.NewDeaths;
@@ -228,6 +231,7 @@ export default class GlobalView extends Component {
         <MainGrid
           onRegionButttonClick={this.handleRegionButttonClick}
           regionSelected={this.state.selectedView}
+          globalCardData={this.state.global}
         />
       </div>
     );
