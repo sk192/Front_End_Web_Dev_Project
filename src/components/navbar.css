@@ -1,12 +1,15 @@
 .navbar {
-  background-color: rgba(4, 6, 7, 0.705);
+  background-color: rgba(5, 33, 65, 0.76);
   color: rgb(255, 255, 255);
   position: fixed;
-  width: 100%;
+  overflow: hidden;
+  width: 100vw;
 }
 .navHeader {
-  margin-left: 550px;
+  margin-left: 520px;
   padding-top: 10px;
+  position: fixed;
+  top: 0;
 }
 
 .navbar ul li {
@@ -48,4 +51,52 @@
 
 .navbar ul li:last-child {
   margin-right: 0;
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+@media screen and (max-width:414px){
+  .navHeader {
+  margin-left: 10px;
+  padding-top: 10px;
+  position: fixed;
+  top: 0;
+}
+
+  
+}
+@media screen and (min-width:415px) and (max-width:768px){
+  .navHeader {
+      margin-left: 300px;
+      padding-top: 10px;
+      position: fixed;
+      top: 0;
+    }
+
+  
+}
+@media screen and (min-width:769px) and (max-width:1024){
+  .navHeader {
+      /* margin-left: 500px; */
+      padding-top: 10px;
+      position: fixed;
+      top: 0;
+    }
+    .navbar{
+      overflow: hidden;
+    }
+  
+}
+@media screen and (min-width:1025px){
+  .navHeader {
+      margin-left: 550px;
+      padding-top: 10px;
+      position: fixed;
+      top: 0;
+    }
+
+  
 }
