@@ -3,10 +3,10 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="container1">
-        <div className="row row1">
-          <div className="col col1">
+    <footer className="footer">
+      {/* <div className="container"> */}
+        {/* <div className="row">
+          <div className="col ">
             <h4>COVID-19 DASHBOARD</h4>
             <h5 className="list-unstyled">By:</h5>
             <p>
@@ -19,7 +19,7 @@ const Footer = () => {
               </b>
             </p>
           </div>
-          <div className="col col2">
+           <div className="col ">
             <h4>Powered By</h4>
             <ul className="list-unstyled">
               <li>
@@ -57,7 +57,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="col col3">
+          <div className="col">
             <b>
               <h4>APIs used</h4>
             </b>
@@ -82,15 +82,15 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-        </div>
-        <hr />
-        <div className="row row2">
+        </div> */}
+        {/* <hr />
+        <div className="row row1">
           <p className="col-sm">
             &copy;{new Date().getFullYear()} COVID-19 DASHBOARD | All rights
             reserved | Terms Of Service | Privacy
           </p>
-        </div>
-      </div>
+        </div>  */}
+      {/* </div> */}
     </footer>
   );
 };
