@@ -187,3 +187,9 @@ section.about-sec{
 i.fas{
   font-size: 36px;
 }
+
+
+/*bar graph css*/
+canvas{
+  height: 400px !important;
+}

@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.21.1",
     "bootstrap": "^3.4.1",
+    "chart.js": "^3.2.1",
     "d3-fetch": "^2.0.0",
     "d3-scale": "^3.3.0",
     "datamaps": "^0.5.9",

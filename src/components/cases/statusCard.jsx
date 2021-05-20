@@ -17,7 +17,7 @@ export default function StatusCard(props) {
     return (
       <div className="statusCard activeCases">
         <h3>Active Cases</h3>
-        <i class="fas fa-head-side-mask"></i>
+        <i className="fas fa-head-side-mask"></i>
         <h3>{props.data.activeCases}</h3>
         <h3>{props.data.seriousCritical} seriously critical</h3>
       </div>
@@ -27,7 +27,7 @@ export default function StatusCard(props) {
     return (
       <div className="statusCard recovered">
         <h3>Recovered</h3>
-        <i class="fas fa-heart"></i>
+        <i className="fas fa-heart"></i>
 
         <h3>
           {props.data.totalRecovered}
@@ -41,7 +41,7 @@ export default function StatusCard(props) {
     return (
       <div className="statusCard deaths">
         <h3>Deaths</h3>
-        <i class="fas fa-skull-crossbones"></i>
+        <i className="fas fa-skull-crossbones"></i>
 
         <h3>
           {props.data.totalDeaths}
