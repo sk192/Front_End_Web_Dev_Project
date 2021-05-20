@@ -156,7 +156,7 @@ class Barchart extends Component {
 
     </div>
     
-  </div>
+ </div>
     );
   }
 }
