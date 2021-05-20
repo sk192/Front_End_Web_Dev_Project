@@ -12,17 +12,19 @@
 html,
 body,
 svg {
-  min-height: 100%;
+  min-height: 100vh;
   overflow: auto !important;
 }
 body {
   background-color: rgba(230, 230, 230, 0.719) !important;
-  height: 100vw;
+  min-height: 100vh;
 }
-
-#root{
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-
+.content-wrap{
+  /* background-color: rgb(163, 120, 120); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url("./components/images/covid2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
