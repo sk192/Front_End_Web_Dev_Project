@@ -4,12 +4,14 @@ import Table from "react-bootstrap/Table";
 
 export default function TableData(props) {
   return (
-    <Table className="table  striped bordered  hover ">
+    <div class="table1">
+      <h1> <b>Countries vaccine information</b></h1>
+    <Table className="table">
       <thead>
-        <caption>
-          <b>Countries vaccine information</b>
-        </caption>
-
+        {/* <caption>
+         
+        </caption> */}
+        
         <tr className="hrow">
           <th scope="col" className="heading">
             UID
@@ -26,10 +28,10 @@ export default function TableData(props) {
             Doses <br /> admin
           </th>
           <th scope="col" className="heading">
-            Fully <br /> vaccinated
+            received two <br /> doses
           </th>
           <th scope="col" className="heading">
-            Partially <br /> vaccinated
+            received <br />one <br />dose
           </th>
         </tr>
       </thead>
@@ -49,5 +51,6 @@ export default function TableData(props) {
         ))}
       </tbody>
     </Table>
+    </div>
   );
 }
