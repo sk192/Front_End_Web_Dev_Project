@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Bar } from "react-chartjs-2";
 import axios from "axios";
 import { Multiselect } from "multiselect-react-dropdown";
 import StackedBar from "./stackedBar.jsx";
@@ -45,7 +44,7 @@ class Barchart extends Component {
       responseData.data.forEach((element) => {
         let allData = {};
         let new_arr = {};
-        // console.log(element.Country_Region);
+
         allData["Country"] = element.Country_Region;
         allData["People_fully_vaccinated"] = element.People_fully_vaccinated;
         allData["People_partially_vaccinated"] =
@@ -122,42 +121,13 @@ class Barchart extends Component {
           />
         </div>
         <div className="table-responsive table-sm table-wrapper">
-           <h1> <b>Countries vaccine information</b></h1>
+          <h1>
+            {" "}
+            <b>Countries vaccine information</b>
+          </h1>
           <TableData vData={this.state.whole_data} />
         </div>
       </div>
-//   <div className="container_row">
-//     <div className="container_col">
-//         <div className="check">
-//            <Multiselect
-//             options={this.state.country_names}
-//             placeholder="Select upto 4 countries"
-//             onSelect={this.onSelect}
-//             showCheckbox={true}
-//             selectionLimit="4"
-//             style={this.style}
-//             id="css_custom"
-//             closeIcon="close"
-//             isObject={false}
-//           />
-//         </div>
-//         <div className="bar">
-//           <StackedBar
-//             barCountryData={this.state.country_label}
-//             barPartiallyData={this.state.partillyVaccinated}
-//             barFullyData={this.state.fullyVaccinated}
-//             barTotalDose={this.state.total_dose}
-//           />
-//         </div>
-//     </div>
-//     <div className="container_col1">
-//       <div className="table-responsive table-sm table-wrapper">
-//            <TableData vData={this.state.whole_data} />
-//       </div>
-
-//     </div>
-    
-//  </div>
     );
   }
 }
