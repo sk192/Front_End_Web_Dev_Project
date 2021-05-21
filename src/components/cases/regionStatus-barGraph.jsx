@@ -1,12 +1,8 @@
-import React, { Component } from "react";
 import { Bar } from "react-chartjs-2";
 
-class RegionBarGraph extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
+export default function RegionBarGraph(props){
+  const stateValues = {
       chartData: {
-        // responsive: false,
         labels: [
           "Africa",
           "Asia",
@@ -21,12 +17,12 @@ class RegionBarGraph extends Component {
             backgroundColor: "rgb(54, 162, 235)",
             stack: "Stack 0",
             data: [
-              props.regionData.africa.totalCases,
-              props.regionData.asia.totalCases,
-              props.regionData.australia.totalCases,
-              props.regionData.europe.totalCases,
-              props.regionData.northAmerica.totalCases,
-              props.regionData.southAmerica.totalCases,
+              props.regionData.africa.cases,
+              props.regionData.asia.cases,
+              props.regionData.oceania.cases,
+              props.regionData.europe.cases,
+              props.regionData.northAmerica.cases,
+              props.regionData.southAmerica.cases,
             ],
           },
           {
@@ -34,12 +30,12 @@ class RegionBarGraph extends Component {
             backgroundColor: "rgb(255, 99, 132)",
             stack: "Stack 0",
             data: [
-              props.regionData.africa.totalDeaths,
-              props.regionData.asia.totalDeaths,
-              props.regionData.australia.totalDeaths,
-              props.regionData.europe.totalDeaths,
-              props.regionData.northAmerica.totalDeaths,
-              props.regionData.southAmerica.totalDeaths,
+              props.regionData.africa.deaths,
+              props.regionData.asia.deaths,
+              props.regionData.oceania.deaths,
+              props.regionData.europe.deaths,
+              props.regionData.northAmerica.deaths,
+              props.regionData.southAmerica.deaths,
             ],
           },
           {
@@ -47,41 +43,36 @@ class RegionBarGraph extends Component {
             backgroundColor: "rgb(75, 192, 192)",
             stack: "Stack 0",
             data: [
-              props.regionData.africa.totalRecovered,
-              props.regionData.asia.totalRecovered,
-              props.regionData.australia.totalRecovered,
-              props.regionData.europe.totalRecovered,
-              props.regionData.northAmerica.totalRecovered,
-              props.regionData.southAmerica.totalRecovered,
+              props.regionData.africa.recovered,
+              props.regionData.asia.recovered,
+              props.regionData.oceania.recovered,
+              props.regionData.europe.recovered,
+              props.regionData.northAmerica.recovered,
+              props.regionData.southAmerica.recovered,
             ],
           },
         ],
       },
     };
-  }
 
-  render() {
-    console.log("data in graphs --> ", this.props.regionData);
-    return (
-      <div className="regionBarGraph">
-        <Bar
-          data={this.state.chartData}
-          options={{
-            indexAxis: "y",
-            // title: {
-            //   display: "hello",
-            //   text: "Largest Cities In ",
-            //   fontSize: 25,
-            // },
-            // legend: {
-            //   display: true,
-            //   position: "bottom",
-            // },
-          }}
-        />
-      </div>
-    );
-  }
+  return (
+    <div className="regionBarGraph">
+      <Bar
+        data={stateValues.chartData}
+        options={{
+          indexAxis: "x",
+          // title: {
+          //   display: "hello",
+          //   text: "Largest Cities In ",
+          //   fontSize: 25,
+          // },
+          // legend: {
+          //   display: true,
+          //   position: "bottom",
+          // },
+        }}
+      />
+    </div>
+  );
+        
 }
-
-export default RegionBarGraph;

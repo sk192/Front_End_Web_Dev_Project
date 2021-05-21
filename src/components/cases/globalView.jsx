@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-
+import StatusCards from "./statusCardsContainer";
+import RegionBarGraph from "./regionStatus-barGraph";
 export default class GlobalView extends Component {
   constructor(props) {
     super(props);
@@ -93,18 +94,21 @@ export default class GlobalView extends Component {
     const compState = { ...this.state };
     Object.entries(data).forEach((item) => {
       // console.log(item[1].All);
-      if (item[0] == "Global") {
+      if (item[0] === "Global") {
         compState.gloab.cases.totalCases = item[1].All.confirmed;
-        compState.gloab.cases.casesPerMil =
-          (item[1].All.confirmed / item[1].All.population) * 1000000;
+        compState.gloab.cases.casesPerMil = Math.ceil(
+          (item[1].All.confirmed / item[1].All.population) * 1000000
+        );
 
         compState.gloab.recovered.totalRecovered = item[1].All.recovered;
-        compState.gloab.recovered.recoveryPercent =
-          (item[1].All.recovered / item[1].All.confirmed) * 100;
+        compState.gloab.recovered.recoveryPercent = Math.ceil(
+          (item[1].All.recovered / item[1].All.confirmed) * 100
+        );
 
         compState.gloab.deaths.totalDeaths = item[1].All.deaths;
-        compState.gloab.deaths.deathsPerMil =
-          (item[1].All.deaths / item[1].All.population) * 1000000;
+        compState.gloab.deaths.deathsPerMil = Math.ceil(
+          (item[1].All.deaths / item[1].All.population) * 1000000
+        );
 
         compState.gloab.pop = item[1].All.population;
       } else if (item[1].All.continent === "Oceania") {
@@ -237,7 +241,19 @@ export default class GlobalView extends Component {
   render() {
     return (
       <div className="globalView-body">
-        <h3>Globe</h3>
+        <div className="globalCases-container">
+          <div className="grid-item-1 cards">
+            <StatusCards
+              totalCases={this.state.gloab.cases.totalCases}
+              casesPerMil={this.state.gloab.cases.casesPerMil}
+              totalRecovered={this.state.gloab.recovered.totalRecovered}
+              recoveryPercent={this.state.gloab.recovered.recoveryPercent}
+              totalDeaths={this.state.gloab.deaths.totalDeaths}
+              deathsPerMil={this.state.gloab.deaths.deathsPerMil}
+            />
+            <RegionBarGraph regionData={this.state.continent} />
+          </div>
+        </div>
       </div>
     );
   }
