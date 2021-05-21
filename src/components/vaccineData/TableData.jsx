@@ -8,10 +8,7 @@ export default function TableData(props) {
      
       <table class="table table-bordered  w-auto mb-0">
         <thead>
-          {/* <caption>
-          
-          </caption> */}
-          
+        
           <tr className="hrow">
             <th scope="col" className="heading">
               UID
@@ -41,12 +38,12 @@ export default function TableData(props) {
               <th scope="row" className="abc">
                 {item.value}
               </th>
-              <td>{item.Country}</td>
+              <td className='td1'>{item.Country}</td>
               <td>{item.Province_State}</td>
 
-              <td>{item.Doses_admin}</td>
-              <td>{item.People_fully_vaccinated}</td>
-              <td>{item.People_partially_vaccinated}</td>
+              <td className='td2'>{item.Doses_admin}</td>
+              <td className='td3'>{item.People_fully_vaccinated}</td>
+              <td className='td4'>{item.People_partially_vaccinated}</td>
             </tr>
           ))}
         </tbody>
