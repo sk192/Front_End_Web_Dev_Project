@@ -2,39 +2,140 @@
   text-align: center;
   background-color: #ccc;
   font-size: 17px;
+  position: sticky;
+  top: 0;
+  
 }
-caption {
-  font-size: 17px;
+/* caption {
+  font-size: 18px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #ccc;
+  background-color: rgba(204, 204, 204, 0);
+  padding-left: 10px;
+  
+} */
+/* .table1{
+  overflow-y: scroll;
+  position: sticky;
+  top: 0;
+} */
+.my-custom-scrollbar {
+  position: relative;
+
+  overflow: auto;
 }
-.container {
-  height: 100vh;
+.table-wrapper-scroll-y {
+  display: block;
 }
 
 .abc {
   text-align: center;
 }
-
+.table-wrapper h1{
+  color: white;
+}
 .table-wrapper {
   overflow-y: scroll;
-  width: 100%;
-  max-height: 500px;
+ 
+  max-height: 1200px;
   border-radius: 10px;
-  margin-top: 30px;
+  margin-top: 40px;
+  margin-right: 5px;
 }
 td,
 .abc {
   width: 20px;
   height: 30px;
   background-color: rgba(20, 1, 1, 0);
-  color: white;
+  color: white; 
+  border-radius: 10px;
+  
   font-size: 17px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+}  
 tr {
   align-content: center;
 }
 tr:hover {
   background-color: gray;
+}
+
+@media screen and (max-width:414px){
+  .container{
+    height: 295vh;
+    position: relative;
+    margin-left: 70px;
+    left: 0;
+    right: 0;
+    top: 0;
+ 
+  }
+  
+  .table-wrapper {
+    overflow-y: scroll;
+    max-height: 240vh;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: none;
+  }
+} 
+  @media screen and (min-width:415px) and (max-width:768px){
+  .container{
+    height: 595vh;
+    position: relative;
+    margin-left: 70px;
+    left: 0;
+    right: 0;
+    top: 0;
+   
+  }
+  /* .table-wrapper {
+    
+    max-height: 100vh;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-right: 5px;
+} */
+.table1{
+  overflow-y: scroll;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+   
+}
+
+ @media screen and (min-width:769) and (max-width:1024px){
+  .container{
+    height: 100%;
+    position: relative;
+    margin-left: 70px;
+    left: 0;
+    right: 0;
+    top: 0;
+   
+  }
+  /* .table-wrapper {
+  overflow-y: scroll;
+ 
+  max-height: 100%;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-right: 5px;
+} */
+ 
+}
+
+@media screen and (min-width:1025px) {
+  .container{
+    height: 100%;
+    position: relative;
+    margin-left: 10px;
+    left: 0;
+    right: 0;
+    top: 0;
+   
+  }
+
+
+
 }
