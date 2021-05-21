@@ -1,5 +1,5 @@
 export default function RegionTableData(props) {
-  console.log("in regional table --> ", props);
+  // console.log("in regional table --> ", props);
   return (
     <div className="globalRegionTable">
       <table id="regionTable">
