@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div className="about-body">
-      <section className="about-sec">
+      {/* <section className="about-sec">
         <div className="custom-shape-divider-top-1621200409">
           <svg
             data-name="Layer 1"
@@ -25,7 +25,7 @@ export default function About() {
             ></path>
           </svg>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

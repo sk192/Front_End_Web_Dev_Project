@@ -151,7 +151,7 @@ p.cases-pic-head{
 
 /*About page*/
 
-section.about-sec{
+/* section.about-sec{
   position: relative;
 }
 
@@ -178,8 +178,7 @@ section.about-sec{
 .about-body{
   background-image: linear-gradient(to bottom right, rgb(198, 177, 233), rgb(235, 235, 235)) !important;
   height:100vh;
-  /* background-color: red !important; */
-}
+} */
 
 
 /* status card */
