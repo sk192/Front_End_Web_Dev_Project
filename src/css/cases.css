@@ -151,7 +151,7 @@ p.cases-pic-head{
 
 /*About page*/
 
-section.about-sec{
+/* section.about-sec{
   position: relative;
 }
 
@@ -178,18 +178,21 @@ section.about-sec{
 .about-body{
   background-image: linear-gradient(to bottom right, rgb(198, 177, 233), rgb(235, 235, 235)) !important;
   height:100vh;
-  /* background-color: red !important; */
-}
+} */
 
 
 /* status card */
 
 i.fas{
   font-size: 36px;
-  text-align: right;
+  /* text-align: center !important; */
+  margin-top: 10px;
 }
 
-
+.statusCardHead-container{
+  display: flex;
+  justify-content: space-between;
+}
 
 
 /*status card container styles*/
@@ -231,4 +234,20 @@ div.regionBarGraph{
   margin: 30px;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Regional table css*/
+table.regionTable{
+  width: 100%;
+  background-color: white;
+}
+td.regionTable-data, th.regionTable-heading{
+  color:black;
+  text-align: left;
+  padding: 8px;
+}
+tr.regionTableRow:nth-child(even){background-color: #f2f2f2}
+th.regionTable-heading {
+  background-color: rgba(0, 0, 0, 0.788);
+  color: white;
 }

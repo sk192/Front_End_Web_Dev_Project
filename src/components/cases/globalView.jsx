@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import StatusCards from "./statusCardsContainer";
 import RegionBarGraph from "./regionStatus-barGraph";
+import RegionTableData from "./regionTableData";
 export default class GlobalView extends Component {
   constructor(props) {
     super(props);
@@ -252,6 +253,7 @@ export default class GlobalView extends Component {
               deathsPerMil={this.state.gloab.deaths.deathsPerMil}
             />
             <RegionBarGraph regionData={this.state.continent} />
+            <RegionTableData tableData={this.state.continent} />
           </div>
         </div>
       </div>
