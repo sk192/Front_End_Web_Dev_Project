@@ -1,4 +1,4 @@
-/* .container-block {
+.container-block {
   margin-top: 130px;
 }
 .check {
@@ -40,9 +40,10 @@
   }
   .container-block {
     margin-top: 60px;
+   
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .check {
     width: 55vw;
     margin-left: 60px;
@@ -51,10 +52,10 @@
   .container-block {
     margin-top: 5vw;
   }
-} */
+} 
 
 
-.container_row:after {
+/* .container_row:after {
   content: "";
   display: table;
   clear: both;
@@ -67,19 +68,20 @@
   float: left;
   display: flex;
   flex-flow: row wrap;
-} */
-.container_row{
+}
+/* .container_row{
   width: 100%;
   margin-left: 0;
   float: left;
   height: 100%;
 }
 .bar {
-  /* margin-top: 500px; */
+ 
   background-color: rgb(238, 225, 225);
   box-shadow: 0 0 10px #ccc;
   border-radius: 5px;
-  /* height: 30vw; */
+  width: 500px;
+ 
 }
 .check {
   width: 800px;
@@ -109,11 +111,11 @@
     
   }
   .bar {
-    /* margin-top: 500px; */
+    
     background-color: rgb(238, 225, 225);
     box-shadow: 0 0 10px #ccc;
     border-radius: 5px;
-    /* height: 30vw; */
+   
     width: 370px;
    
   }
@@ -137,16 +139,11 @@
     background-color: rgb(238, 225, 225);
     box-shadow: 0 0 10px #ccc;
     border-radius: 5px;
-    /* width: 620px; */
+   
     width: 90%;
    
   }
-  /* .container{
-    display: flex;
-    flex-grow: row wrap;
-    height: 200vh;
 
-  } */
   .container_col1{
     margin-top: 450px ;
   }
@@ -198,7 +195,7 @@
       width: 100%;
       margin-left: 0;
       float: left;
-      /* height: 100%; */
+     
   }
   .check {
     width: 700px;
@@ -213,19 +210,12 @@
 
 }
 @media screen and (min-width: 1025px) {
-  /* .check {
-    width: 70vw;
-    margin-left: 60px;
-    border-radius: 5px;
-  }
-  .container-block {
-    margin-top: 5vw;
-  } */
+ 
   .bar {
     background-color: rgb(238, 225, 225);
     box-shadow: 0 0 10px #ccc;
     border-radius: 5px;
-    width: 750px;
+    width: 500px;
     margin-left: 100px;
   }
   .container_col1{
@@ -248,10 +238,10 @@
       
   }
   .check {
-    width: 600px;
+    width: 500px;
     margin-left: 180px;
     box-shadow: 0 0 10px #ccc;
     margin-bottom: 60px;
     margin-top: 60px;
   } 
-} 
+}   */
