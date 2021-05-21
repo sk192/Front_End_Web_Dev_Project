@@ -186,4 +186,49 @@ section.about-sec{
 
 i.fas{
   font-size: 36px;
+  text-align: right;
+}
+
+
+
+
+/*status card container styles*/
+div.cases-card, div.recovered-card, div.deaths-card{
+  background-color: white;
+  margin: 30px;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: left !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h3.statusCardHead{
+  display: inline-block;
+}
+div.statusCardContainer, div.cases-card, div.recovered-card, div.deaths-card{
+  display: inline-block;
+}
+/* div.cases-card{
+  background-image: linear-gradient( rgb(167, 79, 243), rgb(144, 19, 254), rgba(118, 24, 201, 0.897));
+}
+div.recovered-card{
+  background-image: linear-gradient(rgb(14, 151, 14), green, green);
+}
+div.deaths-card{
+  background-image: linear-gradient(rgb(226, 130, 5), orange, orange);
+} */
+
+/*bar graph css*/
+/* canvas{
+  height: 500px !important;
+  width: 50% !important;
+} */
+
+div.regionBarGraph{
+  background-color: white;
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

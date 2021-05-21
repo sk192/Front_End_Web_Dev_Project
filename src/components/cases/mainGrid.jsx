@@ -1,6 +1,7 @@
 import CasesIndex from "./casesIndex";
 import CasesHeading from "./casesHeading";
 import StatusCard from "./statusCard";
+import RegionBarGraph from "./regionStatus-barGraph";
 
 export default function MainGrid(props) {
   // console.log("card data --> ", props.globalCardData);
@@ -28,7 +29,9 @@ export default function MainGrid(props) {
         <div className="grid-item item5 card-4">
           <StatusCard cardName="deaths" data={props.globalCardData.deaths} />
         </div>
-        <div className="grid-item item6 globel-map">6</div>
+        <div className="grid-item item6 globel-barGraph">
+          <RegionBarGraph regionData={props.regionData} />
+        </div>
         <div className="grid-item item7 region-table">7</div>
         <div className="grid-item item8 region-graph-1">8</div>
         <div className="grid-item item9 region-graph-2">9</div>
