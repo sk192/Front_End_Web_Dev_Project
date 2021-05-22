@@ -2,6 +2,7 @@ export default function RegionTableData(props) {
   // console.log("in regional table --> ", props);
   return (
     <div className="globalRegionTable">
+      <h1 className="regionTableHeading">Region Covid Data</h1>
       <table id="regionTable">
         <thead className="regionTable-head">
           <tr className="regionTableRow zero">
@@ -28,7 +29,7 @@ export default function RegionTableData(props) {
               {props.tableData.africa.recovered}
             </td>
             <td className="regionTable-data recovered-percent">
-              {props.tableData.africa.recoveryPercent}
+              {props.tableData.africa.recoveryPercent}%
             </td>
             <td className="regionTable-data deaths">
               {props.tableData.africa.deaths}
@@ -50,7 +51,7 @@ export default function RegionTableData(props) {
               {props.tableData.asia.recovered}
             </td>
             <td className="regionTable-data recovered-percent">
-              {props.tableData.asia.recoveryPercent}
+              {props.tableData.asia.recoveryPercent}%
             </td>
             <td className="regionTable-data deaths">
               {props.tableData.asia.deaths}
@@ -70,7 +71,7 @@ export default function RegionTableData(props) {
               {props.tableData.europe.recovered}
             </td>
             <td className="regionTable-data recovered-percent">
-              {props.tableData.europe.recoveryPercent}
+              {props.tableData.europe.recoveryPercent}%
             </td>
             <td className="regionTable-data deaths">
               {props.tableData.europe.deaths}
@@ -92,7 +93,7 @@ export default function RegionTableData(props) {
               {props.tableData.oceania.recovered}
             </td>
             <td className="regionTable-data recovered-percent">
-              {props.tableData.oceania.recoveryPercent}
+              {props.tableData.oceania.recoveryPercent}%
             </td>
             <td className="regionTable-data deaths">
               {props.tableData.oceania.deaths}
@@ -114,7 +115,7 @@ export default function RegionTableData(props) {
               {props.tableData.northAmerica.recovered}
             </td>
             <td className="regionTable-data recovered-percent">
-              {props.tableData.northAmerica.recoveryPercent}
+              {props.tableData.northAmerica.recoveryPercent}%
             </td>
             <td className="regionTable-data deaths">
               {props.tableData.northAmerica.deaths}
@@ -136,7 +137,7 @@ export default function RegionTableData(props) {
               {props.tableData.southAmerica.recovered}
             </td>
             <td className="regionTable-data recovered-percent">
-              {props.tableData.southAmerica.recoveryPercent}
+              {props.tableData.southAmerica.recoveryPercent}%
             </td>
             <td className="regionTable-data deaths">
               {props.tableData.southAmerica.deaths}

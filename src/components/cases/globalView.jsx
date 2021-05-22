@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import StatusCards from "./statusCardsContainer";
 import RegionBarGraph from "./regionStatus-barGraph";
 import RegionTableData from "./regionTableData";
+import CountryDataTable from "./countryDataTable";
+import { StrictMode } from "react";
 export default class GlobalView extends Component {
   constructor(props) {
     super(props);
@@ -76,6 +78,9 @@ export default class GlobalView extends Component {
           deathsPerMil: 0,
           pop: 0,
         },
+      },
+      country: {
+        countryData: [],
       },
     };
   }
@@ -157,71 +162,89 @@ export default class GlobalView extends Component {
     // console.log("africa -> ", africa);
     // console.log("asia -> ", asia);
     compState.continent.oceania.cases = oceania[0];
-    compState.continent.oceania.casesPerMil =
-      Math.ceil((oceania[0] / oceania[3]) * 1000000);
+    compState.continent.oceania.casesPerMil = Math.ceil(
+      (oceania[0] / oceania[3]) * 1000000
+    );
     compState.continent.oceania.recovered = oceania[1];
-    compState.continent.oceania.recoveryPercent =
-      Math.ceil((oceania[1] / oceania[0]) * 100);
+    compState.continent.oceania.recoveryPercent = Math.ceil(
+      (oceania[1] / oceania[0]) * 100
+    );
     compState.continent.oceania.deaths = oceania[2];
-    compState.continent.oceania.deathsPerMil =
-      Math.ceil((oceania[2] / oceania[3]) * 1000000);
+    compState.continent.oceania.deathsPerMil = Math.ceil(
+      (oceania[2] / oceania[3]) * 1000000
+    );
     compState.continent.oceania.pop = oceania[3];
 
     compState.continent.northAmerica.cases = northAmerica[0];
-    compState.continent.northAmerica.casesPerMil =
-      Math.ceil((northAmerica[0] / northAmerica[3]) * 1000000);
+    compState.continent.northAmerica.casesPerMil = Math.ceil(
+      (northAmerica[0] / northAmerica[3]) * 1000000
+    );
     compState.continent.northAmerica.recovered = northAmerica[1];
-    compState.continent.northAmerica.recoveryPercent =
-      Math.ceil((northAmerica[1] / northAmerica[0]) * 100);
+    compState.continent.northAmerica.recoveryPercent = Math.ceil(
+      (northAmerica[1] / northAmerica[0]) * 100
+    );
     compState.continent.northAmerica.deaths = northAmerica[2];
-    compState.continent.northAmerica.deathsPerMil =
-      Math.ceil((northAmerica[2] / northAmerica[3]) * 1000000);
+    compState.continent.northAmerica.deathsPerMil = Math.ceil(
+      (northAmerica[2] / northAmerica[3]) * 1000000
+    );
     compState.continent.northAmerica.pop = northAmerica[3];
 
     compState.continent.southAmerica.cases = southAmerica[0];
-    compState.continent.southAmerica.casesPerMil =
-      Math.ceil((southAmerica[0] / southAmerica[3]) * 1000000);
+    compState.continent.southAmerica.casesPerMil = Math.ceil(
+      (southAmerica[0] / southAmerica[3]) * 1000000
+    );
     compState.continent.southAmerica.recovered = southAmerica[1];
-    compState.continent.southAmerica.recoveryPercent =
-      Math.ceil((southAmerica[1] / southAmerica[0]) * 100);
+    compState.continent.southAmerica.recoveryPercent = Math.ceil(
+      (southAmerica[1] / southAmerica[0]) * 100
+    );
     compState.continent.southAmerica.deaths = southAmerica[2];
-    compState.continent.southAmerica.deathsPerMil =
-      Math.ceil((southAmerica[2] / southAmerica[3]) * 1000000);
+    compState.continent.southAmerica.deathsPerMil = Math.ceil(
+      (southAmerica[2] / southAmerica[3]) * 1000000
+    );
     compState.continent.southAmerica.pop = southAmerica[3];
 
     compState.continent.europe.cases = europe[0];
-    compState.continent.europe.casesPerMil =
-      Math.ceil((europe[0] / europe[3]) * 1000000);
+    compState.continent.europe.casesPerMil = Math.ceil(
+      (europe[0] / europe[3]) * 1000000
+    );
     compState.continent.europe.recovered = europe[1];
-    compState.continent.europe.recoveryPercent =
-      Math.ceil((europe[1] / europe[0]) * 100);
+    compState.continent.europe.recoveryPercent = Math.ceil(
+      (europe[1] / europe[0]) * 100
+    );
     compState.continent.europe.deaths = europe[2];
-    compState.continent.europe.deathsPerMil =
-      Math.ceil((europe[2] / europe[3]) * 1000000);
+    compState.continent.europe.deathsPerMil = Math.ceil(
+      (europe[2] / europe[3]) * 1000000
+    );
     compState.continent.europe.pop = europe[3];
 
     compState.continent.africa.cases = africa[0];
-    compState.continent.africa.casesPerMil =
-      Math.ceil((africa[0] / africa[3]) * 1000000);
+    compState.continent.africa.casesPerMil = Math.ceil(
+      (africa[0] / africa[3]) * 1000000
+    );
     compState.continent.africa.recovered = africa[1];
-    compState.continent.africa.recoveryPercent =
-      Math.ceil((africa[1] / africa[0]) * 100);
+    compState.continent.africa.recoveryPercent = Math.ceil(
+      (africa[1] / africa[0]) * 100
+    );
     compState.continent.africa.deaths = africa[2];
-    compState.continent.africa.deathsPerMil =
-      Math.ceil((africa[2] / africa[3]) * 1000000);
+    compState.continent.africa.deathsPerMil = Math.ceil(
+      (africa[2] / africa[3]) * 1000000
+    );
     compState.continent.africa.pop = africa[3];
 
     compState.continent.asia.cases = asia[0];
-    compState.continent.asia.casesPerMil =
-      Math.ceil((asia[0] / asia[3]) * 1000000);
+    compState.continent.asia.casesPerMil = Math.ceil(
+      (asia[0] / asia[3]) * 1000000
+    );
     compState.continent.asia.recovered = asia[1];
-    compState.continent.asia.recoveryPercent =
-      Math.ceil((asia[1] / asia[0]) * 100);
+    compState.continent.asia.recoveryPercent = Math.ceil(
+      (asia[1] / asia[0]) * 100
+    );
     compState.continent.asia.deaths = asia[2];
-    compState.continent.asia.deathsPerMil =
-      Math.ceil((asia[2] / asia[3]) * 1000000);
+    compState.continent.asia.deathsPerMil = Math.ceil(
+      (asia[2] / asia[3]) * 1000000
+    );
     compState.continent.asia.pop = asia[3];
-    
+
     this.setState(compState);
     console.log(this.state);
   }
@@ -231,13 +254,148 @@ export default class GlobalView extends Component {
     fetch(cases_URL)
       .then((res) => res.json())
       .then((data) => {
+        // console.log("in gloab--> ", Object.entries(data)[1]);
+        let countryDataObject = [];
+        Object.entries(data).forEach((item) => {
+          // console.log("gloab --> ", item[1].All);
+          if (item[1].All.country) {
+            // console.log("..", typeof item[1].All.country, item[1].All.country);
+            // console.log(item[1].All.country, item[1].All.recovered);
+            if (
+              (item[1].All.country === "US") &
+              (item[1].All.recovered === 0)
+            ) {
+              item[1].All.recovered = 26803096;
+            }
+            if (
+              (item[1].All.country === "Sweden") &
+              (item[1].All.recovered === 0)
+            ) {
+              item[1].All.recovered = 917616;
+            }
+            if (
+              (item[1].All.country === "Belgium") &
+              (item[1].All.recovered === 0)
+            ) {
+              item[1].All.recovered = 926877;
+            }
+            if (item[1].All.country === "United Kingdom") {
+              item[1].All.recovered = 4299889;
+            }
+            countryDataObject.push(item[1].All);
+          }
+        });
+
+        // console.log("countryDataObj --> ", countryDataObject);
+        const compState = { ...this.state };
+        compState.country.countryData = countryDataObject;
+        this.setState(compState);
         this.calculateGlobalValues(data);
-        // console.log(this.state);
+        console.log(this.state);
       })
       .catch((error) => {
         console.log(error);
       });
   }
+
+  handleCountryTableOrderClickCountry = () => {
+    const compState = { ...this.state };
+    let countryDataObject = compState.country.countryData;
+    countryDataObject.sort((a, b) => {
+      let fa = a.country.toLowerCase(),
+        fb = b.country.toLowerCase();
+      if (fa < fb) {
+        return -1;
+      }
+      if (fa > fb) {
+        return 1;
+      }
+      return 0;
+    });
+    compState.country.countryData = countryDataObject;
+    this.setState(compState);
+  };
+
+  handleCountryTableOrderClickConfirmed = () => {
+    const compState = { ...this.state };
+    let countryDataObject = compState.country.countryData;
+    countryDataObject.sort((a, b) => {
+      return b.confirmed - a.confirmed;
+    });
+    compState.country.countryData = countryDataObject;
+    this.setState(compState);
+  };
+
+  handleCountryTableOrderClickRecovered = () => {
+    const compState = { ...this.state };
+    let countryDataObject = compState.country.countryData;
+    countryDataObject.sort((a, b) => {
+      return b.recovered - a.recovered;
+    });
+    compState.country.countryData = countryDataObject;
+    this.setState(compState);
+  };
+
+  handleCountryTableOrderClickRecoveredPer = () => {
+    const compState = { ...this.state };
+    let countryDataObject = compState.country.countryData;
+    countryDataObject.sort((a, b) => {
+      return (
+        Math.ceil((b.recovered / b.confirmed) * 100) -
+        Math.ceil((a.recovered / a.confirmed) * 100)
+      );
+    });
+    compState.country.countryData = countryDataObject;
+    this.setState(compState);
+  };
+
+  handleCountryTableOrderClickDeaths = () => {
+    const compState = { ...this.state };
+    let countryDataObject = compState.country.countryData;
+    countryDataObject.sort((a, b) => {
+      return b.deaths - a.deaths;
+    });
+    compState.country.countryData = countryDataObject;
+    this.setState(compState);
+  };
+
+  handleCountryTableOrderClickDeathsPerMil = () => {
+    const compState = { ...this.state };
+    let countryDataObject = compState.country.countryData;
+    countryDataObject.sort((a, b) => {
+      return (
+        Math.ceil((b.deaths / b.population) * 1000000) -
+        Math.ceil((a.deaths / a.population) * 1000000)
+      );
+      // return b.deaths - a.deaths;
+    });
+    compState.country.countryData = countryDataObject;
+    this.setState(compState);
+  };
+
+  handleCountryTableOrderClickConfirmedPerMil = () => {
+    const compState = { ...this.state };
+    let countryDataObject = compState.country.countryData;
+    countryDataObject.sort((a, b) => {
+      return (
+        Math.ceil((b.confirmed / b.population) * 1000000) -
+        Math.ceil((a.confirmed / a.population) * 1000000)
+      );
+      // return b.deaths - a.deaths;
+    });
+    compState.country.countryData = countryDataObject;
+    this.setState(compState);
+  };
+
+  handleCountryTableOrderPop = () => {
+    const compState = { ...this.state };
+    let countryDataObject = compState.country.countryData;
+    countryDataObject.sort((a, b) => {
+      return b.population - a.population;
+    });
+    compState.country.countryData = countryDataObject;
+    this.setState(compState);
+  };
 
   render() {
     return (
@@ -254,6 +412,32 @@ export default class GlobalView extends Component {
             />
             <RegionBarGraph regionData={this.state.continent} />
             <RegionTableData tableData={this.state.continent} />
+            <CountryDataTable
+              countryData={this.state.country.countryData}
+              handleCountryTableOrderClickConfirmed={
+                this.handleCountryTableOrderClickConfirmed
+              }
+              handleCountryTableOrderClickRecovered={
+                this.handleCountryTableOrderClickRecovered
+              }
+              handleCountryTableOrderClickDeaths={
+                this.handleCountryTableOrderClickDeaths
+              }
+              handleCountryTableOrderClickCountry={
+                this.handleCountryTableOrderClickCountry
+              }
+              handleCountryTableOrderClickRecoveredPer={
+                this.handleCountryTableOrderClickRecoveredPer
+              }
+              handleCountryTableOrderClickDeathsPerMil={
+                this.handleCountryTableOrderClickDeathsPerMil
+              }
+              handleCountryTableOrderClickConfirmedPerMil={
+                this.handleCountryTableOrderClickConfirmedPerMil
+              }
+              handleCountryTableOrderPop={this.handleCountryTableOrderPop}
+            />
+            ;
           </div>
         </div>
       </div>
