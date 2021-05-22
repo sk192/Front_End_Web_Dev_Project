@@ -4,7 +4,9 @@ export default function CountryDataTable(props) {
     <div className="countryDataTable">
       <table className="countryDataTable">
         <thead>
+
           <tr className="countryDataTableRow">
+            
             <th className="countryDataHead countryName">
               <button
                 type="button"
@@ -13,6 +15,7 @@ export default function CountryDataTable(props) {
                 Country
               </button>
             </th>
+
             <th className="countryDataHead countryTotal">
               <button
                 type="button"
@@ -30,6 +33,7 @@ export default function CountryDataTable(props) {
                 Deaths
               </button>
             </th>
+
             <th className="countryDataHead countryDeaths">
               <button
                 type="button"
@@ -38,6 +42,7 @@ export default function CountryDataTable(props) {
                 Recovery
               </button>
             </th>
+
             <th className="countryDataHead countryRecoveryPercent">
               <button
                 type="button"
@@ -46,6 +51,7 @@ export default function CountryDataTable(props) {
                 Recovery %
               </button>
             </th>
+
             <th className="countryDataHead countryCasesPerMil">
               <button
                 type="button"
@@ -56,6 +62,7 @@ export default function CountryDataTable(props) {
                 Cases per Mil
               </button>
             </th>
+
             <th className="countryDataHead countryDeathsPerMil">
               <button
                 type="button"
@@ -64,6 +71,7 @@ export default function CountryDataTable(props) {
                 Deaths per Mil
               </button>
             </th>
+
             <th className="countryDataHead countryPop">
               <button
                 type="button"
@@ -72,8 +80,10 @@ export default function CountryDataTable(props) {
                 Population
               </button>
             </th>
+
           </tr>
         </thead>
+        
         <tbody>
           {props.countryData.map((item) => (
             <tr
@@ -93,6 +103,7 @@ export default function CountryDataTable(props) {
                   {item.country}
                 </Link>
               </td>
+
               <td
                 className="td2"
                 key={
@@ -103,12 +114,14 @@ export default function CountryDataTable(props) {
               >
                 {item.confirmed}
               </td>
+
               <td
                 className="td3"
                 key={"deaths" + item.deaths + Math.floor(Math.random() * 2000)}
               >
                 {item.deaths}
               </td>
+
               <td
                 className="td4"
                 key={
@@ -117,6 +130,7 @@ export default function CountryDataTable(props) {
               >
                 {item.recovered}
               </td>
+
               <td
                 className="td4"
                 key={
@@ -127,6 +141,7 @@ export default function CountryDataTable(props) {
               >
                 {Math.ceil((item.recovered / item.confirmed) * 100)}%
               </td>
+
               <td
                 className="td2"
                 key={
@@ -137,6 +152,7 @@ export default function CountryDataTable(props) {
               >
                 {Math.ceil((item.confirmed / item.population) * 1000000)}
               </td>
+
               <td
                 className="td3"
                 key={
@@ -145,12 +161,14 @@ export default function CountryDataTable(props) {
               >
                 {Math.ceil((item.deaths / item.population) * 1000000)}
               </td>
+
               <td
                 className="td5"
                 key={"pop" + item.population + Math.floor(Math.random() * 2000)}
               >
                 {item.population}
               </td>
+              
             </tr>
           ))}
         </tbody>

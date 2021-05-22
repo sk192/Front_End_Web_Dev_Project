@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import MainGrid from "./mainGrid";
+import MainGrid from "./mainGrid-Extra";
 
 export default class GlobalViewE extends Component {
   constructor(props) {
