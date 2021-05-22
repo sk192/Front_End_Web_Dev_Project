@@ -1,12 +1,5 @@
+import { Link } from "react-router-dom";
 export default function CountryDataTable(props) {
-  // console.log("in country data table component ", props.countryData, "change!");
-  // Object.entries(props.countryData).forEach((item) => {
-  //   console.log(item[1].All);
-  // });
-  // console.log(props.countryData);
-  // for (let i = 0; i < props.countryData.length; i++) {
-  //   console.log(" i = ", i, props.countryData[i].country);
-  // }
   return (
     <div className="countryDataTable">
       <table className="countryDataTable">
@@ -96,7 +89,9 @@ export default function CountryDataTable(props) {
                   "cont" + item.abbreviation + Math.floor(Math.random() * 2000)
                 }
               >
-                {item.country}
+                <Link to={`/countryView/${item.country}`}>
+                  {item.country}
+                </Link>
               </td>
               <td
                 className="td2"

@@ -3,6 +3,7 @@ import StatusCards from "./statusCardsContainer";
 import RegionBarGraph from "./regionStatus-barGraph";
 import RegionTableData from "./regionTableData";
 import CountryDataTable from "./countryDataTable";
+import CountryView from "./countryView";
 import { StrictMode } from "react";
 export default class GlobalView extends Component {
   constructor(props) {
@@ -82,6 +83,7 @@ export default class GlobalView extends Component {
       country: {
         countryData: [],
       },
+      clickCountryView: false,
     };
   }
 
@@ -396,8 +398,20 @@ export default class GlobalView extends Component {
     compState.country.countryData = countryDataObject;
     this.setState(compState);
   };
+  // onCountryClick = (countryName) => {
+  //   const compState = { ...this.state };
+  //   compState.clickCountryView = true;
+  //   this.setState(compState);
+  // };
 
   render() {
+    if (this.state.clickCountryView) {
+      return (
+        <div className="countryView-body">
+          <CountryView />
+        </div>
+      );
+    }
     return (
       <div className="globalView-body">
         <div className="globalCases-container">
@@ -436,6 +450,7 @@ export default class GlobalView extends Component {
                 this.handleCountryTableOrderClickConfirmedPerMil
               }
               handleCountryTableOrderPop={this.handleCountryTableOrderPop}
+              // onCountryClick={this.onCountryClick}
             />
             ;
           </div>
