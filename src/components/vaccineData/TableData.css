@@ -4,7 +4,6 @@
   font-size: 17px;
   position: sticky;
   top: 0;
-  
 }
 
 .my-custom-scrollbar {
@@ -19,12 +18,12 @@
 .abc {
   text-align: center;
 }
-.table-wrapper h1{
+.table-wrapper h1 {
   color: white;
 }
 .table-wrapper {
   overflow-y: scroll;
- 
+
   max-height: 1200px;
   border-radius: 10px;
   margin-top: 40px;
@@ -35,12 +34,12 @@ td,
   width: 20px;
   height: 30px;
   background-color: rgba(20, 1, 1, 0);
-  color: white; 
+  color: white;
   border-radius: 10px;
-  
+
   font-size: 17px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}  
+}
 tr {
   align-content: center;
 }
@@ -48,71 +47,59 @@ tr:hover {
   background-color: gray;
 }
 
-@media screen and (max-width:414px){
-  .container{
+@media screen and (max-width: 414px) {
+  .container {
     height: 290vh;
     position: relative;
     margin-left: 70px;
     left: 0;
     right: 0;
     top: 0;
- 
   }
-  
+
   .table-wrapper {
     overflow-y: scroll;
     max-height: 240vh;
     border-radius: 10px;
     margin-top: 40px;
     border: none;
-   
   }
-} 
-  @media screen and (min-width:415px) and (max-width:768px){
-  .container{
+}
+@media screen and (min-width: 415px) and (max-width: 768px) {
+  .container {
     height: 100%;
     position: relative;
     margin-left: 70px;
     left: 0;
     right: 0;
     top: 0;
-   
   }
   .table-wrapper {
-    
     max-height: 100%;
     border-radius: 10px;
     margin-top: 50px;
     margin-right: 5px;
+  }
 }
 
-}
-
- @media screen and (min-width:769) and (max-width:1024px){
-  .container{
+@media screen and (min-width: 769) and (max-width: 1024px) {
+  .container {
     height: 100%;
     position: relative;
     margin-left: 70px;
     left: 0;
     right: 0;
     top: 0;
-   
   }
-
- 
 }
 
-@media screen and (min-width:1025px) {
-  .container{
+@media screen and (min-width: 1025px) {
+  .container {
     height: 100%;
     position: relative;
     margin-left: 10px;
     left: 0;
     right: 0;
     top: 0;
-   
   }
-
-
-
 }
