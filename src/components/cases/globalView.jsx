@@ -438,6 +438,7 @@ export default class GlobalView extends Component {
                 this.handleCountryTableOrderClickConfirmedPerMil
               }
               handleCountryTableOrderPop={this.handleCountryTableOrderPop}
+              gloabDataForCountryGraphRoute={this.state.gloab}
             />
             ;
           </div>

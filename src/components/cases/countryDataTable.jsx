@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
+
 export default function CountryDataTable(props) {
   return (
     <div className="countryDataTable">
       <table className="countryDataTable">
         <thead>
-
           <tr className="countryDataTableRow">
-            
             <th className="countryDataHead countryName">
               <button
                 type="button"
@@ -80,10 +79,9 @@ export default function CountryDataTable(props) {
                 Population
               </button>
             </th>
-
           </tr>
         </thead>
-        
+
         <tbody>
           {props.countryData.map((item) => (
             <tr
@@ -99,7 +97,20 @@ export default function CountryDataTable(props) {
                   "cont" + item.abbreviation + Math.floor(Math.random() * 2000)
                 }
               >
-                <Link to={`/countryView/${item.country}`}>
+                <Link
+                  to={{
+                    pathname: `/countryView/${item.country}`,
+                    state: {
+                      gloabTotalCases:
+                        props.gloabDataForCountryGraphRoute.cases.totalCases,
+                      gloabTotalRecovered:
+                        props.gloabDataForCountryGraphRoute.recovered
+                          .totalRecovered,
+                      gloabTotalDeaths:
+                        props.gloabDataForCountryGraphRoute.deaths.totalDeaths,
+                    },
+                  }}
+                >
                   {item.country}
                 </Link>
               </td>
@@ -168,7 +179,6 @@ export default function CountryDataTable(props) {
               >
                 {item.population}
               </td>
-              
             </tr>
           ))}
         </tbody>

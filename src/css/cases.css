@@ -262,7 +262,12 @@ th.regionTable-heading {
 
 /*line graph css*/
 
-div.lineGraph{
+div.countryLineGraph-div{
+  background-color: white;
+  margin-bottom: 100px;
+}
+
+div.countryGloabBarGraph-div{
   background-color: white;
   margin-bottom: 100px;
 }
