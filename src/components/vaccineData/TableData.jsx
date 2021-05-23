@@ -1,14 +1,11 @@
 import React from "react";
 import "./TableData.css";
-import Table from "react-bootstrap/Table";
 
 export default function TableData(props) {
   return (
-    <div class="table-wrapper-scroll-y my-custom-scrollbar">
-     
-      <table class="table table-bordered  w-auto mb-0">
+    <div className="table-wrapper-scroll-y my-custom-scrollbar">
+      <table className="table table-bordered  w-auto mb-0">
         <thead>
-        
           <tr className="hrow">
             <th scope="col" className="heading">
               UID
@@ -28,7 +25,9 @@ export default function TableData(props) {
               received two <br /> doses
             </th>
             <th scope="col" className="heading">
-              received <br />one <br />dose
+              received <br />
+              one <br />
+              dose
             </th>
           </tr>
         </thead>
@@ -38,16 +37,16 @@ export default function TableData(props) {
               <th scope="row" className="abc">
                 {item.value}
               </th>
-              <td className='td1'>{item.Country}</td>
+              <td className="td1">{item.Country}</td>
               <td>{item.Province_State}</td>
 
-              <td className='td2'>{item.Doses_admin}</td>
-              <td className='td3'>{item.People_fully_vaccinated}</td>
-              <td className='td4'>{item.People_partially_vaccinated}</td>
+              <td className="td2">{item.Doses_admin}</td>
+              <td className="td3">{item.People_fully_vaccinated}</td>
+              <td className="td4">{item.People_partially_vaccinated}</td>
             </tr>
           ))}
         </tbody>
       </table>
-   </div>
+    </div>
   );
 }
