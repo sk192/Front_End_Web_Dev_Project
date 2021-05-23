@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import StatusCards from "./statusCardsContainer";
+import CountryLinearGraph from "./countryLinearGraph";
+import CountryGloabBarGraph from "./countryGloabBarGraph";
 class CountryView extends Component {
+  
   constructor(props) {
     super(props);
+    
     this.state = {
       cardData: {
         totalCases: 0,
@@ -12,13 +16,11 @@ class CountryView extends Component {
         totalDeaths: 0,
         deathsPerMil: 0,
       },
-      graphData: {
-        casesDates: [],
-        casesValues: [],
-        recoveredDates: [],
-        recoveredValues: [],
-        deathsDates: [],
-        deathsValues: [],
+      graphDataValues: {
+        labels: [],
+        confirmedData: [],
+        deathsData: [],
+        recoveredData: [],
       },
     };
   }
@@ -30,12 +32,27 @@ class CountryView extends Component {
 
       .then((data) => {
         console.log(data.All);
+
         const compState = { ...this.state };
+
         compState.cardData.totalCases = data.All.confirmed;
         compState.cardData.casesPerMil = Math.ceil(
           (data.All.confirmed / data.All.population) * 1000000
         );
+        if ((data.All.country === "US") & (data.All.recovered === 0)) {
+          data.All.recovered = 26803096;
+        }
+        if ((data.All.country === "Sweden") & (data.All.recovered === 0)) {
+          data.All.recovered = 917616;
+        }
+        if ((data.All.country === "Belgium") & (data.All.recovered === 0)) {
+          data.All.recovered = 926877;
+        }
+        if (data.All.country === "United Kingdom") {
+          data.All.recovered = 4299889;
+        }
         compState.cardData.totalRecovered = data.All.recovered;
+
         compState.cardData.recoveryPercent = Math.ceil(
           (data.All.recovered / data.All.confirmed) * 100
         );
@@ -46,20 +63,56 @@ class CountryView extends Component {
         this.setState(compState);
       });
 
-    let dateData_URL = `https://covid-api.mmediagroup.fr/v1/history?country=${this.props.match.params.countryName}&status=confirmed`;
-    fetch(dateData_URL)
+    let confirmed_dateData_URL = `https://covid-api.mmediagroup.fr/v1/history?country=${this.props.match.params.countryName}&status=confirmed`;
+    fetch(confirmed_dateData_URL)
       .then((res) => res.json())
       .then((data) => {
         console.log("confirmed");
         console.log(data.All.dates);
-        // console.log(data.All.dates.keys);
+        const compState1 = { ...this.state };
+        compState1.graphDataValues.labels = Object.keys(data.All.dates)
+          .reverse()
+          .slice(80);
+        compState1.graphDataValues.confirmedData = Object.values(
+          data.All.dates
+        ).reverse().slice(80);
+        this.setState(compState1);
       });
+
+      let deaths_dateData_URL = `https://covid-api.mmediagroup.fr/v1/history?country=${this.props.match.params.countryName}&status=deaths`;
+      fetch(deaths_dateData_URL)
+        .then((res) => res.json())
+        .then((data) => {
+          console.log("deaths");
+          console.log(data.All.dates);
+          const compState2 = { ...this.state };
+          compState2.graphDataValues.deathsData = Object.values(
+            data.All.dates
+          ).reverse().slice(80);
+          this.setState(compState2);
+        });
+
+        let recovered_dateData_URL = `https://covid-api.mmediagroup.fr/v1/history?country=${this.props.match.params.countryName}&status=recovered`;
+        fetch(recovered_dateData_URL)
+          .then((res) => res.json())
+          .then((data) => {
+            console.log("recovered");
+            console.log(data.All.dates);
+            const compState3 = { ...this.state };
+            compState3.graphDataValues.recoveredData = Object.values(
+              data.All.dates
+            )
+              .reverse()
+              .slice(80);
+            this.setState(compState3);
+          });    
   }
 
   render() {
-    console.log("inside country view ", this.props.match.params.countryName);
+    console.log("inside country view ", this.props);
     return (
       <div>
+        <h2>Country View: {this.props.match.params.countryName}</h2>
         <StatusCards
           totalCases={this.state.cardData.totalCases}
           casesPerMil={this.state.cardData.casesPerMil}
@@ -68,7 +121,11 @@ class CountryView extends Component {
           totalDeaths={this.state.cardData.totalDeaths}
           deathsPerMil={this.state.cardData.deathsPerMil}
         />
-        <h3>Country View of {this.props.match.params.countryName}</h3>
+        <CountryLinearGraph graphData={this.state.graphDataValues} />
+        <CountryGloabBarGraph
+          barGraphGloabData={this.props.location.state}
+          barGraphCountryData={this.state.cardData}
+        />
       </div>
     );
   }

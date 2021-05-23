@@ -400,6 +400,8 @@ export default class GlobalView extends Component {
   render() {
     return (
       <div className="globalView-body">
+        <h2>Global View</h2>
+        <p>Effected Countries: 222</p>
         <div className="globalCases-container">
           <div className="grid-item-1 cards">
             <StatusCards
@@ -436,6 +438,7 @@ export default class GlobalView extends Component {
                 this.handleCountryTableOrderClickConfirmedPerMil
               }
               handleCountryTableOrderPop={this.handleCountryTableOrderPop}
+              gloabDataForCountryGraphRoute={this.state.gloab}
             />
             ;
           </div>
