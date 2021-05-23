@@ -44,17 +44,7 @@ class Barchart extends Component {
       responseData.data.forEach((element) => {
         let allData = {};
         let new_arr = {};
-
-        allData["Country"] = element.Country_Region;
-        allData["People_fully_vaccinated"] = element.People_fully_vaccinated;
-        allData["People_partially_vaccinated"] =
-          element.People_partially_vaccinated;
-        allData["Doses_admin"] = element.Doses_admin;
-        allData["value"] = element.UID;
-        allData["Province_State"] = element.Province_State;
-
-        dataForTable.push(allData);
-        console.log(dataForTable.country);
+        
         if (element.Province_State === "") {
           new_arr["country"] = element.Country_Region;
           new_arr["People_fully_vaccinated"] = element.People_fully_vaccinated;
@@ -62,8 +52,14 @@ class Barchart extends Component {
             element.People_partially_vaccinated;
           new_arr["Doses_admin"] = element.Doses_admin;
           new_arr["value"] = element.UID;
-
+          allData["Country"] = element.Country_Region;
+          allData["People_fully_vaccinated"] = element.People_fully_vaccinated;
+          allData["People_partially_vaccinated"] =
+          element.People_partially_vaccinated;
+          allData["Doses_admin"] = element.Doses_admin;
+          allData["value"] = element.UID;
           dataForChart.push(new_arr);
+          dataForTable.push(allData);
         }
       });
       dataForChart.forEach((element) => {
@@ -74,6 +70,7 @@ class Barchart extends Component {
         arr: dataForChart,
         whole_data: dataForTable,
       });
+     
     } catch (err) {
       console.log(err);
     }
@@ -82,10 +79,10 @@ class Barchart extends Component {
     this.setState({
       selectedCountryVal: selectedList,
     });
-
+  
     this.state.arr.forEach((ele) => {
       if (selectedList.includes(ele.country)) {
-        console.log("in");
+       
         if (!this.state.country_label.includes(ele.country)) {
           this.state.country_label.push(ele.country);
           this.state.partillyVaccinated.push(ele.People_partially_vaccinated);
@@ -94,7 +91,16 @@ class Barchart extends Component {
         }
       }
     });
+    
   };
+  onRemove = (selectedList, removedItem) => {
+    const newList = selectedList.filter((item) => item !== removedItem);
+ 
+     this.setState({
+      selectedCountryVal: newList,
+    });
+    console.log(this.state.selectedCountryVal)
+  }
 
   render() {
     return (
@@ -110,6 +116,7 @@ class Barchart extends Component {
             id="css_custom"
             closeIcon="close"
             isObject={false}
+            onRemove={this.onRemove}
           />
         </div>
         <div className="bar">
