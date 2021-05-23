@@ -2,7 +2,10 @@ import axios from "axios";
 import React, { Component } from "react";
 import Barchart from "./barchart";
 import "./vaccineInfo.css";
+
+// import { BrowserRouter as Router, Route,Link, Switch } from "react-router-dom";
 import "../../index.css";
+
 class VaccineInfo extends Component {
   constructor(props) {
     super(props);
@@ -15,7 +18,7 @@ class VaccineInfo extends Component {
     try {
       const url = "./dataset/vaccine_data_global.json";
       let responseData = await axios.get(url);
-      console.log(responseData);
+
       let a = [];
 
       responseData.data.forEach((element) => {
@@ -34,7 +37,6 @@ class VaccineInfo extends Component {
       this.setState({
         arr: a,
       });
-      console.log(this.state.arr);
     } catch (err) {
       console.log(err);
     }
