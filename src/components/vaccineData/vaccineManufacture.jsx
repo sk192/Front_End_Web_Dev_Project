@@ -2,18 +2,29 @@ import React, { Component } from "react";
 import axios from 'axios';
 // import Select from 'react-select';
 import { Multiselect } from "multiselect-react-dropdown";
+// import PieChart from './pieChart';
 import './vaccineManufacture.css'
+import DonutChart from 'react-donut-chart';
+
+
+
 
 class VaccineCompany extends Component{
     constructor(props){
         super(props);
         this.state= {
-            arr:{},
+            piechart_arr:[],
             json_data:[],
             countryNames:[],
             selectedOption: null,
+            label_arr : [],
+
+
             
         }
+        this.color = 
+           ['#f44336', '#e91e63', '#9c27b0', '#673ab7', '#3f51b5', '#2196f3', '#03a9f4', '#00bcd4', '#009688', '#4caf50', '#8bc34a', '#cddc39', '#ffeb3b', '#ffc107', '#ff9800', '#ff5722', '#795548', '#607d8b' ]
+   
         this.style1 = {
                 chips: {
                     background: "green",
@@ -28,6 +39,7 @@ class VaccineCompany extends Component{
                     background : 'red',
                 },
          };
+
         
     }
 
@@ -63,16 +75,18 @@ class VaccineCompany extends Component{
                 selectData.push(country);
 
             }
-          
-
-          
-          
+     
         });
         this.setState({
             countryNames : selectData,
+            json_data : jsonData,
         })
         console.log(jsonData)
+        console.log(this.state.json_data);
         console.log(this.state.countryNames);
+        
+
+
         }
         catch (err) {
             console.log(err);
@@ -83,14 +97,40 @@ class VaccineCompany extends Component{
     this.setState({
       selectedOption:selectedItem,
     });
+    let chart = [];
+    let l_arr = [];
     console.log(this.state.selectedOption);
     
+    for(let k of Object.keys(this.state.json_data)){
+        // console.log(k);
+        console.log(this.state.selectedOption);
+        if(k === selectedItem["name"]){
+            console.log("in");
+            for(let key of Object.keys(this.state.json_data[k])){
+                let obj1 = {};
+                obj1["label"] = key;
+                obj1["value"] = this.state.json_data[k][key];
+                chart.push(obj1);
+                l_arr.push(key);
+
+            }
+        
+        }
+
  }
+ 
+    this.setState({
+        piechart_arr : chart,
+        label_arr : l_arr,
+    })
+          console.log(this.state.piechart_arr);
+        };
+
 
   render() {
    
     return (
-    // <div className='containerDiv'>
+    <div className='containerDiv'>
         <div className='selectDiv'>
            
             <Multiselect
@@ -103,8 +143,21 @@ class VaccineCompany extends Component{
                 singleSelect = 'true'
            />
        </div>
-        
-    // </div>
+       <div className='piediv'>
+      
+            {/* <PieChart chartdata = {this.state.piechart_arr}/> */}
+            <DonutChart
+                data={this.state.piechart_arr} 
+                colors = {this.state.color}
+                // strokeColor = '#673ab7'
+                formatValues = {(values, total) => values}
+                onMouseEnter = {(item) => item}
+            />
+
+            
+                        
+       </div>
+   </div>
      
     );
   }
