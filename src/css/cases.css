@@ -259,3 +259,10 @@ th.regionTable-heading {
   background-color: rgba(39, 39, 39, 0.788);
   color: white;
 }
+
+/*line graph css*/
+
+div.lineGraph{
+  background-color: white;
+  margin-bottom: 100px;
+}
