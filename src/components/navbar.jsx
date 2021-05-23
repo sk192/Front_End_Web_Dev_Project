@@ -27,6 +27,13 @@ function HeaderNav(){
                                 <span>Vaccination_Info</span>
                             </li>
                         </Link>
+                        
+                        <Link to="/vaccineCompany" style={linkStyle}>
+                            <li>
+                                <span>VaccineManufacturerInfo</span>
+                            </li>
+                        </Link>
+                     
                         <Link to="/covidInfo" style={linkStyle}>
                             <li>
                                 <span>Covid_Info</span>
@@ -37,6 +44,7 @@ function HeaderNav(){
                                 <span>About</span>
                             </li>
                         </Link>
+
                     </ul>
                 </div>
             </nav>
