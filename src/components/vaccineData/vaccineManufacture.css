@@ -3,5 +3,25 @@
   width: 500px;
   margin-left: 90px;
   box-shadow: 0 0 10px #ccc;
-  margin-top: 90px;
+  margin-top: 100px;
+  padding: 20px;
+
 }
+
+.containerDiv{
+  height: 900px;
+}
+ .donutchart{
+ padding-bottom: 280px;
+  
+}
+/*
+.donutchart-arcs{
+  background-color: white;
+}
+.donutchart-innertext-label{
+  color: white;
+}
+.donutchart-legend-item-label{
+  color: white;
+} */
