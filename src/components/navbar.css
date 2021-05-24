@@ -85,9 +85,11 @@
 }
 @media screen and (min-width: 1025px) {
   .navHeader {
-    margin-left: 1310px;
+    margin-left: 1200px;
     padding-top: 10px;
     position: fixed;
     top: 0;
   }
 }
+
+
