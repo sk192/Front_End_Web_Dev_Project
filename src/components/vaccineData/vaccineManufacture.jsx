@@ -131,6 +131,7 @@ class VaccineCompany extends Component{
    
     return (
     <div className='containerDiv'>
+        <h1>Vaccine By Country</h1>
         <div className='selectDiv'>
            
             <Multiselect
@@ -150,8 +151,9 @@ class VaccineCompany extends Component{
                 data={this.state.piechart_arr} 
                 colors = {this.state.color}
                 // strokeColor = '#673ab7'
-                formatValues = {(values, total) => values}
+                // formatValues = {(values, total) => `${(values / total * 100).toFixed(2)}%`}
                 onMouseEnter = {(item) => item}
+                legend = {true}
             />
 
             
