@@ -1,9 +1,6 @@
 import axios from "axios";
 import React, { Component } from "react";
 import Barchart from "./barchart";
-import "./vaccineInfo.css";
-
-// import { BrowserRouter as Router, Route,Link, Switch } from "react-router-dom";
 import "../../index.css";
 
 class VaccineInfo extends Component {
