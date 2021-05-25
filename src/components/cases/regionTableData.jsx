@@ -1,7 +1,9 @@
 export default function RegionTableData(props) {
   return (
     <div className="globalRegionTable">
-      <h1 className="regionTableHeading">Region Covid Data</h1>
+      {/* <h2 className="regionTableHeading">
+        <b>Region Covid Data</b>
+      </h2> */}
       <table id="regionTable">
         <thead className="regionTable-head">
           <tr className="regionTableRow zero">

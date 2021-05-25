@@ -380,17 +380,13 @@ export default class GlobalView extends Component {
   render() {
     return (
       <div className="globalView-body">
-
         <div className="globalViewPg-container">
-
-
           <div className="global-grid-item grid-item-1 Global-Head">
             <h1 className="globalView-Heading">
               <b>Global View</b>
             </h1>
             <h3 className="global-subHeading">Affected Countries: 222</h3>
           </div>
-          
 
           <div className="global-grid-item grid-item-2 cards status-cards">
             <StatusCards
@@ -403,18 +399,20 @@ export default class GlobalView extends Component {
             />
           </div>
 
-
-          <div className="global-grid-item grid-item-3 globalBarGraph">
+          <div className="global-grid-item grid-item-3 gloabRegionSecondHead">
+            <h2 className="regionTableHeading">
+              <b>Region Covid Data</b>
+            </h2>
+          </div>
+          <div className="global-grid-item grid-item-4 globalBarGraph">
             <RegionBarGraph regionData={this.state.continent} />
           </div>
 
-
-          <div className="global-grid-item grid-item-4 globalRegionalTable">
+          <div className="global-grid-item grid-item-5 globalRegionalTable">
             <RegionTableData tableData={this.state.continent} />
           </div>
 
-
-          <div className="global-grid-item grid-item-5 globalCountryTable">
+          <div className="global-grid-item grid-item-6 globalCountryTable">
             <CountryDataTable
               countryData={this.state.country.countryData}
               handleCountryTableOrderClickConfirmed={
@@ -442,8 +440,6 @@ export default class GlobalView extends Component {
               gloabDataForCountryGraphRoute={this.state.gloab}
             />
           </div>
-
-
         </div>
       </div>
     );

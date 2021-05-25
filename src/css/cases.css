@@ -9,26 +9,36 @@ h1.globalView-Heading, h3.global-subHeading{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, auto);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, auto);
   /* gap: 10px; */
 }
 div.global-grid-item{
   /* background-color: purple; */
 }
 .grid-item-1{
-  grid-column: span 2;
+  grid-column: span 3;
   grid-row-start: 1;
 }
 .grid-item-2{
-  grid-column: span 2;
+  grid-column: span 3;
   grid-row-start: 2;
 }
-.grid-item-5{
+.grid-item-3{
+  grid-column: span 3;
+  grid-row-start: 3;
+}
+.grid-item-4{
   grid-column: span 2;
   grid-row-start: 4;
 }
-
+.grid-item-5{
+  grid-column-start: 3;
+  grid-row-start: 4;
+}
+.grid-item-5.globalRegionalTable{
+  padding: 10px;
+}
 
 /* status card */
 
@@ -80,10 +90,12 @@ div.deaths-card{
 
 div.regionBarGraph{
   background-color: white;
-  margin: 30px;
+  /* margin: 30px; */
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
 }
+
+
 
 /*Regional table css*/
 /* table.regionTable{
@@ -92,7 +104,7 @@ div.regionBarGraph{
 /* div.globalRegionTable{
   background-color:white;
 } */
-h1.regionTableHeading{
+/* h1.regionTableHeading{
   color: white;
   font-size: 25px;
   font-weight: bold;
@@ -102,12 +114,58 @@ td.regionTable-data, th.regionTable-heading{
   color:white;
   text-align: left;
   padding: 8px;
-}
+} */
 /* tr.regionTableRow:nth-child(even){background-color: #f2f2f2;} */
-th.regionTable-heading {
+/* th.regionTable-heading {
   background-color: rgba(39, 39, 39, 0.788);
   color: white;
+} */
+
+div.global-grid-item.grid-item-4.globalRegionalTable{
+  margin-left: 3px;
 }
+
+.globalRegionTable{
+  color: black;
+  overflow-x:auto;
+  overflow-y: auto;
+}
+
+h2.regionTableHeading{
+  color: white;
+  text-align: left;
+}
+
+table#regionTable{
+  margin-top: 20px;
+ border-collapse: collapse;
+  border: 1px solid #ddd;
+  /* width: 100%; */
+}
+
+th.regionTable-heading, td.regionTable-data {
+  text-align: center;
+  padding: 8px;
+}
+tr.regionTableRow{
+  background-color: #e4e4e48e;
+  color: black;
+  font-weight: bold;
+}
+tr.regionTableRow:nth-child(even){
+  background-color: #f2f2f286;
+  
+}
+
+tr.regionTableRow:hover{
+  background-color: #f2f2f2cc;
+}
+
+th.regionTable-heading {
+  background-color: #ffffff;
+  color: black;
+}
+
 
 /*line graph css*/
 

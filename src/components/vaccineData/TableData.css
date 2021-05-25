@@ -29,7 +29,7 @@
   margin-top: 40px;
   margin-right: 5px;
 }
-td,
+/* td,
 .abc {
   width: 20px;
   height: 30px;
@@ -45,7 +45,7 @@ tr {
 }
 tr:hover {
   background-color: gray;
-}
+} */
 
 @media screen and (max-width: 414px) {
   .container {
