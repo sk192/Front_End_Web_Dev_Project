@@ -86,7 +86,6 @@ export default class GlobalView extends Component {
   }
 
   calculateGlobalValues(data) {
-
     let oceania = [0, 0, 0, 0];
     let southAmerica = [0, 0, 0, 0];
     let northAmerica = [0, 0, 0, 0];
@@ -116,38 +115,32 @@ export default class GlobalView extends Component {
         );
 
         compState.gloab.pop = item[1].All.population;
-      } 
-      else if (item[1].All.continent === "Oceania") {
+      } else if (item[1].All.continent === "Oceania") {
         oceania[0] = oceania[0] + item[1].All.confirmed;
         oceania[1] = oceania[1] + item[1].All.recovered;
         oceania[2] = oceania[2] + item[1].All.deaths;
         oceania[3] = oceania[3] + item[1].All.population;
-      } 
-      else if (item[1].All.continent === "South America") {
+      } else if (item[1].All.continent === "South America") {
         southAmerica[0] = southAmerica[0] + item[1].All.confirmed;
         southAmerica[1] = southAmerica[1] + item[1].All.recovered;
         southAmerica[2] = southAmerica[2] + item[1].All.deaths;
         southAmerica[3] = southAmerica[3] + item[1].All.population;
-      } 
-      else if (item[1].All.continent === "North America") {
+      } else if (item[1].All.continent === "North America") {
         northAmerica[0] = northAmerica[0] + item[1].All.confirmed;
         northAmerica[1] = northAmerica[1] + item[1].All.recovered;
         northAmerica[2] = northAmerica[2] + item[1].All.deaths;
         northAmerica[3] = northAmerica[3] + item[1].All.population;
-      } 
-      else if (item[1].All.continent === "Europe") {
+      } else if (item[1].All.continent === "Europe") {
         europe[0] = europe[0] + item[1].All.confirmed;
         europe[1] = europe[1] + item[1].All.recovered;
         europe[2] = europe[2] + item[1].All.deaths;
         europe[3] = europe[3] + item[1].All.population;
-      } 
-      else if (item[1].All.continent === "Africa") {
+      } else if (item[1].All.continent === "Africa") {
         africa[0] = africa[0] + item[1].All.confirmed;
         africa[1] = africa[1] + item[1].All.recovered;
         africa[2] = africa[2] + item[1].All.deaths;
         africa[3] = africa[3] + item[1].All.population;
-      } 
-      else if (item[1].All.continent === "Asia") {
+      } else if (item[1].All.continent === "Asia") {
         asia[0] = asia[0] + item[1].All.confirmed;
         asia[1] = asia[1] + item[1].All.recovered;
         asia[2] = asia[2] + item[1].All.deaths;
@@ -155,7 +148,6 @@ export default class GlobalView extends Component {
       }
     });
 
-    
     compState.continent.oceania.cases = oceania[0];
     compState.continent.oceania.casesPerMil = Math.ceil(
       (oceania[0] / oceania[3]) * 1000000
@@ -169,8 +161,6 @@ export default class GlobalView extends Component {
       (oceania[2] / oceania[3]) * 1000000
     );
     compState.continent.oceania.pop = oceania[3];
-
-
 
     compState.continent.northAmerica.cases = northAmerica[0];
     compState.continent.northAmerica.casesPerMil = Math.ceil(
@@ -186,8 +176,6 @@ export default class GlobalView extends Component {
     );
     compState.continent.northAmerica.pop = northAmerica[3];
 
-
-
     compState.continent.southAmerica.cases = southAmerica[0];
     compState.continent.southAmerica.casesPerMil = Math.ceil(
       (southAmerica[0] / southAmerica[3]) * 1000000
@@ -201,8 +189,6 @@ export default class GlobalView extends Component {
       (southAmerica[2] / southAmerica[3]) * 1000000
     );
     compState.continent.southAmerica.pop = southAmerica[3];
-
-
 
     compState.continent.europe.cases = europe[0];
     compState.continent.europe.casesPerMil = Math.ceil(
@@ -218,8 +204,6 @@ export default class GlobalView extends Component {
     );
     compState.continent.europe.pop = europe[3];
 
-
-
     compState.continent.africa.cases = africa[0];
     compState.continent.africa.casesPerMil = Math.ceil(
       (africa[0] / africa[3]) * 1000000
@@ -234,8 +218,6 @@ export default class GlobalView extends Component {
     );
     compState.continent.africa.pop = africa[3];
 
-
-
     compState.continent.asia.cases = asia[0];
     compState.continent.asia.casesPerMil = Math.ceil(
       (asia[0] / asia[3]) * 1000000
@@ -249,8 +231,6 @@ export default class GlobalView extends Component {
       (asia[2] / asia[3]) * 1000000
     );
     compState.continent.asia.pop = asia[3];
-
-
 
     this.setState(compState);
     console.log(this.state);
@@ -400,10 +380,19 @@ export default class GlobalView extends Component {
   render() {
     return (
       <div className="globalView-body">
-        <h2>Global View</h2>
-        <p>Effected Countries: 222</p>
-        <div className="globalCases-container">
-          <div className="grid-item-1 cards">
+
+        <div className="globalViewPg-container">
+
+
+          <div className="global-grid-item grid-item-1 Global-Head">
+            <h1 className="globalView-Heading">
+              <b>Global View</b>
+            </h1>
+            <h3 className="global-subHeading">Affected Countries: 222</h3>
+          </div>
+          
+
+          <div className="global-grid-item grid-item-2 cards status-cards">
             <StatusCards
               totalCases={this.state.gloab.cases.totalCases}
               casesPerMil={this.state.gloab.cases.casesPerMil}
@@ -412,8 +401,20 @@ export default class GlobalView extends Component {
               totalDeaths={this.state.gloab.deaths.totalDeaths}
               deathsPerMil={this.state.gloab.deaths.deathsPerMil}
             />
+          </div>
+
+
+          <div className="global-grid-item grid-item-3 globalBarGraph">
             <RegionBarGraph regionData={this.state.continent} />
+          </div>
+
+
+          <div className="global-grid-item grid-item-4 globalRegionalTable">
             <RegionTableData tableData={this.state.continent} />
+          </div>
+
+
+          <div className="global-grid-item grid-item-5 globalCountryTable">
             <CountryDataTable
               countryData={this.state.country.countryData}
               handleCountryTableOrderClickConfirmed={
@@ -440,8 +441,9 @@ export default class GlobalView extends Component {
               handleCountryTableOrderPop={this.handleCountryTableOrderPop}
               gloabDataForCountryGraphRoute={this.state.gloab}
             />
-            ;
           </div>
+
+
         </div>
       </div>
     );

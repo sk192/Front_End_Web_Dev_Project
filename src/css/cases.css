@@ -1,184 +1,33 @@
-/*main grid css*/
+/*Global View page CSS*/
+h1.globalView-Heading, h3.global-subHeading{
+  color: white;
+}
 
-.grid-container{
+.globalViewPg-container{
   display: grid;
-  gap: 10px;
-  grid-template-columns: auto 1fr 1fr 1fr 1fr;
-  grid-template-rows: 60px 250px auto auto;
-  height:100vh;
-  margin-right: 10px;
-}
-
-div.grid-item{
-  background-color: lavender;
-  /*remove these 2 later*/
-  border: 3px solid white;
-  border-radius: 10px;
-}                                                      /*main grid items*/
-
-div.grid-item.item1.side-nav{
-  border: none;
-  border-radius: 2px;
-  margin-top: 0px;
-  margin-right: 20px;
-  /* padding: 30px; */
-  /* padding-right: 80px; */
-  /* background: rgb(71, 9, 126); */
-  /* background-image: linear-gradient(to bottom right, rgb(144, 19, 254)  rgb(71, 9, 126)) !important; */
-  background-image: linear-gradient( rgb(167, 79, 243), rgb(144, 19, 254), rgb(71, 9, 126));
-
-}
-
-.item2.card-1, .item3.card-2, .item4.card-3, .item5.card-4{
-  margin-top: 5px;
-}
-
-.item6.item6.globel-map, .item7.region-table{
-  margin-top: 20px;
-}
-.item8.region-graph-1, .item9.region-graph-2{
-  margin-top: 20px;
-}
-
-.item1.side-nav{
-  grid-row: 1 / 5;
-}
-
-.item6.globel-map, .item8.region-graph-1{
-  grid-column: 2 / 4;
-}
-
-.item7.region-table, .item9.region-graph-2{
-  grid-column: 4 / 6;
-}
-
-.item10.cases-heading{
-  grid-column: 2 / 6;
-  grid-row: 1 / 2;
-  margin-top: 20px;
-}
-                                                       /*item1 side nav-bar*/
-img.cases-img-logo{
-  display: block;
+  /* height: 260px; */
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
-  /* margin-bottom: 20px; */
-  height: 100px;
-  width: 100px;
-  border: 3px solid;
-  border-radius: 50%;
-  background-color: lavender !important;
-  border-color: white;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
+  /* gap: 10px; */
 }
-p.cases-pic-head{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  text-align: center;
+div.global-grid-item{
+  /* background-color: purple; */
 }
-/* figcaption.cases-pic-head{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  font-weight: bold;
-  padding-top: 6px;
-  text-align: center;
-  
-} */
-.index-choose-head{
-  color: white;
-  font-weight: bold;
-  padding-top: 6px;
-  text-align: left;
+.grid-item-1{
+  grid-column: span 2;
+  grid-row-start: 1;
 }
-                                                     /*index-grid css*/
-.grid-index-container{
-  display: grid;
-  gap: 20px;
-  grid-template-columns: 200px;
-  grid-template-rows: repeat(9, auto);
-  /* align-content: center  ; */
+.grid-item-2{
+  grid-column: span 2;
+  grid-row-start: 2;
 }
-.cases-index-body{
-  width:220px;
+.grid-item-5{
+  grid-column: span 2;
+  grid-row-start: 4;
 }
-/* .cases-index-body {
-  padding-left: 40px;
-  padding-right: 40px;
-} */
-
-.index-pic, .index-region-2, .index-region-3, .index-region-4, .index-region-5, .index-region-6, .index-region-7, .index-region-8{
-  margin-left: 20px;
-}
-   
-/* .grid-index-item{
-  background-color: rgb(231, 203, 255);
-  height: auto;
-} */
-/* .grid-index-item.index-item1.index-pic{
-  background-color: rgb(71, 9, 126);
-} */
-
-/* div.grid-index-item.index-item2.index-choose-head{
-  padding-left: 0px !important;
-} */
-
-.index-nav-btn{
-  width:100%;
-  background-color: rgb(198, 177, 233) !important;
-  border-color: rgb(198, 177, 233) !important;
-} 
-
-.index-nav-btn:hover, .index-nav-btn:link{
-  background-color: rgb(164, 129, 221) !important;
-  font-weight: bold;
-}
-
-.index-nav-btn:focus{
-  border: 3px solid white !important;
-}
-
-.index-nav-btn:active{
-  border: 3px solid rgb(207, 177, 255) !important;
-}
-
-.index-nav-btn:visited{
-  border: 3px solid rgb(164, 129, 221) !important;
-}
-
-/*About page*/
-
-/* section.about-sec{
-  position: relative;
-}
-
-.custom-shape-divider-top-1621200409 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-top-1621200409 svg {
-    position: relative;
-    display: block;
-    width: calc(111% + 1.3px);
-    height: 500px;
-}
-
-.custom-shape-divider-top-1621200409 .shape-fill {
-    fill: #9013FE;
-}
-
-.about-body{
-  background-image: linear-gradient(to bottom right, rgb(198, 177, 233), rgb(235, 235, 235)) !important;
-  height:100vh;
-} */
 
 
 /* status card */
