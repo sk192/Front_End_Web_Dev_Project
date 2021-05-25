@@ -15,7 +15,7 @@
   display: block;
 }
 
-.abc {
+.countryUID {
   text-align: center;
 }
 .table-wrapper h1 {
@@ -23,20 +23,18 @@
 }
 .table-wrapper {
   overflow-y: scroll;
-
   max-height: 1200px;
   border-radius: 10px;
   margin-top: 40px;
   margin-right: 5px;
 }
-td,
-.abc {
+.tableColumn,
+.countryUID {
   width: 20px;
   height: 30px;
   background-color: rgba(20, 1, 1, 0);
   color: white;
   border-radius: 10px;
-
   font-size: 17px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
