@@ -33,16 +33,16 @@ export default function TableData(props) {
         </thead>
         <tbody>
           {props.vData.map((item) => (
-            <tr>
-              <th scope="row" className="abc">
+            <tr className="tableRow" key={'tableInfo'+ item.Country+item.value}>
+              <th scope="row" className="countryUID" key={"head"+ item.value}>
                 {item.value}
               </th>
-              <td className="td1">{item.Country}</td>
-              <td>{item.Province_State}</td>
+              <td className="tableColumn" key={"country_name"+item.value}>{item.Country}</td>
+              <td className="tableColumn" key={"province_state"+item.value}>{item.Province_State}</td>
 
-              <td className="td2">{item.Doses_admin}</td>
-              <td className="td3">{item.People_fully_vaccinated}</td>
-              <td className="td4">{item.People_partially_vaccinated}</td>
+              <td className="tableColumn" key={'doses'+item.value}>{item.Doses_admin}</td>
+              <td className="tableColumn" key={'full'+item.value}>{item.People_fully_vaccinated}</td>
+              <td className="tableColumn" key={'part'+item.value}>{item.People_partially_vaccinated}</td>
             </tr>
           ))}
         </tbody>
