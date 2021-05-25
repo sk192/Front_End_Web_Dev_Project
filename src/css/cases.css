@@ -1,17 +1,20 @@
-/*Global View page CSS*/
-h1.globalView-Heading, h3.global-subHeading{
+/**
+* Global View page CSS
+*/
+
+h1.globalView-Heading, p.global-subHeading{
   color: white;
 }
 
 .globalViewPg-container{
   display: grid;
-  /* height: 260px; */
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, auto);
+  grid-template-rows: repeat(6, auto);
   /* gap: 10px; */
+  margin-bottom: 50px;
 }
 div.global-grid-item{
   /* background-color: purple; */
@@ -36,15 +39,27 @@ div.global-grid-item{
   grid-column-start: 3;
   grid-row-start: 4;
 }
+.grid-item-7{
+  grid-column: span 3;
+  grid-row-start: 6;
+}
 .grid-item-5.globalRegionalTable{
-  padding: 10px;
+  padding-left: 10px;
+}
+.grid-item-6{
+  grid-column: span 3;
+  grid-row-start: 5;
+  margin-top: 20px;
+  color: white;
+  text-align: left;
 }
 
-/* status card */
+/**
+* status card CSS
+*/
 
 i.fas{
   font-size: 36px;
-  /* text-align: center !important; */
   margin-top: 10px;
 }
 
@@ -53,18 +68,35 @@ i.fas{
   justify-content: space-between;
 }
 
-
-/*status card container styles*/
 div.cases-card, div.recovered-card, div.deaths-card{
   background-color: white;
-  margin: 30px;
-  padding: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
   border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left:5px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   width: 300px;
   text-align: left !important;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+h3.statusCardHead.cases, i.cases{
+  color: rgb(54, 162, 235);
+  font-weight: bold;
+}
+h3.statusCardHead.recover, i.recover{
+  color: rgb(75, 192, 192);
+  font-weight: bold;
+}
+h3.statusCardHead.death, i.death{
+  color: rgb(255, 99, 132);
+  font-weight: bold;
+}
+div.recovered-card{
+  margin-left: 30px;
+  margin-right: 30px;
 }
 h3.statusCardHead{
   display: inline-block;
@@ -72,80 +104,44 @@ h3.statusCardHead{
 div.statusCardContainer, div.cases-card, div.recovered-card, div.deaths-card{
   display: inline-block;
 }
-/* div.cases-card{
-  background-image: linear-gradient( rgb(167, 79, 243), rgb(144, 19, 254), rgba(118, 24, 201, 0.897));
-}
-div.recovered-card{
-  background-image: linear-gradient(rgb(14, 151, 14), green, green);
-}
-div.deaths-card{
-  background-image: linear-gradient(rgb(226, 130, 5), orange, orange);
-} */
-
-/*bar graph css*/
-/* canvas{
-  height: 500px !important;
-  width: 50% !important;
-} */
 
 div.regionBarGraph{
   background-color: white;
-  /* margin: 30px; */
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
 }
-
-
-
-/*Regional table css*/
-/* table.regionTable{
-  background-color: white !important;
-} */
-/* div.globalRegionTable{
-  background-color:white;
-} */
-/* h1.regionTableHeading{
-  color: white;
-  font-size: 25px;
-  font-weight: bold;
-  text-align: left !important;
-}
-td.regionTable-data, th.regionTable-heading{
-  color:white;
-  text-align: left;
-  padding: 8px;
-} */
-/* tr.regionTableRow:nth-child(even){background-color: #f2f2f2;} */
-/* th.regionTable-heading {
-  background-color: rgba(39, 39, 39, 0.788);
-  color: white;
-} */
 
 div.global-grid-item.grid-item-4.globalRegionalTable{
   margin-left: 3px;
 }
 
-.globalRegionTable{
-  color: black;
-  overflow-x:auto;
-  overflow-y: auto;
-}
+/* .globalRegionTable{
+  color: pink;
+  display: block;
+} */
 
 h2.regionTableHeading{
   color: white;
   text-align: left;
+  margin-bottom: 30px;
 }
 
+/**
+* Region table CSS
+*/
+
 table#regionTable{
-  margin-top: 20px;
  border-collapse: collapse;
   border: 1px solid #ddd;
-  /* width: 100%; */
 }
 
 th.regionTable-heading, td.regionTable-data {
   text-align: center;
   padding: 8px;
+}
+td.regionTable-data{
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 tr.regionTableRow{
   background-color: #e4e4e48e;
@@ -153,7 +149,7 @@ tr.regionTableRow{
   font-weight: bold;
 }
 tr.regionTableRow:nth-child(even){
-  background-color: #f2f2f286;
+  background-color: #f2f2f2a8;
   
 }
 
@@ -165,7 +161,55 @@ th.regionTable-heading {
   background-color: #ffffff;
   color: black;
 }
+/* div.globalRegionTable{
+  display: block;
+  overflow-y: scroll;
+  overflow-x: scroll;
+} */
 
+/** 
+* Country data table CSS
+*/
+div.countryDataTable{
+  display: block;
+  height: 500px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+table.countryDataTable{
+ border-collapse: collapse;
+  border: 1px solid #ddd;
+  width: 100%;
+  /* width: 800px; */
+}
+
+/* div.global-grid-item.grid-item-7.globalCountryTable,div.countryDataTable, table.countryDataTable{
+  width: 100%;
+} */
+th.countryDataHead, td.countryData {
+  text-align: center;
+  padding: 8px;
+}
+tr.countryDataTableRow{
+  background-color: #e4e4e48e;
+  color: black;
+  font-weight: bold;
+}
+tr.countryDataTableRow:nth-child(even){
+  background-color: #f2f2f2a8;
+  
+}
+td.countryData{
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+tr.countryDataTableRow:hover{
+  background-color: #f2f2f2cc;
+}
+th.countryDataHead {
+  background-color: #ffffff;
+  color: black;
+}
 
 /*line graph css*/
 

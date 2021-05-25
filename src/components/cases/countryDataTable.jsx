@@ -1,11 +1,13 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function CountryDataTable(props) {
+  // const [style, setStyle] = useState({width="100%"});
   return (
     <div className="countryDataTable">
       <table className="countryDataTable">
-        <thead>
-          <tr className="countryDataTableRow">
+        <thead className="countryThead">
+          <tr className="countryDataTableRow rowHead">
             <th className="countryDataHead countryName">
               <button
                 type="button"
@@ -81,107 +83,118 @@ export default function CountryDataTable(props) {
             </th>
           </tr>
         </thead>
-
-        <tbody>
-          {props.countryData.map((item) => (
-            <tr
-              key={
-                item.country +
-                Math.floor(Math.random() * 2000) +
-                item.abbreviation
-              }
-            >
-              <td
-                className="td1"
+          <tbody className="countryTbody">
+            {props.countryData.map((item) => (
+              <tr
+                className="countryDataTableRow rowData"
                 key={
-                  "cont" + item.abbreviation + Math.floor(Math.random() * 2000)
+                  item.country +
+                  Math.floor(Math.random() * 2000) +
+                  item.abbreviation
                 }
               >
-                <Link
-                  to={{
-                    pathname: `/countryView/${item.country}`,
-                    state: {
-                      gloabTotalCases:
-                        props.gloabDataForCountryGraphRoute.cases.totalCases,
-                      gloabTotalRecovered:
-                        props.gloabDataForCountryGraphRoute.recovered
-                          .totalRecovered,
-                      gloabTotalDeaths:
-                        props.gloabDataForCountryGraphRoute.deaths.totalDeaths,
-                    },
-                  }}
+                <td
+                  className="countryData td1"
+                  key={
+                    "cont" +
+                    item.abbreviation +
+                    Math.floor(Math.random() * 2000)
+                  }
                 >
-                  {item.country}
-                </Link>
-              </td>
+                  <Link
+                    to={{
+                      pathname: `/countryView/${item.country}`,
+                      state: {
+                        gloabTotalCases:
+                          props.gloabDataForCountryGraphRoute.cases.totalCases,
+                        gloabTotalRecovered:
+                          props.gloabDataForCountryGraphRoute.recovered
+                            .totalRecovered,
+                        gloabTotalDeaths:
+                          props.gloabDataForCountryGraphRoute.deaths
+                            .totalDeaths,
+                      },
+                    }}
+                  >
+                    {item.country}
+                  </Link>
+                </td>
 
-              <td
-                className="td2"
-                key={
-                  "confir" +
-                  item.abbreviation +
-                  Math.floor(Math.random() * 2000)
-                }
-              >
-                {item.confirmed}
-              </td>
+                <td
+                  className="countryData td2"
+                  key={
+                    "confir" +
+                    item.abbreviation +
+                    Math.floor(Math.random() * 2000)
+                  }
+                >
+                  {item.confirmed}
+                </td>
 
-              <td
-                className="td3"
-                key={"deaths" + item.deaths + Math.floor(Math.random() * 2000)}
-              >
-                {item.deaths}
-              </td>
+                <td
+                  className="countryData td3"
+                  key={
+                    "deaths" + item.deaths + Math.floor(Math.random() * 2000)
+                  }
+                >
+                  {item.deaths}
+                </td>
 
-              <td
-                className="td4"
-                key={
-                  "recovery" + item.recovered + Math.floor(Math.random() * 2000)
-                }
-              >
-                {item.recovered}
-              </td>
+                <td
+                  className="countryData td4"
+                  key={
+                    "recovery" +
+                    item.recovered +
+                    Math.floor(Math.random() * 2000)
+                  }
+                >
+                  {item.recovered}
+                </td>
 
-              <td
-                className="td4"
-                key={
-                  "recoveryrate" +
-                  item.abbreviation +
-                  Math.floor(Math.random() * 2000)
-                }
-              >
-                {Math.ceil((item.recovered / item.confirmed) * 100)}%
-              </td>
+                <td
+                  className="countryData td4"
+                  key={
+                    "recoveryrate" +
+                    item.abbreviation +
+                    Math.floor(Math.random() * 2000)
+                  }
+                >
+                  {Math.ceil((item.recovered / item.confirmed) * 100)}%
+                </td>
 
-              <td
-                className="td2"
-                key={
-                  "casespermil" +
-                  item.confirmed +
-                  Math.floor(Math.random() * 2000)
-                }
-              >
-                {Math.ceil((item.confirmed / item.population) * 1000000)}
-              </td>
+                <td
+                  className="countryData td2"
+                  key={
+                    "casespermil" +
+                    item.confirmed +
+                    Math.floor(Math.random() * 2000)
+                  }
+                >
+                  {Math.ceil((item.confirmed / item.population) * 1000000)}
+                </td>
 
-              <td
-                className="td3"
-                key={
-                  "deathpermil" + item.deaths + Math.floor(Math.random() * 2000)
-                }
-              >
-                {Math.ceil((item.deaths / item.population) * 1000000)}
-              </td>
+                <td
+                  className="countryData td3"
+                  key={
+                    "deathpermil" +
+                    item.deaths +
+                    Math.floor(Math.random() * 2000)
+                  }
+                >
+                  {Math.ceil((item.deaths / item.population) * 1000000)}
+                </td>
 
-              <td
-                className="td5"
-                key={"pop" + item.population + Math.floor(Math.random() * 2000)}
-              >
-                {item.population}
-              </td>
-            </tr>
-          ))}
-        </tbody>
+                <td
+                  className="countryData td5"
+                  key={
+                    "pop" + item.population + Math.floor(Math.random() * 2000)
+                  }
+                >
+                  {item.population}
+                </td>
+              </tr>
+            ))}
+          </tbody>
       </table>
     </div>
   );

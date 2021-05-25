@@ -385,7 +385,7 @@ export default class GlobalView extends Component {
             <h1 className="globalView-Heading">
               <b>Global View</b>
             </h1>
-            <h3 className="global-subHeading">Affected Countries: 222</h3>
+            <p className="global-subHeading">Affected Countries: 222</p>
           </div>
 
           <div className="global-grid-item grid-item-2 cards status-cards">
@@ -412,7 +412,12 @@ export default class GlobalView extends Component {
             <RegionTableData tableData={this.state.continent} />
           </div>
 
-          <div className="global-grid-item grid-item-6 globalCountryTable">
+          <div className="global-grid-item grid-item-6 gloabCountrySecondHead">
+            <h2 className="countryTableHeading">
+              <b>Country Covid Data</b>
+            </h2>
+          </div>
+          <div className="global-grid-item grid-item-7 globalCountryTable">
             <CountryDataTable
               countryData={this.state.country.countryData}
               handleCountryTableOrderClickConfirmed={
