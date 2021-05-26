@@ -4,7 +4,7 @@ import "./TableData.css";
 export default function TableData(props) {
   return (
     <div className="table-wrapper-scroll-y my-custom-scrollbar">
-      <table className="table table-bordered  w-auto mb-0">
+      <table className="table table-bordered   mb-0">
         <thead>
           <tr className="hrow">
             <th scope="col" className="heading">
