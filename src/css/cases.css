@@ -1,191 +1,111 @@
-/*main grid css*/
+/**
+* Global View page CSS
+*/
 
-.grid-container{
+h1.globalView-Heading, p.global-subHeading{
+  color: white;
+}
+
+.globalViewPg-container{
   display: grid;
-  gap: 10px;
-  grid-template-columns: auto 1fr 1fr 1fr 1fr;
-  grid-template-rows: 60px 250px auto auto;
-  height:100vh;
-  margin-right: 10px;
-}
-
-div.grid-item{
-  background-color: lavender;
-  /*remove these 2 later*/
-  border: 3px solid white;
-  border-radius: 10px;
-}                                                      /*main grid items*/
-
-div.grid-item.item1.side-nav{
-  border: none;
-  border-radius: 2px;
-  margin-top: 0px;
-  margin-right: 20px;
-  /* padding: 30px; */
-  /* padding-right: 80px; */
-  /* background: rgb(71, 9, 126); */
-  /* background-image: linear-gradient(to bottom right, rgb(144, 19, 254)  rgb(71, 9, 126)) !important; */
-  background-image: linear-gradient( rgb(167, 79, 243), rgb(144, 19, 254), rgb(71, 9, 126));
-
-}
-
-.item2.card-1, .item3.card-2, .item4.card-3, .item5.card-4{
-  margin-top: 5px;
-}
-
-.item6.item6.globel-map, .item7.region-table{
-  margin-top: 20px;
-}
-.item8.region-graph-1, .item9.region-graph-2{
-  margin-top: 20px;
-}
-
-.item1.side-nav{
-  grid-row: 1 / 5;
-}
-
-.item6.globel-map, .item8.region-graph-1{
-  grid-column: 2 / 4;
-}
-
-.item7.region-table, .item9.region-graph-2{
-  grid-column: 4 / 6;
-}
-
-.item10.cases-heading{
-  grid-column: 2 / 6;
-  grid-row: 1 / 2;
-  margin-top: 20px;
-}
-                                                       /*item1 side nav-bar*/
-img.cases-img-logo{
-  display: block;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(7, auto);
+  /* gap: 10px; */
+  margin-bottom: 50px;
+}
+div.global-grid-item{
+  /* background-color: purple; */
+}
+.grid-item-1{
+  /* grid-column: span 3; */
+  grid-row-start: 1;
+}
+.grid-item-2{
+  /* grid-column: span 3; */
+  grid-row-start: 2;
+}
+.grid-item-3{
+  /* grid-column: span 3; */
+  grid-row-start: 3;
+}
+.grid-item-4{
+  /* grid-column: span 2; */
+  grid-row-start: 4;
+}
+.grid-item-5{
+  /* grid-column-start: 3; */
+  grid-row-start: 5;
+}
+.grid-item-7{
+  /* grid-column: span 3; */
+  grid-row-start: 7;
+}
+.grid-item-5.globalRegionalTable{
   margin-top: 20px;
-  /* margin-bottom: 20px; */
-  height: 100px;
-  width: 100px;
-  border: 3px solid;
-  border-radius: 50%;
-  background-color: lavender !important;
-  border-color: white;
 }
-p.cases-pic-head{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.grid-item-6{
+  /* grid-column: span 3; */
+  grid-row-start: 6;
+  margin-top: 20px;
   color: white;
-  text-align: center;
-}
-/* figcaption.cases-pic-head{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  font-weight: bold;
-  padding-top: 6px;
-  text-align: center;
-  
-} */
-.index-choose-head{
-  color: white;
-  font-weight: bold;
-  padding-top: 6px;
   text-align: left;
 }
-                                                     /*index-grid css*/
-.grid-index-container{
+
+/*
+*country view page CSS
+*/
+.countryViewPg-container{
   display: grid;
-  gap: 20px;
-  grid-template-columns: 200px;
-  grid-template-rows: repeat(9, auto);
-  /* align-content: center  ; */
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
+  /* gap: 10px; */
+  margin-bottom: 50px;
 }
-.cases-index-body{
-  width:220px;
+div.country-grid-item{
+  /* background-color: purple; */
 }
-/* .cases-index-body {
-  padding-left: 40px;
-  padding-right: 40px;
-} */
-
-.index-pic, .index-region-2, .index-region-3, .index-region-4, .index-region-5, .index-region-6, .index-region-7, .index-region-8{
-  margin-left: 20px;
+.cgrid-item-1{
+  grid-column: span 2;
+  grid-row-start: 1;
 }
-   
-/* .grid-index-item{
-  background-color: rgb(231, 203, 255);
-  height: auto;
-} */
-/* .grid-index-item.index-item1.index-pic{
-  background-color: rgb(71, 9, 126);
-} */
+.cgrid-item-2{
+  grid-column: span 2;
+  grid-row-start: 2;
+}
+.cgrid-item-1{
+ color: white;
+}
+.cgrid-item-3, .cgrid-item-4{
+  color: white;
+  text-align: left;
+}
+.cgrid-item-5{
+  padding-right: 10px;
+}
+.cgrid-item-6, .cgrid-item-4{
+  padding-left: 10px;
+}
+div.countryLineGraph-div, div.countryGloabBarGraph-div{
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
 
-/* div.grid-index-item.index-item2.index-choose-head{
-  padding-left: 0px !important;
-} */
-
-.index-nav-btn{
-  width:100%;
-  background-color: rgb(198, 177, 233) !important;
-  border-color: rgb(198, 177, 233) !important;
-} 
-
-.index-nav-btn:hover, .index-nav-btn:link{
-  background-color: rgb(164, 129, 221) !important;
+/**
+* status card CSS
+*/
+h2.statusCard-number{
+  font-size: 20px;
   font-weight: bold;
 }
-
-.index-nav-btn:focus{
-  border: 3px solid white !important;
-}
-
-.index-nav-btn:active{
-  border: 3px solid rgb(207, 177, 255) !important;
-}
-
-.index-nav-btn:visited{
-  border: 3px solid rgb(164, 129, 221) !important;
-}
-
-/*About page*/
-
-/* section.about-sec{
-  position: relative;
-}
-
-.custom-shape-divider-top-1621200409 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-top-1621200409 svg {
-    position: relative;
-    display: block;
-    width: calc(111% + 1.3px);
-    height: 500px;
-}
-
-.custom-shape-divider-top-1621200409 .shape-fill {
-    fill: #9013FE;
-}
-
-.about-body{
-  background-image: linear-gradient(to bottom right, rgb(198, 177, 233), rgb(235, 235, 235)) !important;
-  height:100vh;
-} */
-
-
-/* status card */
-
 i.fas{
-  font-size: 36px;
-  /* text-align: center !important; */
+  font-size: 30px;
   margin-top: 10px;
 }
 
@@ -194,18 +114,35 @@ i.fas{
   justify-content: space-between;
 }
 
-
-/*status card container styles*/
 div.cases-card, div.recovered-card, div.deaths-card{
   background-color: white;
-  margin: 30px;
-  padding: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
   border-radius: 10px;
-  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left:5px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 220px;
   text-align: left !important;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+h3.statusCardHead.cases, i.cases{
+  color: rgb(54, 162, 235);
+  font-weight: bold;
+}
+h3.statusCardHead.recover, i.recover{
+  color: rgb(75, 192, 192);
+  font-weight: bold;
+}
+h3.statusCardHead.death, i.death{
+  color: rgb(255, 99, 132);
+  font-weight: bold;
+}
+div.recovered-card{
+  margin-left: 30px;
+  margin-right: 30px;
 }
 h3.statusCardHead{
   display: inline-block;
@@ -213,52 +150,129 @@ h3.statusCardHead{
 div.statusCardContainer, div.cases-card, div.recovered-card, div.deaths-card{
   display: inline-block;
 }
-/* div.cases-card{
-  background-image: linear-gradient( rgb(167, 79, 243), rgb(144, 19, 254), rgba(118, 24, 201, 0.897));
-}
-div.recovered-card{
-  background-image: linear-gradient(rgb(14, 151, 14), green, green);
-}
-div.deaths-card{
-  background-image: linear-gradient(rgb(226, 130, 5), orange, orange);
-} */
-
-/*bar graph css*/
-/* canvas{
-  height: 500px !important;
-  width: 50% !important;
-} */
 
 div.regionBarGraph{
   background-color: white;
-  margin: 30px;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  margin-right: 10px;
 }
 
-/*Regional table css*/
-/* table.regionTable{
-  background-color: white !important;
-} */
-/* div.globalRegionTable{
-  background-color:white;
-} */
-h1.regionTableHeading{
-  color: white;
-  font-size: 25px;
-  font-weight: bold;
-  text-align: left !important;
+div.global-grid-item.grid-item-4.globalRegionalTable{
+  margin-left: 3px;
 }
-td.regionTable-data, th.regionTable-heading{
-  color:white;
+
+/* .globalRegionTable{
+  color: pink;
+  display: block;
+} */
+
+h2.regionTableHeading{
+  color: white;
   text-align: left;
+  margin-bottom: 30px;
+}
+
+/**
+* Region table CSS
+*/
+
+table#regionTable{
+ border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+th.regionTable-heading, td.regionTable-data {
+  text-align: center;
+  padding: 8px;
+  
+}
+td.regionTable-data{
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+tr.regionTableRow{
+  background-color: #e4e4e48e;
+  color: black;
+  font-weight: bold;
+}
+tr.regionTableRow:nth-child(even){
+  background-color: #f2f2f2a8;
+  
+}
+
+tr.regionTableRow:hover{
+  background-color: #f2f2f2cc;
+}
+
+th.regionTable-heading {
+  background-color: #ffffff;
+  color: rgba(5, 33, 65);
+}
+/* div.globalRegionTable{
+  display: block;
+  overflow-y: scroll;
+  overflow-x: scroll;
+} */
+
+/** 
+* Country data table CSS
+*/
+div.countryDataTable{
+  display: block;
+  height: 500px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+table.countryDataTable{
+ border-collapse: collapse;
+  border: 1px solid #ddd;
+  width: 100%;
+  /* width: 800px; */
+}
+
+/* div.global-grid-item.grid-item-7.globalCountryTable,div.countryDataTable, table.countryDataTable{
+  width: 100%;
+} */
+th.countryDataHead, td.countryData {
+  text-align: center;
   padding: 8px;
 }
-/* tr.regionTableRow:nth-child(even){background-color: #f2f2f2;} */
-th.regionTable-heading {
-  background-color: rgba(39, 39, 39, 0.788);
-  color: white;
+tr.countryDataTableRow{
+  background-color: #e4e4e48e;
+  color: black;
+  font-weight: bold;
 }
+tr.countryDataTableRow:nth-child(even){
+  background-color: #f2f2f2a8;
+  
+}
+td.countryData{
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+tr.countryDataTableRow:hover{
+  background-color: #f2f2f2cc;
+}
+th.countryDataHead {
+  background-color: #ffffff;
+  color: rgba(5, 33, 65);;
+}
+a.countryName-link{
+  color: rgba(5, 33, 65);
+  font-size: 16px;;
+}
+button.countryDataTable-btn{
+  border: none;
+  cursor: pointer;
+  background-color: white; 
+}
+i.countryNameDesc{
+  font-size: 16px;
+  color: rgb(167, 167, 167);
+}
+
+
 
 /*line graph css*/
 
@@ -309,4 +323,218 @@ div.about1{
 }
 div.about2{
   margin-left: 60px;
+}
+div.globalRegionTable{
+  /* width: 300px; */
+  display: block;
+  overflow-x: scroll;
+}
+div.statusCardContainer{
+    display: flex;
+  }
+@media (max-width: 519px) {
+  .globalViewPg-container{
+    width: 100%;
+    margin-left: 10px;
+  }
+  div.global-grid-item.grid-item-1.Global-Head{
+    text-align: left;
+  }
+  div.statusCardContainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, auto); 
+  }
+  .card-item-1{
+    grid-row-start: 1;
+  }
+  .card-item-2{
+    grid-row-start: 2;
+  }
+  .card-item-3{
+    grid-row-start: 3;
+  }
+  div.recovered-card{
+  margin-left: 5px;
+}
+div.cases-card, div.recovered-card, div.deaths-card{
+  width: 300px;
+}
+h2.statusCard-number{
+  font-size: 20px;
+}
+div.regionBarGraph{
+  visibility: hidden;
+}
+div.globalRegionalTable, div.countryDataTable{
+  width: 50%;
+}
+  /* div.cases-card, div.recovered-card, div.deaths-card{
+  margin-right: 0px;
+} */
+}
+
+@media (min-width: 520px) and (max-width: 627px) {
+  .globalViewPg-container{
+    width: 100%;
+    margin-left: 10px;
+  }
+  div.global-grid-item.grid-item-1.Global-Head{
+    text-align: left;
+  }
+  div.statusCardContainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  div.regionBarGraph, div.globalRegionalTable, div.countryDataTable{
+  /* margin: 10px; */
+  width: 70%;
+}
+}
+
+@media (min-width: 628px) and (max-width: 699px){
+  div.global-grid-item.grid-item-1.Global-Head{
+    text-align: left;
+  }
+  .globalViewPg-container{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div.regionBarGraph, div.globalRegionalTable, div.countryDataTable{
+  margin: 10px;
+  width: 70%;
+}
+h2.regionTableHeading, h2.countryTableHeading{
+  margin: 10px;
+  margin-top: 15px;
+}
+div.globalRegionTable{
+  display: block;
+  overflow-x: scroll;
+}
+}
+
+@media (min-width: 700px) and (max-width: 799px){
+  .globalViewPg-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div.cases-card, div.recovered-card, div.deaths-card{
+  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 210px;
+}
+div.recovered-card{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+h2.statusCard-number{
+  margin-top: 10px;
+}
+div.regionBarGraph{
+  margin: 10px;
+  width: 90%;
+}
+div.globalRegionalTable{
+  margin: 10px;
+  width: 90%;
+}
+div.countryDataTable{
+  margin: 10px;
+  width: 90%;
+}
+h2.regionTableHeading, h2.countryTableHeading{
+  margin: 10px;
+  margin-top: 15px;
+}
+}
+
+@media (min-width: 800px) and (max-width: 924px){
+  i.fas{
+  font-size: 28px;
+}
+div.cases-card, div.recovered-card, div.deaths-card{
+  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 210px;
+}
+div.recovered-card{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+i.countryNameDesc{
+  font-size: 12px;
+}
+h2.statusCard-number{
+  font-size: 18px;
+  font-weight: bold;
+}
+.globalViewPg-container{
+  width: 90%;
+}
+div.regionBarGraph{
+  margin: 10px;
+  width: 90%;
+}
+}
+
+@media (min-width: 1025px){
+.globalViewPg-container{
+  display: grid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, auto);
+  /* gap: 10px; */
+  margin-bottom: 50px;
+}
+div.global-grid-item{
+  /* background-color: purple; */
+}
+.grid-item-1{
+  grid-column: span 3;
+  grid-row-start: 1;
+}
+.grid-item-2{
+  grid-column: span 3;
+  grid-row-start: 2;
+}
+.grid-item-3{
+  grid-column: span 3;
+  grid-row-start: 3;
+}
+.grid-item-4{
+  grid-column: span 2;
+  grid-row-start: 4;
+}
+.grid-item-5{
+  grid-column-start: 3;
+  grid-row-start: 4;
+}
+.grid-item-7{
+  grid-column: span 3;
+  grid-row-start: 6;
+}
+
+.grid-item-5.globalRegionalTable{
+  margin-top: 0px;
+}
+div.global-grid-item.grid-item-4.globalRegionalTable{
+  margin-left: 3px;
+}
+
+.grid-item-6{
+  grid-column: span 3;
+  grid-row-start: 5;
+  margin-top: 20px;
+  color: white;
+  text-align: left;
+}
+
 }

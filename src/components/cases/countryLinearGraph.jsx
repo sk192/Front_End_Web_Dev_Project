@@ -30,7 +30,6 @@ export default function CountryLinearGraph(props) {
   };
   return (
     <div className="countryLineGraph-div">
-      <h3>Linear</h3>
       <Line
         data={data}
         id="lineGraph-chart-id"

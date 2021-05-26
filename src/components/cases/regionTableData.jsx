@@ -1,7 +1,6 @@
 export default function RegionTableData(props) {
   return (
     <div className="globalRegionTable">
-      <h1 className="regionTableHeading">Region Covid Data</h1>
       <table id="regionTable">
         <thead className="regionTable-head">
           <tr className="regionTableRow zero">
