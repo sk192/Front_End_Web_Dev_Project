@@ -2,14 +2,13 @@ footer {
   color: white;
   background-color: rgba(5, 33, 65, 0.76);
   padding-top: 1em;
-  /* position: fixed; */
   bottom: 0;
   width: 100%;
-  height: 40px;
+  height: 230px;
   opacity: 1;
   overflow: hidden;
 }
-/* .list-unstyled{
+.list-unstyled{
    font-size: 12pt;
 }
 footer  ul {
@@ -26,9 +25,9 @@ footer  ul li {
   margin: 0 5px 0 0;
   opacity: 0.7;
   transition: all 0.4s ease;
-} */
+} 
 
-/* footer  ul li:hover {
+ footer  ul li:hover {
   opacity: 1;
  
 }
@@ -61,4 +60,4 @@ hr {
 .col{
   width: 33%;
   float: left;
-} */
+}
