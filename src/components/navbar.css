@@ -1,4 +1,11 @@
 
  .collapse{
-   margin-left: 290px;
+   margin-left: 200px;
  }
+@media screen and (min-width:1025px){
+
+  .collapse{
+   margin-left:940px;
+ }
+  
+}
