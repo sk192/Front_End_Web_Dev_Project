@@ -4,8 +4,8 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer className="footer bg-dark">
-      {/* <div className="container"> */}
-        {/* <div className="row">
+    <div className="container"> 
+        <div className="row">
           <div className="col ">
             <h4>COVID-19 DASHBOARD</h4>
             <h5 className="list-unstyled">By:</h5>
@@ -77,20 +77,29 @@ const Footer = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <b>Covid-19VaccineDataset</b>
+                  <b>VaccineByManufacturerDataset</b>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/govex/COVID-19/tree/master/data_tables/vaccine_data/global_data"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <b>VaccineByCountryDataset</b>
                 </a>
               </li>
             </ul>
           </div>
-        </div> */}
-        {/* <hr />
+        </div> 
+        <hr />
         <div className="row row1">
           <p className="col-sm">
             &copy;{new Date().getFullYear()} COVID-19 DASHBOARD | All rights
             reserved | Terms Of Service | Privacy
           </p>
-        </div>  */}
-      {/* </div> */}
+        </div> 
+    </div>
     </footer>
   );
 };
