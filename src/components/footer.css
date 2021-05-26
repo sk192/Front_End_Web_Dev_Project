@@ -1,15 +1,13 @@
 footer {
-  /* color: rgb(60, 173, 130); */
   color: white;
   background-color: rgba(5, 33, 65, 0.76);
   padding-top: 1em;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   width: 100%;
   height: 40px;
   opacity: 1;
   overflow: hidden;
-  
 }
 /* .list-unstyled{
    font-size: 12pt;
