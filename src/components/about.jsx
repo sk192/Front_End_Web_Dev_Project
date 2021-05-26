@@ -1,4 +1,4 @@
-// import pic from "../images/pic1.jpg";
+
 import pic from "../components/images/pic1.jpg";
 
 export default function About() {
