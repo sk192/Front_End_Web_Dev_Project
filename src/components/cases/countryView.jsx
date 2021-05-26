@@ -111,21 +111,44 @@ class CountryView extends Component {
   render() {
     console.log("inside country view ", this.props);
     return (
-      <div>
-        <h2>Country View: {this.props.match.params.countryName}</h2>
-        <StatusCards
-          totalCases={this.state.cardData.totalCases}
-          casesPerMil={this.state.cardData.casesPerMil}
-          totalRecovered={this.state.cardData.totalRecovered}
-          recoveryPercent={this.state.cardData.recoveryPercent}
-          totalDeaths={this.state.cardData.totalDeaths}
-          deathsPerMil={this.state.cardData.deathsPerMil}
-        />
-        <CountryLinearGraph graphData={this.state.graphDataValues} />
-        <CountryGloabBarGraph
-          barGraphGloabData={this.props.location.state}
-          barGraphCountryData={this.state.cardData}
-        />
+      <div className="CountryView-body">
+        <div className="countryViewPg-container">
+          <div className="country-grid-item cgrid-item-1 CountryView-Head">
+            <h2>
+              Country View: <b>{this.props.match.params.countryName}</b>
+            </h2>
+          </div>
+
+          <div className="country-grid-item cgrid-item-2 CountryView-StatusCards">
+            <StatusCards
+              totalCases={this.state.cardData.totalCases}
+              casesPerMil={this.state.cardData.casesPerMil}
+              totalRecovered={this.state.cardData.totalRecovered}
+              recoveryPercent={this.state.cardData.recoveryPercent}
+              totalDeaths={this.state.cardData.totalDeaths}
+              deathsPerMil={this.state.cardData.deathsPerMil}
+            />
+          </div>
+          <div className="country-grid-item cgrid-item-3">
+            <h2 className="countryLineGraphHeading">
+              <b>Country day-wise Covid Data</b>
+            </h2>
+          </div>
+          <div className="country-grid-item cgrid-item-4">
+            <h2 className="countryBarGraphHeading">
+              <b>Country Vs Gloab Covid Data</b>
+            </h2>
+          </div>
+          <div className="country-grid-item cgrid-item-5 CountryViewLineGraph">
+            <CountryLinearGraph graphData={this.state.graphDataValues} />
+          </div>
+          <div className="country-grid-item cgrid-item-6 countryViewBarGraph">
+            <CountryGloabBarGraph
+              barGraphGloabData={this.props.location.state}
+              barGraphCountryData={this.state.cardData}
+            />
+          </div>
+        </div>
       </div>
     );
   }

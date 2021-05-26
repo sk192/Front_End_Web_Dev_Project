@@ -1,8 +1,6 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function CountryDataTable(props) {
-  // const [style, setStyle] = useState({width="100%"});
   return (
     <div className="countryDataTable">
       <table className="countryDataTable">
