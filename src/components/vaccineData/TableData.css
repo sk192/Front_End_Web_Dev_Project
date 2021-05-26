@@ -8,11 +8,12 @@
 
 .my-custom-scrollbar {
   position: relative;
-
+  width: 800px;
   overflow: auto;
 }
 .table-wrapper-scroll-y {
   display: block;
+  width: 930px;
 }
 
 .countryUID {
@@ -26,8 +27,11 @@
   max-height: 1200px;
   border-radius: 10px;
   margin-top: 40px;
+
   margin-right: 5px;
 }
+
+
 .tableColumn,
 .countryUID {
   width: 20px;
@@ -47,7 +51,7 @@ tr:hover {
 
 @media screen and (max-width: 414px) {
   .container {
-    height: 290vh;
+    height: 870vh;
     position: relative;
     margin-left: 70px;
     left: 0;
@@ -57,7 +61,7 @@ tr:hover {
 
   .table-wrapper {
     overflow-y: scroll;
-    max-height: 240vh;
+    max-height: 870vh;
     border-radius: 10px;
     margin-top: 40px;
     border: none;
@@ -67,7 +71,7 @@ tr:hover {
   .container {
     height: 100%;
     position: relative;
-    margin-left: 70px;
+    margin-left: 60px;
     left: 0;
     right: 0;
     top: 0;
@@ -76,8 +80,13 @@ tr:hover {
     max-height: 100%;
     border-radius: 10px;
     margin-top: 50px;
-    margin-right: 5px;
+    margin-right: 4px;
+    width: 705px;
   }
+  .table-wrapper-scroll-y {
+  display: block;
+  width: 705px;
+}
 }
 
 @media screen and (min-width: 769) and (max-width: 1024px) {
@@ -89,6 +98,12 @@ tr:hover {
     right: 0;
     top: 0;
   }
+  .my-custom-scrollbar {
+    position: relative;
+    width: 900px;
+    overflow: auto;
+}
+
 }
 
 @media screen and (min-width: 1025px) {
