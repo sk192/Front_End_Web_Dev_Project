@@ -12,7 +12,7 @@ export default function StackedBar(props) {
           datasets: [
             {
               label: "people_partially_vaccinated",
-              pointStyle: "rectRounded",
+              pointstyle: "rectRounded",
               backgroundColor: "#6ED3FF",
               barThickness: 40,
               categoryPercentage: 1,
@@ -23,7 +23,7 @@ export default function StackedBar(props) {
               backgroundColor: "#1497FF",
               barThickness: 40,
               categoryPercentage: 1,
-              pointStyle: "triangle",
+              pointstyle: "triangle",
               data: props.barFullyData,
             },
             {
@@ -31,7 +31,7 @@ export default function StackedBar(props) {
               backgroundColor: "#ff0000",
               barThickness: 40,
               categoryPercentage: 1,
-              pointStyle: "triangle",
+              pointstyle: "triangle",
               data: props.barTotalDose,
             },
           ],
