@@ -1,57 +1,52 @@
-import {Link} from 'react-router-dom';
-import './navbar.css';
+import { Link } from "react-router-dom";
+import "./navbar.css";
 
-function HeaderNav(){
+function HeaderNav() {
+  return (
+    <>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-brand bg-dark">COVID-19 DASHBOARD</button>
 
-    const linkStyle = {
-        TextDecoration : "none",
-        color :"#fff",
-        display:"inline-block",
-        fontWeight : 600,
-        fontSize:"15px"
-    }
-
-    return(
-        <>
-            <nav className="navbar">
-                <div className="navHeader">
-                    <ul>
-                        <Link to="/" style={linkStyle} >
-                            <li>
-                                <span>Home</span>
-                            </li>
-                            
-                        </Link>
-                        <Link to="/vaccination" style={linkStyle}>
-                            <li>
-                                <span>Vaccination_Info</span>
-                            </li>
-                        </Link>
-                        
-                        <Link to="/vaccineCompany" style={linkStyle}>
-                            <li>
-                                <span>VaccineManufacturerInfo</span>
-                            </li>
-                        </Link>
-                     
-                        <Link to="/covidInfo" style={linkStyle}>
-                            <li>
-                                <span>Covid_Info</span>
-                            </li>
-                        </Link>
-                        <Link to="/about" style={linkStyle}>
-                            <li>
-                                <span>About</span>
-                            </li>
-                        </Link>
-
-                    </ul>
-                </div>
-            </nav>
-        </>
-    );
-
-
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsingNavbarMd"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="collapsingNavbarMd">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <h4 class="links">Home</h4>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/vaccination">
+                <h4 class="links">Vaccination_Info</h4>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/vaccineCompany">
+                <h4 class="links">VaccineManufacturerInfo</h4>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/covidInfo">
+                <h4 class="links">covidInfo</h4>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">
+                <h4 class="links">About</h4>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </>
+  );
 }
 
 export default HeaderNav;
