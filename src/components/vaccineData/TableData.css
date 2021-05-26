@@ -115,4 +115,13 @@ tr:hover {
     right: 0;
     top: 0;
   }
+
+  .table-wrapper-scroll-y {
+    display: block;
+    width: 930px;
+    margin-left: 70px;
+  }
+
+  
+
 }
