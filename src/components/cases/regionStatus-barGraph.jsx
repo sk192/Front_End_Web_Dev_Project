@@ -58,6 +58,7 @@ export default function RegionBarGraph(props){
   return (
     <div className="regionBarGraph">
       <Bar
+        className="regionBar-graphCanvas"
         data={stateValues.chartData}
         options={{
           indexAxis: "x",

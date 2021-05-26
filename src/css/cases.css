@@ -11,8 +11,8 @@ h1.globalView-Heading, p.global-subHeading{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(6, auto);
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(7, auto);
   /* gap: 10px; */
   margin-bottom: 50px;
 }
@@ -20,35 +20,35 @@ div.global-grid-item{
   /* background-color: purple; */
 }
 .grid-item-1{
-  grid-column: span 3;
+  /* grid-column: span 3; */
   grid-row-start: 1;
 }
 .grid-item-2{
-  grid-column: span 3;
+  /* grid-column: span 3; */
   grid-row-start: 2;
 }
 .grid-item-3{
-  grid-column: span 3;
+  /* grid-column: span 3; */
   grid-row-start: 3;
 }
 .grid-item-4{
-  grid-column: span 2;
+  /* grid-column: span 2; */
   grid-row-start: 4;
 }
 .grid-item-5{
-  grid-column-start: 3;
-  grid-row-start: 4;
+  /* grid-column-start: 3; */
+  grid-row-start: 5;
 }
 .grid-item-7{
-  grid-column: span 3;
-  grid-row-start: 6;
+  /* grid-column: span 3; */
+  grid-row-start: 7;
 }
 .grid-item-5.globalRegionalTable{
-  padding-left: 10px;
+  margin-top: 20px;
 }
 .grid-item-6{
-  grid-column: span 3;
-  grid-row-start: 5;
+  /* grid-column: span 3; */
+  grid-row-start: 6;
   margin-top: 20px;
   color: white;
   text-align: left;
@@ -60,9 +60,9 @@ div.global-grid-item{
 .countryViewPg-container{
   display: grid;
   width: 80%;
-   margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
-   grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, auto);
   /* gap: 10px; */
   margin-bottom: 50px;
@@ -100,9 +100,12 @@ div.countryLineGraph-div, div.countryGloabBarGraph-div{
 /**
 * status card CSS
 */
-
+h2.statusCard-number{
+  font-size: 20px;
+  font-weight: bold;
+}
 i.fas{
-  font-size: 36px;
+  font-size: 30px;
   margin-top: 10px;
 }
 
@@ -121,7 +124,7 @@ div.cases-card, div.recovered-card, div.deaths-card{
   padding: 10px;
   padding-left: 15px;
   padding-right: 15px;
-  width: 300px;
+  width: 220px;
   text-align: left !important;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
 }
@@ -152,6 +155,7 @@ div.regionBarGraph{
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  margin-right: 10px;
 }
 
 div.global-grid-item.grid-item-4.globalRegionalTable{
@@ -181,6 +185,7 @@ table#regionTable{
 th.regionTable-heading, td.regionTable-data {
   text-align: center;
   padding: 8px;
+  
 }
 td.regionTable-data{
   padding-top: 16px;
@@ -202,7 +207,7 @@ tr.regionTableRow:hover{
 
 th.regionTable-heading {
   background-color: #ffffff;
-  color: black;
+  color: rgba(5, 33, 65);
 }
 /* div.globalRegionTable{
   display: block;
@@ -251,8 +256,23 @@ tr.countryDataTableRow:hover{
 }
 th.countryDataHead {
   background-color: #ffffff;
-  color: black;
+  color: rgba(5, 33, 65);;
 }
+a.countryName-link{
+  color: rgba(5, 33, 65);
+  font-size: 16px;;
+}
+button.countryDataTable-btn{
+  border: none;
+  cursor: pointer;
+  background-color: white; 
+}
+i.countryNameDesc{
+  font-size: 16px;
+  color: rgb(167, 167, 167);
+}
+
+
 
 /*line graph css*/
 
@@ -303,4 +323,218 @@ div.about1{
 }
 div.about2{
   margin-left: 60px;
+}
+div.globalRegionTable{
+  /* width: 300px; */
+  display: block;
+  overflow-x: scroll;
+}
+div.statusCardContainer{
+    display: flex;
+  }
+@media (max-width: 519px) {
+  .globalViewPg-container{
+    width: 100%;
+    margin-left: 10px;
+  }
+  div.global-grid-item.grid-item-1.Global-Head{
+    text-align: left;
+  }
+  div.statusCardContainer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, auto); 
+  }
+  .card-item-1{
+    grid-row-start: 1;
+  }
+  .card-item-2{
+    grid-row-start: 2;
+  }
+  .card-item-3{
+    grid-row-start: 3;
+  }
+  div.recovered-card{
+  margin-left: 5px;
+}
+div.cases-card, div.recovered-card, div.deaths-card{
+  width: 300px;
+}
+h2.statusCard-number{
+  font-size: 20px;
+}
+div.regionBarGraph{
+  visibility: hidden;
+}
+div.globalRegionalTable, div.countryDataTable{
+  width: 50%;
+}
+  /* div.cases-card, div.recovered-card, div.deaths-card{
+  margin-right: 0px;
+} */
+}
+
+@media (min-width: 520px) and (max-width: 627px) {
+  .globalViewPg-container{
+    width: 100%;
+    margin-left: 10px;
+  }
+  div.global-grid-item.grid-item-1.Global-Head{
+    text-align: left;
+  }
+  div.statusCardContainer{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  div.regionBarGraph, div.globalRegionalTable, div.countryDataTable{
+  /* margin: 10px; */
+  width: 70%;
+}
+}
+
+@media (min-width: 628px) and (max-width: 699px){
+  div.global-grid-item.grid-item-1.Global-Head{
+    text-align: left;
+  }
+  .globalViewPg-container{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div.regionBarGraph, div.globalRegionalTable, div.countryDataTable{
+  margin: 10px;
+  width: 70%;
+}
+h2.regionTableHeading, h2.countryTableHeading{
+  margin: 10px;
+  margin-top: 15px;
+}
+div.globalRegionTable{
+  display: block;
+  overflow-x: scroll;
+}
+}
+
+@media (min-width: 700px) and (max-width: 799px){
+  .globalViewPg-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div.cases-card, div.recovered-card, div.deaths-card{
+  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 210px;
+}
+div.recovered-card{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+h2.statusCard-number{
+  margin-top: 10px;
+}
+div.regionBarGraph{
+  margin: 10px;
+  width: 90%;
+}
+div.globalRegionalTable{
+  margin: 10px;
+  width: 90%;
+}
+div.countryDataTable{
+  margin: 10px;
+  width: 90%;
+}
+h2.regionTableHeading, h2.countryTableHeading{
+  margin: 10px;
+  margin-top: 15px;
+}
+}
+
+@media (min-width: 800px) and (max-width: 924px){
+  i.fas{
+  font-size: 28px;
+}
+div.cases-card, div.recovered-card, div.deaths-card{
+  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 210px;
+}
+div.recovered-card{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+i.countryNameDesc{
+  font-size: 12px;
+}
+h2.statusCard-number{
+  font-size: 18px;
+  font-weight: bold;
+}
+.globalViewPg-container{
+  width: 90%;
+}
+div.regionBarGraph{
+  margin: 10px;
+  width: 90%;
+}
+}
+
+@media (min-width: 1025px){
+.globalViewPg-container{
+  display: grid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, auto);
+  /* gap: 10px; */
+  margin-bottom: 50px;
+}
+div.global-grid-item{
+  /* background-color: purple; */
+}
+.grid-item-1{
+  grid-column: span 3;
+  grid-row-start: 1;
+}
+.grid-item-2{
+  grid-column: span 3;
+  grid-row-start: 2;
+}
+.grid-item-3{
+  grid-column: span 3;
+  grid-row-start: 3;
+}
+.grid-item-4{
+  grid-column: span 2;
+  grid-row-start: 4;
+}
+.grid-item-5{
+  grid-column-start: 3;
+  grid-row-start: 4;
+}
+.grid-item-7{
+  grid-column: span 3;
+  grid-row-start: 6;
+}
+
+.grid-item-5.globalRegionalTable{
+  margin-top: 0px;
+}
+div.global-grid-item.grid-item-4.globalRegionalTable{
+  margin-left: 3px;
+}
+
+.grid-item-6{
+  grid-column: span 3;
+  grid-row-start: 5;
+  margin-top: 20px;
+  color: white;
+  text-align: left;
+}
+
 }
