@@ -1,11 +1,26 @@
 
  .collapse{
-   margin-left: 200px;
+   margin-left: 900px;
  }
-@media screen and (min-width:1025px){
+
+
+@media screen and (max-width:414px){
 
   .collapse{
-   margin-left:940px;
+    margin-left: 180px;
+   }
+}
+@media screen and (min-width:415px) and (max-width:768px){
+
+  .collapse{
+    margin-left: 530px;
+   }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+
+  .collapse{
+   margin-left:190px;
  }
   
 }
