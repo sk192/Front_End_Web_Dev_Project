@@ -127,6 +127,7 @@ class VaccineCompany extends Component {
             displayValue="name"
             style={this.style1}
             singleSelect="true"
+            value='selectbox'
           />
         </div>
         <div className="piediv">
