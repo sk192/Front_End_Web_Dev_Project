@@ -3,7 +3,7 @@ import "./TableData.css";
 
 export default function TableData(props) {
   return (
-    <div className="table-wrapper-scroll-y my-custom-scrollbar">
+    <div className="table">
       <table className="table table-bordered   mb-0">
         <thead>
           <tr className="hrow">
@@ -15,9 +15,7 @@ export default function TableData(props) {
               <br />
               Region
             </th>
-            <th scope="col" className="heading">
-              Province <br /> State
-            </th>
+           
             <th scope="col" className="heading">
               Doses <br /> admin
             </th>
@@ -38,8 +36,6 @@ export default function TableData(props) {
                 {item.value}
               </th>
               <td className="tableColumn" key={"country_name"+item.value}>{item.Country}</td>
-              <td className="tableColumn" key={"province_state"+item.value}>{item.Province_State}</td>
-
               <td className="tableColumn" key={'doses'+item.value}>{item.Doses_admin}</td>
               <td className="tableColumn" key={'full'+item.value}>{item.People_fully_vaccinated}</td>
               <td className="tableColumn" key={'part'+item.value}>{item.People_partially_vaccinated}</td>
