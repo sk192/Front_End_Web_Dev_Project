@@ -24,24 +24,24 @@ class Barchart extends Component {
         background: "green",
       },
       searchBox: {
-        "borderBottom": "1px solid blue",
-        "borderRadius": "5px",
-        "backgroundColor": "rgb(238, 225, 225)",
+        borderBottom: "1px solid blue",
+        borderRadius: "5px",
+        backgroundColor: "white",
       },
       multiselectContainer: {
         color: "black",
       },
     };
   }
-  numFormate = (num) =>{
-    if(num > 999 && num < 1000000){
-      return (num/1000).toFixed(1)+'K';
-    }else if(num > 1000000){
-        return (num/1000000).toFixed(1) + 'M'; // convert to M for number from > 1 million 
-    }else if(num < 900){
-        return num; // if value < 1000, nothing to do
+  numFormate = (num) => {
+    if (num > 999 && num < 1000000) {
+      return (num / 1000).toFixed(1) + "K";
+    } else if (num > 1000000) {
+      return (num / 1000000).toFixed(1) + "M"; // convert to M for number from > 1 million
+    } else if (num < 900) {
+      return num; // if value < 1000, nothing to do
     }
-  }
+  };
   componentDidMount = async () => {
     try {
       const url = "./dataset/vaccine_data_global.json";
@@ -61,10 +61,13 @@ class Barchart extends Component {
           new_arr["Doses_admin"] = element.Doses_admin;
           new_arr["value"] = element.UID;
           allData["Country"] = element.Country_Region;
-          
-           allData["People_fully_vaccinated"] = this.numFormate(element.People_fully_vaccinated);
-          allData["People_partially_vaccinated"] =
-            this.numFormate(element.People_partially_vaccinated);
+
+          allData["People_fully_vaccinated"] = this.numFormate(
+            element.People_fully_vaccinated
+          );
+          allData["People_partially_vaccinated"] = this.numFormate(
+            element.People_partially_vaccinated
+          );
           allData["Doses_admin"] = this.numFormate(element.Doses_admin);
           allData["value"] = element.UID;
           dataForChart.push(new_arr);
@@ -116,11 +119,12 @@ class Barchart extends Component {
             options={this.state.country_names}
             placeholder="Select upto 4 countries"
             onSelect={this.onSelect}
+            value="checkbox"
             showCheckbox={true}
             selectionLimit="4"
             style={this.style}
             id="css_custom"
-            closeIcon="close"
+            closeIcon="circle"
             isObject={false}
             onRemove={this.onRemove}
           />
@@ -133,13 +137,12 @@ class Barchart extends Component {
             barTotalDose={this.state.total_dose}
           />
         </div>
-        <div className='tableHeading'>
-           <h1>
-              <b>Countries vaccine information</b>
+        <div className="tableHeading">
+          <h1>
+            <b>Countries vaccine information</b>
           </h1>
         </div>
         <div className="table-responsive table-sm table-wrapper">
-         
           <TableData vData={this.state.whole_data} />
         </div>
       </div>
