@@ -1,6 +1,4 @@
-/* .container-block {
-  margin-top: 150px;
-} */
+
 .check {
   width: 500px;
   margin-left: 770px;
@@ -18,7 +16,7 @@
 .tableHeading{
   color: rgba(255, 255, 255, 0.849);
   margin-top: 50px;
- 
+ text-align: left;
 }
 
 @media screen and (max-width: 414px) {
