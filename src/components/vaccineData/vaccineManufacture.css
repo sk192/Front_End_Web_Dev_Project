@@ -5,8 +5,9 @@
   margin-top: 100px;
   padding: 20px;
 }
+
 .piediv {
-  height: 900px;
+  height: 890px;
 }
 .containerDiv h1 {
   color: honeydew;
@@ -80,7 +81,7 @@
     padding: 20px;
   }
   .donutchart {
-    padding-bottom: 960px;
+    padding-bottom: 400px;
     width: 670px;
     background-color: rgba(231, 240, 240, 0.788);
     color: white;
@@ -110,7 +111,7 @@
   .selectDiv {
     width: 600px;
     margin-left: 230px;
-    box-shadow: 0 0 10px rgb(231, 208, 208);
+    box-shadow: 0 0 10px #ccc;
     margin-top: 40px;
     padding: 20px;
   }
@@ -118,25 +119,19 @@
   .donutchart {
     padding-bottom: 890px;
     width: 750px;
-    background-color: rgba(231, 240, 240, 0.788);
-
-    color: white;
-    margin-top: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #ccc;
     height: 300px;
   }
   .donutchart-innertext-label {
-    color: white;
+   
     font-size: 30px;
   }
   .donutchart-legend-item-label {
-    color: white;
+   
     font-size: 15px;
     font-weight: bold;
   }
   .donutchart-innertext-value {
-    color: white;
+   
     font-size: 30px;
   }
 }
