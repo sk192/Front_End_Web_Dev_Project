@@ -23,7 +23,7 @@
   margin-top: 30px;
   border-radius: 10px;
   box-shadow: 0 0 10px #ccc;
-  height: 70vh;
+ 
 }
 
 .donutchart-innertext-label {
@@ -80,7 +80,7 @@
     padding: 20px;
   }
   .donutchart {
-    padding-bottom: 330px;
+    padding-bottom: 960px;
     width: 670px;
     background-color: rgba(231, 240, 240, 0.788);
     color: white;
@@ -116,7 +116,7 @@
   }
 
   .donutchart {
-    padding-bottom: 280px;
+    padding-bottom: 890px;
     width: 750px;
     background-color: rgba(231, 240, 240, 0.788);
 
