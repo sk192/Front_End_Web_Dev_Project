@@ -12,7 +12,7 @@ import  VaccineCompany from './components/vaccineData/vaccineManufacture.jsx';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/css/bootstrap.css";
-import './custom.css';
+
 function App() {
   return (
     <div className="App">
