@@ -5,15 +5,6 @@ function HeaderNav() {
     <>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <button class="navbar-brand bg-dark">COVID-19 DASHBOARD</button>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#collapsingNavbarMd"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="navbar-collapse collapse" id="collapsingNavbarMd">
           <ul class="navbar-nav">
             <li class="nav-item">
