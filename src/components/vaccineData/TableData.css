@@ -1,44 +1,37 @@
 .heading {
   text-align: center;
-  background-color: #ccc;
+  background-color: white;
   font-size: 17px;
   position: sticky;
   top: 0;
 }
 
-.my-custom-scrollbar {
-  position: relative;
-  width: 800px;
-  overflow: auto;
+.tableRow {
+  background-color: lightgray;
 }
-.table-wrapper-scroll-y {
-  display: block;
-  width: 930px;
-}
-
 .countryUID {
   text-align: center;
 }
-.table-wrapper h1 {
-  color: white;
+
+div.table {
+  display: block;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  border-collapse: collapse;
+  width: 100%;
 }
 .table-wrapper {
-  overflow-y: scroll;
   max-height: 1200px;
   border-radius: 10px;
   margin-top: 40px;
-
+  margin-bottom: 50px;
   margin-right: 5px;
 }
-
 
 .tableColumn,
 .countryUID {
   width: 20px;
   height: 30px;
-  background-color: rgba(20, 1, 1, 0);
-  color: white;
-  border-radius: 10px;
   font-size: 17px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -50,78 +43,29 @@ tr:hover {
 }
 
 @media screen and (max-width: 414px) {
-  .container {
-    height: 870vh;
-    position: relative;
-    margin-left: 70px;
-    left: 0;
-    right: 0;
-    top: 0;
-  }
-
-  .table-wrapper {
+  div.table {
+    display: block;
     overflow-y: scroll;
-    max-height: 870vh;
-    border-radius: 10px;
-    margin-top: 40px;
-    border: none;
+    overflow-x: scroll;
+    max-height: 500px;
+    
   }
 }
 @media screen and (min-width: 415px) and (max-width: 768px) {
-  .container {
-    height: 100%;
-    position: relative;
-    margin-left: 60px;
-    left: 0;
-    right: 0;
-    top: 0;
-  }
-  .table-wrapper {
-    max-height: 100%;
-    border-radius: 10px;
-    margin-top: 50px;
-    margin-right: 4px;
-    width: 705px;
-  }
-  .table-wrapper-scroll-y {
-  display: block;
-  width: 705px;
+    div.table {
+      display: block;
+      overflow-y: scroll;
+      overflow-x: scroll;
+      max-height: 770px;
+      
+    }
 }
-}
-
-@media screen and (min-width: 769) and (max-width: 1024px) {
-  .container {
-    height: 100%;
-    position: relative;
-    margin-left: 70px;
-    left: 0;
-    right: 0;
-    top: 0;
-  }
-  .my-custom-scrollbar {
-    position: relative;
-    width: 900px;
-    overflow: auto;
-}
-
-}
-
-@media screen and (min-width: 1025px) {
-  .container {
-    height: 100%;
-    position: relative;
-    margin-left: 10px;
-    left: 0;
-    right: 0;
-    top: 0;
-  }
-
-  .table-wrapper-scroll-y {
-    display: block;
-    width: 930px;
-    margin-left: 70px;
-  }
-
-  
-
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    div.table {
+      display: block;
+      overflow-y: scroll;
+      overflow-x: scroll;
+      max-height: 1370px;
+     
+    }
 }
