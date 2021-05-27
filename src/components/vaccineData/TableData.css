@@ -1,14 +1,11 @@
 .heading {
   text-align: center;
-  background-color: white;
+  background-color: #ccc;
   font-size: 17px;
   position: sticky;
   top: 0;
 }
 
-.tableRow {
-  background-color: lightgray;
-}
 .countryUID {
   text-align: center;
 }
@@ -39,33 +36,22 @@ tr {
   align-content: center;
 }
 tr:hover {
-  background-color: gray;
+  background-color: rgb(185, 179, 179);
 }
 
 @media screen and (max-width: 414px) {
   div.table {
-    display: block;
-    overflow-y: scroll;
-    overflow-x: scroll;
+   
     max-height: 500px;
-    
   }
 }
 @media screen and (min-width: 415px) and (max-width: 768px) {
-    div.table {
-      display: block;
-      overflow-y: scroll;
-      overflow-x: scroll;
-      max-height: 770px;
-      
-    }
+  div.table {
+    max-height: 770px;
+  }
 }
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-    div.table {
-      display: block;
-      overflow-y: scroll;
-      overflow-x: scroll;
-      max-height: 1370px;
-     
-    }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  div.table {
+    max-height: 1370px;
+  }
 }
