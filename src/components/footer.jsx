@@ -4,7 +4,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer className="footer bg-dark">
-    <div className="container"> 
+      <div className="container">
         <div className="row">
           <div className="col ">
             <h4>COVID-19 DASHBOARD</h4>
@@ -19,7 +19,7 @@ const Footer = () => {
               </b>
             </p>
           </div>
-           <div className="col ">
+          <div className="col ">
             <h4>Powered By</h4>
             <ul className="list-unstyled">
               <li>
@@ -91,15 +91,15 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-        </div> 
+        </div>
         <hr />
         <div className="row row1">
           <p className="col-sm">
             &copy;{new Date().getFullYear()} COVID-19 DASHBOARD | All rights
             reserved | Terms Of Service | Privacy
           </p>
-        </div> 
-    </div>
+        </div>
+      </div>
     </footer>
   );
 };
