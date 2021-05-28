@@ -8,8 +8,17 @@ export default function StatusCards(props) {
             <i className="fas fa-globe-americas emoji cases"></i>
           </span>
         </div>
-        <h2 className="statusCard-number">{props.totalCases}</h2>
-        <p>{props.casesPerMil} cases per Mil</p>
+        <h2 className="statusCard-number">
+          {props.totalCases
+            .toString()
+            .replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}
+        </h2>
+        <p>
+          {props.casesPerMil
+            .toString()
+            .replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}{" "}
+          cases per Mil
+        </p>
       </div>
 
       <div className="recovered-card card-item-2">
@@ -19,7 +28,11 @@ export default function StatusCards(props) {
             <i className="fas fa-heart emoji recover"></i>
           </span>
         </div>
-        <h2 className="statusCard-number">{props.totalRecovered}</h2>
+        <h2 className="statusCard-number">
+          {props.totalRecovered
+            .toString()
+            .replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}
+        </h2>
         <p>{props.recoveryPercent}% recovery</p>
       </div>
 
@@ -30,8 +43,17 @@ export default function StatusCards(props) {
             <i className="fas fa-skull-crossbones emoji death"></i>
           </span>
         </div>
-        <h2 className="statusCard-number">{props.totalDeaths}</h2>
-        <p>{props.deathsPerMil} deaths per Mil</p>
+        <h2 className="statusCard-number">
+          {props.totalDeaths
+            .toString()
+            .replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}
+        </h2>
+        <p>
+          {props.deathsPerMil
+            .toString()
+            .replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}{" "}
+          deaths per Mil
+        </p>
       </div>
     </div>
   );

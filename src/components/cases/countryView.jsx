@@ -134,13 +134,13 @@ class CountryView extends Component {
               <b>Country day-wise Covid Data</b>
             </h2>
           </div>
-          <div className="country-grid-item cgrid-item-4">
+          <div className="country-grid-item cgrid-item-4 CountryViewLineGraph">
+            <CountryLinearGraph graphData={this.state.graphDataValues} />
+          </div>
+          <div className="country-grid-item cgrid-item-5">
             <h2 className="countryBarGraphHeading">
               <b>Country Vs Gloab Covid Data</b>
             </h2>
-          </div>
-          <div className="country-grid-item cgrid-item-5 CountryViewLineGraph">
-            <CountryLinearGraph graphData={this.state.graphDataValues} />
           </div>
           <div className="country-grid-item cgrid-item-6 countryViewBarGraph">
             <CountryGloabBarGraph

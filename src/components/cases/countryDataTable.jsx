@@ -156,14 +156,18 @@ export default function CountryDataTable(props) {
                   Math.floor(Math.random() * 2000)
                 }
               >
-                {item.confirmed}
+                {item.confirmed
+                  .toString()
+                  .replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}
               </td>
 
               <td
                 className="countryData td3"
                 key={"deaths" + item.deaths + Math.floor(Math.random() * 2000)}
               >
-                {item.deaths}
+                {item.deaths
+                  .toString()
+                  .replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}
               </td>
 
               <td
@@ -172,7 +176,9 @@ export default function CountryDataTable(props) {
                   "recovery" + item.recovered + Math.floor(Math.random() * 2000)
                 }
               >
-                {item.recovered}
+                {item.recovered
+                  .toString()
+                  .replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}
               </td>
 
               <td
@@ -194,7 +200,9 @@ export default function CountryDataTable(props) {
                   Math.floor(Math.random() * 2000)
                 }
               >
-                {Math.ceil((item.confirmed / item.population) * 1000000)}
+                {Math.ceil((item.confirmed / item.population) * 1000000)
+                  .toString()
+                  .replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}
               </td>
 
               <td
@@ -203,14 +211,18 @@ export default function CountryDataTable(props) {
                   "deathpermil" + item.deaths + Math.floor(Math.random() * 2000)
                 }
               >
-                {Math.ceil((item.deaths / item.population) * 1000000)}
+                {Math.ceil((item.deaths / item.population) * 1000000)
+                  .toString()
+                  .replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}
               </td>
 
               <td
                 className="countryData td5"
                 key={"pop" + item.population + Math.floor(Math.random() * 2000)}
               >
-                {item.population}
+                {(Math.ceil(item.population / 1000000).toString() + "M")
+                  .toString()
+                  .replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}
               </td>
             </tr>
           ))}
