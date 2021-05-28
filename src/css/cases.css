@@ -9,10 +9,10 @@ h1.globalView-Heading, p.global-subHeading{
   padding-top: 0px;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(6, auto);
-  gap:10px;
+  /* gap:10px; */
 }
 div.global-grid-item{
-  background-color: purple;
+  /* background-color: purple; */
 }
  .grid-item-1{
   grid-column: span 2;
@@ -288,10 +288,10 @@ div.about2{
     margin-right: auto;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(7, auto);
-    gap:10px;
+    /* gap:10px; */
    }
    div.global-grid-item{
-    background-color: purple;
+    /* background-color: purple; */
   }
   .grid-item-4{
     grid-column: span 2;
@@ -344,7 +344,7 @@ div.about2{
     grid-template-rows: repeat(7, auto);
    }
   div.global-grid-item{
-    background-color: orange;
+    /* background-color: orange; */
   }
 .grid-item-4{
   grid-column: span 2;
@@ -390,7 +390,7 @@ div.globalRegionTable{
     justify-items: center;
    }
   div.global-grid-item{
-    background-color: skyblue;
+    /* background-color: skyblue; */
   }
 .grid-item-4{
   grid-column: span 2;
