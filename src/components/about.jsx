@@ -10,9 +10,14 @@ export default function About() {
           <h4 className="about-name">
             <b>Shweta Korulkar</b>
           </h4>
-          <p className="about-task">Task: VaccinationInfo Page and Home page</p>
+          <p className="about-task">
+            Task: VaccinationInfo, Vaccine Manufacture and Home page
+          </p>
           <a href="https://github.com/sk192" className="about-gitrepo-link">
-            GitHub
+            GitHub{" "}
+            <span className="gitExternalLinkIcon">
+              <i className="fas fa-external-link-alt gitExternalLink"></i>
+            </span>
           </a>
         </div>
       </div>
@@ -22,12 +27,17 @@ export default function About() {
           <h4 className="about-name">
             <b>Sree Vandana</b>
           </h4>
-          <p className="about-task">Task: Cases Status Page and About Page</p>
+          <p className="about-task">
+            Task: Cases Status (global View and Country View) and About Page
+          </p>
           <a
             href="https://github.com/Sree-Vandana"
             className="about-gitrepo-link"
           >
             GitHub
+            <span className="gitExternalLinkIcon">
+              <i className="fas fa-external-link-alt gitExternalLink"></i>
+            </span>
           </a>
         </div>
       </div>

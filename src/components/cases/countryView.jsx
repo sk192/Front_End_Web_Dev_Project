@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import StatusCards from "./statusCardsContainer";
 import CountryLinearGraph from "./countryLinearGraph";
 import CountryGloabBarGraph from "./countryGloabBarGraph";
+import CountryGloabTable from "./CountryGloabTable";
 class CountryView extends Component {
   
   constructor(props) {
@@ -31,7 +32,6 @@ class CountryView extends Component {
       .then((res) => res.json())
 
       .then((data) => {
-        console.log(data.All);
 
         const compState = { ...this.state };
 
@@ -67,8 +67,6 @@ class CountryView extends Component {
     fetch(confirmed_dateData_URL)
       .then((res) => res.json())
       .then((data) => {
-        console.log("confirmed");
-        console.log(data.All.dates);
         const compState1 = { ...this.state };
         compState1.graphDataValues.labels = Object.keys(data.All.dates)
           .reverse()
@@ -83,8 +81,6 @@ class CountryView extends Component {
       fetch(deaths_dateData_URL)
         .then((res) => res.json())
         .then((data) => {
-          console.log("deaths");
-          console.log(data.All.dates);
           const compState2 = { ...this.state };
           compState2.graphDataValues.deathsData = Object.values(
             data.All.dates
@@ -96,8 +92,6 @@ class CountryView extends Component {
         fetch(recovered_dateData_URL)
           .then((res) => res.json())
           .then((data) => {
-            console.log("recovered");
-            console.log(data.All.dates);
             const compState3 = { ...this.state };
             compState3.graphDataValues.recoveredData = Object.values(
               data.All.dates
@@ -109,7 +103,6 @@ class CountryView extends Component {
   }
 
   render() {
-    console.log("inside country view ", this.props);
     return (
       <div className="CountryView-body">
         <div className="countryViewPg-container">
@@ -144,6 +137,12 @@ class CountryView extends Component {
           </div>
           <div className="country-grid-item cgrid-item-6 countryViewBarGraph">
             <CountryGloabBarGraph
+              barGraphGloabData={this.props.location.state}
+              barGraphCountryData={this.state.cardData}
+            />
+          </div>
+          <div className="country-grid-item cgrid-item-7 countryGloabTable">
+            <CountryGloabTable
               barGraphGloabData={this.props.location.state}
               barGraphCountryData={this.state.cardData}
             />

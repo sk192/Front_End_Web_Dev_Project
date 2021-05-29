@@ -233,7 +233,6 @@ export default class GlobalView extends Component {
     compState.continent.asia.pop = asia[3];
 
     this.setState(compState);
-    console.log(this.state);
   }
 
   componentDidMount() {
@@ -273,7 +272,6 @@ export default class GlobalView extends Component {
         compState.country.countryData = countryDataObject;
         this.setState(compState);
         this.calculateGlobalValues(data);
-        console.log(this.state);
       })
       .catch((error) => {
         console.log(error);

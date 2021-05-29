@@ -14,7 +14,7 @@ export default function CountryDataTable(props) {
               >
                 Country
                 <span>
-                  <i class="fas fa-sort-alpha-down countryNameDesc"></i>
+                  <i className="fas fa-sort-alpha-down countryNameDesc"></i>
                 </span>
               </button>
             </th>
@@ -27,7 +27,7 @@ export default function CountryDataTable(props) {
               >
                 Total Cases
                 <span>
-                  <i class="fas fa-sort-numeric-down-alt countryNameDesc"></i>
+                  <i className="fas fa-sort-numeric-down-alt countryNameDesc"></i>
                 </span>
               </button>
             </th>
@@ -40,7 +40,7 @@ export default function CountryDataTable(props) {
               >
                 Deaths
                 <span>
-                  <i class="fas fa-sort-numeric-down-alt countryNameDesc"></i>
+                  <i className="fas fa-sort-numeric-down-alt countryNameDesc"></i>
                 </span>
               </button>
             </th>
@@ -53,7 +53,7 @@ export default function CountryDataTable(props) {
               >
                 Recovery
                 <span>
-                  <i class="fas fa-sort-numeric-down-alt countryNameDesc"></i>
+                  <i className="fas fa-sort-numeric-down-alt countryNameDesc"></i>
                 </span>
               </button>
             </th>
@@ -66,7 +66,7 @@ export default function CountryDataTable(props) {
               >
                 Recovery %
                 <span>
-                  <i class="fas fa-sort-numeric-down-alt countryNameDesc"></i>
+                  <i className="fas fa-sort-numeric-down-alt countryNameDesc"></i>
                 </span>
               </button>
             </th>
@@ -81,7 +81,7 @@ export default function CountryDataTable(props) {
               >
                 Cases per Mil
                 <span>
-                  <i class="fas fa-sort-numeric-down-alt countryNameDesc"></i>
+                  <i className="fas fa-sort-numeric-down-alt countryNameDesc"></i>
                 </span>
               </button>
             </th>
@@ -94,7 +94,7 @@ export default function CountryDataTable(props) {
               >
                 Deaths per Mil
                 <span>
-                  <i class="fas fa-sort-numeric-down-alt countryNameDesc"></i>
+                  <i className="fas fa-sort-numeric-down-alt countryNameDesc"></i>
                 </span>
               </button>
             </th>
@@ -107,7 +107,7 @@ export default function CountryDataTable(props) {
               >
                 Population
                 <span>
-                  <i class="fas fa-sort-numeric-down-alt countryNameDesc"></i>
+                  <i className="fas fa-sort-numeric-down-alt countryNameDesc"></i>
                 </span>
               </button>
             </th>
@@ -144,7 +144,10 @@ export default function CountryDataTable(props) {
                     },
                   }}
                 >
-                  {item.country}
+                  {item.country}{" "}
+                  <span className="gitExternalLinkIcon">
+                    <i className="fas fa-external-link-alt gitExternalLink"></i>
+                  </span>
                 </Link>
               </td>
 
