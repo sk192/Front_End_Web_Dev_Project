@@ -1,7 +1,11 @@
 .homepage{
     margin-top: 100px;
-    height: 100vh;
     width: 100vw;
+    height: 49vh;
    color: darkorange; 
    font-style: italic;
+}
+div.jumbotron{
+    text-align: left;
+    
 }

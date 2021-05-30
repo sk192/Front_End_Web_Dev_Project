@@ -114,6 +114,11 @@ class Barchart extends Component {
   render() {
     return (
       <div className="container-block">
+        <div className="tableHeading">
+          <h1>
+            <b>Countries vaccine information</b>
+          </h1>
+        </div>
         <div className="check">
           <Multiselect
             options={this.state.country_names}
@@ -137,11 +142,7 @@ class Barchart extends Component {
             barTotalDose={this.state.total_dose}
           />
         </div>
-        <div className="tableHeading">
-          <h1>
-            <b>Countries vaccine information</b>
-          </h1>
-        </div>
+        
         <div className="table-responsive table-sm table-wrapper">
           <TableData vData={this.state.whole_data} />
         </div>

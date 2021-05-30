@@ -4,7 +4,7 @@ export default function StackedBar(props) {
   return (
     <div className="main">
       <Bar
-        pointStyle="star"
+        pointstyle="star"
         data={{
           labels: props.barCountryData,
           responsive: true,

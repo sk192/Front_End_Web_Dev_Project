@@ -1,41 +1,14 @@
-
- .collapse{
-   margin-left: 900px;
- }
-
-
-
-@media screen and (max-width:414px){
-
-  .collapse{
-    margin-left: 180px;
-   }
- 
-  
+.navBarColor{
+  background :linear-gradient(90deg, rgba(5, 33, 65), black);
 }
-@media screen and (min-width:415px) and (max-width:768px){
-
-  .collapse{
-    margin-left: 530px;
-   }
+a.nav-link{
+  margin: 20px;
+  font-size: 15px;
 }
 
-@media screen and (min-width:769px) and (max-width:1024px){
-
- .collapse{
-   margin-left:290px;
- }
-  .nav-item{
-   padding: 5px;
- }
-
+span.navbar-toggler-icon {
+  color: white !important;
 }
-@media screen and (min-width:1025px){
-.collapse{
-   margin-left:1000px;
- }
-  .nav-item{
-   padding: 6px;
- }
-  
+button.navbar-toggler{
+  border-color: rgb(150, 150, 150) !important;
 }

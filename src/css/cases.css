@@ -285,12 +285,12 @@ td.cgTable-data{
   /* padding-bottom: 14px; */
 }
 tr.cgTableRow{
-  background-color: #e4e4e48e;
+  background-color: #e4e4e4;
   color: black;
   font-weight: bold;
 }
 tr.cgTableRow:nth-child(even){
-  background-color: #f2f2f2a8;
+  background-color: #f2f2f2dc;
 }
 tr.cgTableRow:hover{
   background-color: #f2f2f2cc;
@@ -302,6 +302,7 @@ th.cgTable-heading {
 div.countryGlobalTableData{
   height: 0px;
 }
+
 
 /** About page css **/
 .aboutCard {

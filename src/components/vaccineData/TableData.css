@@ -18,7 +18,7 @@ div.table {
   width: 100%;
 }
 .table-wrapper {
-  max-height: 1200px;
+  max-height: 1000px;
   border-radius: 10px;
   margin-top: 40px;
   margin-bottom: 50px;
@@ -52,6 +52,16 @@ tr:hover {
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   div.table {
-    max-height: 1370px;
+    max-height: 1200px;
   }
 }
+@media screen and (min-width: 1025px) {
+  div.table {
+    max-height: 1000px;
+  }
+  .table-wrapper {
+    max-height: 600px;
+  }
+}
+
+
