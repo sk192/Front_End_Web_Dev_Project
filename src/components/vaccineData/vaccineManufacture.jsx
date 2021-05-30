@@ -42,13 +42,12 @@ class VaccineCompany extends Component {
         background: "green",
       },
       searchBox: {
-        "border-bottom": "1px solid blue",
-        "border-radius": "5px",
-        "background-color": "rgb(238, 225, 225)",
+        
+        borderRadius: "5px",
+        backgroundColor: "white",
       },
       multiselectContainer: {
         color: "black",
-        background: "red",
       },
     };
   }
@@ -96,7 +95,6 @@ class VaccineCompany extends Component {
     let l_arr = [];
 
     for (let k of Object.keys(this.state.json_data)) {
-     
       if (k === selectedItem["name"]) {
         for (let key of Object.keys(this.state.json_data[k])) {
           let obj1 = {};
@@ -112,13 +110,12 @@ class VaccineCompany extends Component {
       piechart_arr: chart,
       label_arr: l_arr,
     });
-  
   };
 
   render() {
     return (
       <div className="containerDiv">
-        <h1>Vaccine By Country</h1>
+        <h1 className="h1_heading">Vaccine By Country</h1>
         <div className="selectDiv">
           <Multiselect
             options={this.state.countryNames}
@@ -127,7 +124,8 @@ class VaccineCompany extends Component {
             displayValue="name"
             style={this.style1}
             singleSelect="true"
-            value='selectbox'
+            value="selectbox"
+            className="multiselect_container"
           />
         </div>
         <div className="piediv">
@@ -137,7 +135,6 @@ class VaccineCompany extends Component {
             onMouseEnter={(item) => item}
             legend={true}
           />
-         
         </div>
       </div>
     );
