@@ -310,16 +310,19 @@ div.countryGlobalTableData{
   margin: 30px;
   padding: 10px;
   border-radius: 5px;
-  width: 300px;
-  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  width: 280px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
 }
 .aboutCard:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
 }
 .aboutImg{
   width: 250px;
-  width: 250px;
+  height: 250px;
+  object-fit:cover;
+   object-position:50% 50%;
   border-radius: 5px;
 }
 p.about-task{
@@ -333,12 +336,13 @@ h4.about-name{
 div.about-body{
   /* display: inline-flex; */
   /* margin-top: 100px; */
+  margin-bottom: 500px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 800px;
+  height: 500px;
 }
 div.about1{
   /* margin-right: 60px; */

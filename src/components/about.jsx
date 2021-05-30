@@ -1,5 +1,6 @@
 
 import pic from "../components/images/pic1.jpg";
+import pic2 from "../components/images/vandana.jpg";
 
 export default function About() {
   return (
@@ -22,7 +23,7 @@ export default function About() {
         </div>
       </div>
       <div className="aboutCard about2">
-        <img src={pic} alt="Avatar" className="aboutImg" />
+        <img src={pic2} alt="Avatar" className="aboutImg" />
         <div className="aboutContainer">
           <h4 className="about-name">
             <b>Sree Vandana</b>
