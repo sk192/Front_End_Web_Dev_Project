@@ -13,14 +13,14 @@ function HeaderNav() {
     return "";
   };
   return (
-    <div className="navBarComponent">
+    <div className="navBarComponent" role="navigation">
       <Navbar
         collapseOnSelect
         expand="md"
         variant="dark"
         className="navBarColor"
       >
-        <Navbar.Brand href="/">Covid-19 Dashboard</Navbar.Brand>
+        <Navbar.Brand href="#">Covid-19 Dashboard</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">

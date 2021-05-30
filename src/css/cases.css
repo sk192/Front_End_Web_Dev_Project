@@ -84,17 +84,17 @@ div.cases-card, div.recovered-card, div.deaths-card{
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
 }
 h3.statusCardHead.cases, i.cases{
-  color: rgb(54, 162, 235);
+  color: rgb(0, 123, 206);
   font-weight: bold;
   font-size: 20px;
 }
 h3.statusCardHead.recover, i.recover{
-  color: rgb(75, 192, 192);
+  color: rgb(0, 141, 141);
   font-weight: bold;
   font-size: 20px;
 }
 h3.statusCardHead.death, i.death{
-  color: rgb(255, 99, 132);
+  color: rgb(221, 64, 98);
   font-weight: bold;
   font-size: 20px;
 }
