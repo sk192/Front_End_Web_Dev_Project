@@ -4,11 +4,14 @@
  }
 
 
+
 @media screen and (max-width:414px){
 
   .collapse{
     margin-left: 180px;
    }
+ 
+  
 }
 @media screen and (min-width:415px) and (max-width:768px){
 
@@ -19,8 +22,20 @@
 
 @media screen and (min-width:769px) and (max-width:1024px){
 
-  .collapse{
-   margin-left:190px;
+ .collapse{
+   margin-left:290px;
+ }
+  .nav-item{
+   padding: 5px;
+ }
+
+}
+@media screen and (min-width:1025px){
+.collapse{
+   margin-left:1000px;
+ }
+  .nav-item{
+   padding: 6px;
  }
   
 }
