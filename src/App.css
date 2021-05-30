@@ -25,7 +25,7 @@ body {
   min-height: 100vh;
 }
 .content-wrap{
-  /* background-color: rgb(163, 120, 120); */
+ 
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
   url("./components/images/covid2.jpg");
   background-position: center;
