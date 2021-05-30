@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="about-body" role="contentinfo">
       <div className="aboutCard about1">
-        <img src={pic} alt="shwetha-Avatar" className="aboutImg" role="img" />
+        <img src={pic2} alt="shwetha-Avatar" className="aboutImg" role="img" />
         <div className="aboutContainer">
           <h4 className="about-name">
             <b>Shweta Korulkar</b>
