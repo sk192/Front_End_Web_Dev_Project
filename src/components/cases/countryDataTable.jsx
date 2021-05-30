@@ -131,6 +131,7 @@ export default function CountryDataTable(props) {
               >
                 <Link
                   className="countryName-link"
+                  role="link"
                   to={{
                     pathname: `/countryView/${item.country}`,
                     state: {
