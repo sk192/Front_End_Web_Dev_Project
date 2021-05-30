@@ -1,4 +1,5 @@
-import "./navbar.css";
+import React, { Component } from 'react'
+
 
 function HeaderNav() {
   return (
@@ -38,5 +39,5 @@ function HeaderNav() {
     </>
   );
 }
-
 export default HeaderNav;
+;
