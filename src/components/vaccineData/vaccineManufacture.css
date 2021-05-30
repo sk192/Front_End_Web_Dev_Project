@@ -2,29 +2,29 @@
   width: 500px;
   margin-left: 680px;
   box-shadow: 0 0 10px #ccc;
-  margin-top: 100px;
+  margin-top: 70px;
   padding: 20px;
 }
 
 .piediv {
   height: 890px;
 }
-.containerDiv h1 {
+
+h1.h1_heading {
+  margin-top: 30px;
   color: honeydew;
-  font-style: italic;
 }
 .containerDiv {
   height: 1200px;
 }
 .donutchart {
-  padding-bottom: 280px;
   width: 670px;
-  background-color: rgba(231, 240, 240, 0.788);
+  background-color: white;
   color: white;
   margin-top: 30px;
   border-radius: 10px;
   box-shadow: 0 0 10px #ccc;
- 
+  opacity: 1;
 }
 
 .donutchart-innertext-label {
@@ -33,7 +33,7 @@
 }
 .donutchart-legend-item-label {
   color: white;
-  font-size: 15px;
+  font-size: 14.5px;
   font-weight: bold;
 }
 .donutchart-innertext-value {
@@ -49,14 +49,15 @@
     padding: 20px;
   }
   .donutchart {
-    padding-bottom: 370px;
+    padding-bottom: 5px;
     width: 370px;
-    background-color: rgba(231, 240, 240, 0.788);
+    background-color: white;
     color: white;
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px #ccc;
-    height: 300px;
+    height: 400px;
+    opacity: 1;
   }
   .donutchart-innertext-label {
     color: white;
@@ -72,66 +73,143 @@
     font-size: 30px;
   }
 }
-@media screen and (min-width: 415px) and (max-width: 768px) {
+
+@media screen and (min-width: 415px) and (max-width: 599px) {
   .selectDiv {
-    width: 600px;
-    margin-left: 70px;
+    width: 430px;
+    margin-left: 35px;
     box-shadow: 0 0 10px #ccc;
     margin-top: 50px;
     padding: 20px;
   }
   .donutchart {
-    padding-bottom: 400px;
-    width: 670px;
-    background-color: rgba(231, 240, 240, 0.788);
-    color: white;
-    margin-top: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #ccc;
-    height: 300px;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    width: 430px;
+    margin-top: 80px;
+    height: 600px;
+    opacity: 1;
   }
   .donutchart-innertext-label {
-    color: white;
     font-size: 35px;
   }
   .donutchart-legend-item-label {
-    color: white;
-    font-size: 15px;
+    font-size: 14.5px;
     font-weight: bold;
   }
   .donutchart-innertext-value {
-    color: white;
     font-size: 30px;
   }
-  .donutchart-legend {
-    margin-right: 10px;
+}
+@media (min-width: 600px) and (max-width: 700px) {
+  .selectDiv {
+    width: 450px;
+    margin-left: 70px;
+
+    margin-top: 50px;
+    padding: 20px;
+  }
+  .donutchart {
+    padding-top: 2px;
+    width: 430px;
+    margin-top: 80px;
+    height: 480px;
+    opacity: 1;
+  }
+  .donutchart-innertext-label {
+    font-size: 35px;
+  }
+  .donutchart-legend-item-label {
+    font-size: 14.5px;
+    font-weight: bold;
+  }
+  .donutchart-innertext-value {
+    font-size: 30px;
   }
 }
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 701px) and (max-width: 786px) {
   .selectDiv {
-    width: 600px;
-    margin-left: 230px;
+    width: 520px;
+    margin-left: 120px;
+
+    margin-top: 50px;
+    padding: 20px;
+  }
+  .donutchart {
+    padding-top: 2px;
+    width: 520px;
+    margin-top: 80px;
+    height: 490px;
+    opacity: 1;
+  }
+  .donutchart-innertext-label {
+    font-size: 35px;
+  }
+  .donutchart-legend-item-label {
+    font-size: 14.5px;
+    font-weight: bold;
+  }
+  .donutchart-innertext-value {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 787px) and (max-width: 1000px) {
+  .selectDiv {
+    width: 700px;
+    margin-left: 30px;
     box-shadow: 0 0 10px #ccc;
     margin-top: 40px;
     padding: 20px;
   }
 
   .donutchart {
-    padding-bottom: 890px;
-    width: 750px;
-    height: 300px;
+    padding-bottom: 5px;
+    width: 700px;
+    height: 800px;
+    opacity: 1;
   }
   .donutchart-innertext-label {
-   
     font-size: 30px;
   }
   .donutchart-legend-item-label {
-   
-    font-size: 15px;
+    font-size: 14.5px;
     font-weight: bold;
   }
   .donutchart-innertext-value {
-   
     font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1008px) and (max-width: 1024px) {
+  .selectDiv {
+    width: 700px;
+    margin-left: 140px;
+    box-shadow: 0 0 10px #ccc;
+    margin-top: 40px;
+    padding: 20px;
+  }
+
+  .donutchart {
+    padding-bottom: 5px;
+    width: 700px;
+    height: 800px;
+    opacity: 1;
+    margin-top: 80px;
+  }
+  .donutchart-innertext-label {
+    font-size: 35px;
+  }
+  .donutchart-legend-item-label {
+    font-size: 14.5px;
+    font-weight: bold;
+  }
+  .donutchart-innertext-value {
+    font-size: 35px;
+  }
+}
+@media (min-width: 1025px) {
+  .donutchart {
+    height: 500px;
+    margin-top: 80px;
   }
 }
