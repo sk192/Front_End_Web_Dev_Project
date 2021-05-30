@@ -1,6 +1,6 @@
 footer {
   color: white;
-  background-color: rgba(5, 33, 65, 0.76);
+  background :linear-gradient(90deg, rgba(5, 33, 65), black);
   padding-top: 1em;
   bottom: 0;
   width: 100%;
@@ -42,7 +42,7 @@ footer  ul li a {
   
 }
 footer  ul li a:hover {
-  color: black;
+  color: wheat;
   text-decoration: none;
 }
 hr {
