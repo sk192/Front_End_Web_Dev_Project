@@ -1,5 +1,5 @@
 
-// import pic from "../components/images/pic1.jpg";
+import pic1 from "../components/images/shweta.JPG";
 import pic2 from "../components/images/vandana.jpg";
 import pic from "../components/images/shweta_pic.jpg";
 
@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className="about-body" role="contentinfo">
       <div className="aboutCard about1">
-        <img src={pic} alt="shweta-Avatar" className="aboutImg" role="img" />
+        <img src={pic1} alt="shwetha-Avatar" className="aboutImg" role="img" />
         <div className="aboutContainer">
           <h4 className="about-name">
             <b>Shweta Korulkar</b>

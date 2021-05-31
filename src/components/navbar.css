@@ -22,6 +22,14 @@ a.nav-link:hover{
   font-weight: bold !important;
   background-color: rgba(3, 47, 99, 0.8);
 }
+h1.navBrand-head{
+  margin-top: 0px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+a.dropdown-item:hover{
+  background-color: rgb(228, 228, 228) !important;
+}
 
 span.navbar-toggler-icon {
   color: white !important;
