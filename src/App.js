@@ -3,7 +3,7 @@ import "./App.css";
 import "./css/cases.css";
 import HeaderNav from "./components/navbar.jsx";
 import HomePage from "./components/HomePage.jsx";
-import VaccineInfo from "./components/vaccineData/barchart";
+import VaccineInfo from "./components/vaccineData/VaccineInfo";
 import CovidInfo from "./components/cases/covidInfo";
 import CountryView from "./components/cases/countryView";
 import About from "./components/about";
