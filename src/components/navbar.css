@@ -30,6 +30,9 @@ h1.navBrand-head{
 a.dropdown-item:hover{
   background-color: rgb(228, 228, 228) !important;
 }
+a.navbar-brand{
+  font-size: 30px !important;
+}
 
 span.navbar-toggler-icon {
   color: white !important;
