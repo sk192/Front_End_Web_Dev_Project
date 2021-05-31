@@ -5,6 +5,7 @@ import StackedBar from "./stackedBar.jsx";
 import "./barchart.css";
 import TableData from "./TableData";
 
+
 class Barchart extends Component {
   constructor(props) {
     super(props);
