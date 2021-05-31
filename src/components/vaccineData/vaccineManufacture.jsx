@@ -42,7 +42,6 @@ class VaccineCompany extends Component {
         background: "green",
       },
       searchBox: {
-        
         borderRadius: "5px",
         backgroundColor: "white",
       },
