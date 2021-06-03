@@ -12,24 +12,24 @@ Week 5:
 
 Week 6:
 
-	This week I found some API’S but that has not enough information to display. So started looking for public github dataset. After searching for dataset, I found 2 github repositories where I got information regarding Vaccination and Vaccine-by-manufacure) So I downloaded it. It’s a CSV file originally but I used
+	This week I found some API’S but that has not enough information to display. So started looking for public github dataset. After searching for Datasets, I found 2 GitHub repositories where I got information regarding Vaccination and Vaccine-by-manufacture) So I downloaded it. It’s a CSV file originally but I used
 an online tool to convert from CSV to JSON and saved it in our project folder.
 
- 	After finding dataset, I created a react app in our repo and added some code for responsive headers with the help of ‘react-bootstrap’ module. I also added new routes to redirect to “vaccination status page”,”Home page” and “vaccine-by-manufacturer page”and I began working on building that page.
+ 	After finding Datasets, I created a react app in our repo and added some code for responsive headers with the help of ‘react-bootstrap’ module. I also added new routes to redirect to “vaccination status page”,”Home page” and “vaccine-by-manufacturer page”and I began working on building that page.
 
 Week 7:
 
 	First I started designing  vaccination status page. For that I added react multiselect drop down box. While displaying multiselect, I was having problems for displaying options in drop down. After couple of trials I found that, due to incorrect data format I was facing this issue. So resolved this issue by using array of object.
 
-	Then I thought of Displaying comparison bar chart to represent countries  number of people partially vaccinated and fully vaccinated and table with all countries vaccinations status informaion. While displaying table I faced an issue of vertical scroll bar to table div. I resolved this issue using ‘overflow-y:scroll’ css to table instead of table div.  Also had an issue of displaying div to full width. Resolved this issue by using width and height in percentage instead of using ‘vh’ and ‘vw’. Next week I am  going to work on displaying vaccine distribution by manufacturer.
+	Then I thought of Displaying comparison bar chart to represent countries  number of people partially vaccinated and fully vaccinated and table with all countries vaccinations status information. While displaying table I faced an issue of vertical scroll bar to table div. I resolved this issue using ‘overflow-y:scroll’ css to table instead of table div.  Also had an issue of displaying div to full width. Resolved this issue by using width and height in percentage instead of using ‘vh’ and ‘vw’. Next week I am  going to work on displaying vaccine distribution by manufacturer.
 
-Week8:
+Week 8:
 
-	I’m getting to learn new things about react and its state management and react component. I also started working on displaying vaccine manufacturer data. While thinking about what graphical representation will look good to display vaccine manufacturer data, Vandana gave me this idea of pie chart, donut chart or bar chart. So I decided to use react-donut-chart.
+	I’m getting to learn new things about react and its state management and react component. I also started working on displaying vaccine manufacturer data. While thinking about what graphical representation will look good to display vaccine manufacturer data, Vandana gave me this idea of pie chart, doughnut chart or bar chart. So I decided to use react-donut-chart.
 
-Week9:
+Week 9:
 
-	Added react-donut-chart in my page. For selected country, donut chart will display information regarding vaccine-by-manufacturer like what vaccine is available and which vaccine is more popular in selected country. Also added footer which displays the information about library/framework, API/Dataset used in this project.
+	Added react-donut-chart in my page. For selected country, doughnut chart will display information regarding vaccine-by-manufacturer like what vaccine is available and which vaccine is more popular in selected country. Also added footer which displays the information about library/framework, API/Datasets used in this project.
 
 Week 10:
 
@@ -40,13 +40,12 @@ Collaborators:
 	1. Shweta Korulkar
 	2. Sree Vandana
 	
-
 Datasets:
 
 	1. https://github.com/govex/COVID-19
 	2. https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
 
 
-Deployed app:
+Deployed app:  https://covid19-web-dashboard.herokuapp.com/
 
-Project repo: https://github.com/sk192/Front_End_Web_Dev_Project
+Project repo:  https://github.com/sk192/Front_End_Web_Dev_Project
