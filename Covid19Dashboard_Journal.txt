@@ -35,17 +35,28 @@ Week 10:
 
 	To finalize our app, I made little adjustments, like the footer placement, fixing background image issue, some animated CSS to nav bar items, added media query for responsiveness and used WAVE page for accessibility etc. Finally, we deployed our project to Heroku and it’s all set.
 
-Collaborators:
+
+    • Collaborators:
 	
 	1. Shweta Korulkar
 	2. Sree Vandana
 	
-Datasets:
+    • Datasets:
 
 	1. https://github.com/govex/COVID-19
 	2. https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
 
 
-Deployed app:  https://covid19-web-dashboard.herokuapp.com/
+    • Deployed app:  https://covid19-web-dashboard.herokuapp.com/
 
-Project repo:  https://github.com/sk192/Front_End_Web_Dev_Project
+    • Project repo:  https://github.com/sk192/Front_End_Web_Dev_Project
+
+    • Stack Used:
+
+    1. HTML
+    2. CSS and Bootstrap
+    3. JavaScript
+    4. Fetch API, Axios
+    5. React
+    6. Heroku (deployment)
+
